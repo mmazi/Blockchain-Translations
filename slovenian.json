@@ -10,6 +10,7 @@ Bitcoin Days Destroyed: Izničeni bitcoin-dnevi
 
 transaction: transakcija
 transaction fee: transakcijska pristojbina
+reward: nagrada
 input, output: vhod, izhod (pri transakcijah)
 Double spend: dvojno trošenje
 
@@ -24,7 +25,7 @@ profit: donos rudarjenja (kot znesek) -- podobno
 
 My Wallet: Moja Denarnica
 
-
+escrow: ne znam prevesti. V slovenskem spletu se uporablja kar "escrow", npr. http://www.unicreditbank.si/sl/Pravne_osebe/Transakcijski_racun/Escrow_dogovor
 
 Tikanje, vikanje:
 
@@ -294,75 +295,75 @@ Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/
         },
         "wallet" : {
             "my_wallet" : "Moja Denarnica",
-            "slogan" : "Be Your Own Bank",
-            "new_users" : "New Users",
-            "new_users_p1" : "Creating a new bitcoin wallet takes literally a few seconds. You will be able to send and receive payments immediately.",
-            "existing_users" : "Existing Users",
-            "existing_users_p1" : "If you have previously created a Moja Denarnica account click below to login.",
-            "help" : "Help And Support",
-            "help_p1" : "Please consult the FAQ for commonly asked questions. For any problems with the site please contact us.",
-            "start_new" : "Start A New Wallet",
-            "login_now" : "Login Now",
-            "support_pages" : "Support Pages"
+            "slogan" : "Sam svoja banka",
+            "new_users" : "Novi uporabniki",
+            "new_users_p1" : "Novo denarnico za bitcoin si ustvarite v nekaj sekundah. Sredstva boste lahko prejemali in pošiljali takoj.",
+            "existing_users" : "Registrirani uporabniki",
+            "existing_users_p1" : "Če ste si že ustvarili denarnico, kliknite spodaj za prijavo.",
+            "help" : "Pomoč in podpora",
+            "help_p1" : "Če imate vprašanje, prosimo preberite Pogosta vprašanja. Če imate težave s spletiščem, nas prosimo kontaktirajte.",
+            "start_new" : "Odpri novo denarnico",
+            "login_now" : "Prijavi se",
+            "support_pages" : "Strani s podporo"
         },
         "transaction_page" :{
-            "title" : "Bitcoin Transaction {0}",
-            "header" : "Transaction",
-            "meta_description" : "View information about a bitcoin transaction {0}",
-            "sub_header" : "View information about a bitcoin transaction",
+            "title" : "Transakcija {0}",
+            "header" : "Transakcija",
+            "meta_description" : "Prikaži informacije o transakciji {0}",
+            "sub_header" : "Podrobne informacije o transakciji",
             "double_spend" : {
-                "p1" : "Warning! this transaction is a double spend of",
-                "p2" : "You should be extremely careful when trusting any transactions to/from this sender."
+                "p1" : "Opozorilo! Ta transakcija prestavlja dvojno trošenje transakcije ",
+                "p2" : "Svetujemo vam, da ste zelo previdni pri prejemanju in pošiljanju transakcij temu pošiljatelju."
             },
-            "summary" : "Summary",
-            "bytes" : "bytes",
-            "received_time" : "Received Time",
-            "size" : "Size",
-            "included_in_blocks" : "Included In Blocks",
-            "minutes" : "minutes",
-            "confirmations" : "Confirmations",
-            "estimated_time" : "Estimated Confirmation Time",
-            "estimated_possibly_never" : "Possibly Never (Double Spend)",
-            "estimated_very_soon" : "Very Soon",
-            "estimated_unknown" : "Unknown",
-            "reward_from_block" : "Reward From Block",
-            "scripts" : "Scripts",
-            "hide_scripts" : "Hide scripts & coinbase",
-            "show_scripts" : "Show scripts & coinbase",
-            "relayed_by_ip" : "Relayed by IP",
-            "visualize" : "Visualize",
-            "tree_chart" : "View Tree Chart",
-            "inputs_and_outputs" : "Inputs and Outputs",
-            "total_input" : "Total Input",
-            "total_output" : "Total Output",
-            "fees" : "Fees",
-            "estimated_btc_transacted" : "Estimated BTC Transacted",
-            "network_propagation" : "Network Propagation (Click to view)",
-            "decoded" : "decoded",
-            "input_scripts" : "Input Scripts",
-            "output_scripts" : "Output Scripts",
-            "strange" : "Strange",
+            "summary" : "Povzetek",
+            "bytes" : "bajtov",
+            "received_time" : "Čas prejema",
+            "size" : "Veliksto",
+            "included_in_blocks" : "Vsebovana v blokih",
+            "minutes" : "min",
+            "confirmations" : "potrditev",
+            "estimated_time" : "Ocena časa potrditve",
+            "estimated_possibly_never" : "Morda nikoli (dvojno trošenje)",
+            "estimated_very_soon" : "Kmalu",
+            "estimated_unknown" : "Neznano",
+            "reward_from_block" : "Nagrada bloka",
+            "scripts" : "Skripte",
+            "hide_scripts" : "Skrij skripte in coinbase",
+            "show_scripts" : "Prikaži skripte in coinbase",
+            "relayed_by_ip" : "Posredoval IP",
+            "visualize" : "Grafični prikaz",
+            "tree_chart" : "Prikaži drevesni graf",
+            "inputs_and_outputs" : "Vhodi in izhodi",
+            "total_input" : "Vhodi skupaj",
+            "total_output" : "Izhodi skupaj",
+            "fees" : "Pristojbine",
+            "estimated_btc_transacted" : "Ocena prenesenih BTC",
+            "network_propagation" : "Širjenje po omrežju (kliknite za prikaz)",
+            "decoded" : "dekodirano",
+            "input_scripts" : "Vhodne skripte",
+            "output_scripts" : "Izhodne skripte",
+            "strange" : "Nenavadna",
             "ok" : "OK"
         },
         "transaction" : {
-            "public_note" : "Public Note:",
-            "size" : "Size:",
-            "fee" : "Fee:",
+            "public_note" : "Javni komentar:",
+            "size" : "Velikost:",
+            "fee" : "Pristojbina:",
             "escrow" : "Escrow",
-            "output" : "Output",
-            "input_decode_error" : "Unable to decode input address",
-            "output_decode_error" : "Unable to decode output address",
-            "no_inputs" : "No Inputs (Newly Generated Coins)",
-            "spent" : "Spent",
-            "unspent" : "Unspent",
-            "unconfirmed_transaction" : "Unconfirmed Transaction!",
-            "confirmations" : "Confirmations",
-            "double_spend" : "Double Spend!"
+            "output" : "Izhod",
+            "input_decode_error" : "Dekodiranje vhodnega naslova ni uspelo",
+            "output_decode_error" : "Dekodiranje izhodnega naslova ni uspelo",
+            "no_inputs" : "Ni vhodov (sveži konanci)",
+            "spent" : "Potrošeno",
+            "unspent" : "Nepotrošeno",
+            "unconfirmed_transaction" : "Nepotrjena transakcija!",
+            "confirmations" : "potrditev",
+            "double_spend" : "Dvojno trošenje!"
         },
         "address" : {
-            "title" : "Bitcoin Address {0}",
-            "meta_description" : "Transactions sent and received from bitcoin address ",
-            "bitcoin_address" : "Bitcoin Address",
+            "title" : "Naslov {0}",
+            "meta_description" : "Vplačila in izplačila naslova ",
+            "bitcoin_address" : "Bitcoin naslov",
             "sub_header" : "Addresses are identifiers which you use to send bitcoins to another person.",
             "double_spend_warning" : "Warning! this bitcoin address contains transactions which maybe double spends. You should be extremely careful when trusting any transactions to or from this address.",
             "table_summary" : {
