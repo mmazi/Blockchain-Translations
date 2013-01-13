@@ -1,3 +1,41 @@
+/*
+
+Prevodi pogostih izrazov
+
+volume: obseg; lahko tudi količina
+total: skupen
+received: prejeto, v dobro
+
+Bitcoin Days Destroyed: Izničeni bitcoin-dnevi
+
+transaction: transakcija
+transaction fee: transakcijska pristojbina
+input, output: vhod, izhod (pri transakcijah)
+Double spend: dvojno trošenje
+
+Mining: rudarjenje
+Revenue: prihodek, prihodki
+hash: zgoščena vrednost
+hash rate: hitrost zgoščevanja
+difficulty: težavnost
+margin: donos rudarjenja (kot delež) -- tu ne poznam dobrega kratkega izraza, ki bi izražal, da gre za delež v odstotkih
+profit: donos rudarjenja (kot znesek) -- podobno
+ -- "operating profit", "operating margin", "profit margin" ne znam dobro prevesti, sem pa vprašal znanca ekonomista.
+
+My Wallet: Moja Denarnica
+
+
+
+Tikanje, vikanje:
+
+Uporabnika vedno vikamo. Torej, če sistem nekaj sporoča uporabniku, uporabimo vikanje:
+ "Vpišite naslov.", "Tu si lahko ogledate podrobnosti ...".
+
+Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/sistemu, uporabimo tikanje:
+ "Prikaži podrobnosti transakcije", "Pošlji Bitcoin", "Prekliči"
+
+*/
+
 {
     "name": "Slovenian",
     "code": "sl",
@@ -154,108 +192,105 @@
                 "globe2": "WebGL-globus z bitcoin vozlišči (zahteva Chrome ali Safari)",
                 "double_spends2": "Dvojna trošenja, zaznana med zadnjimi 500.000 transakcijami",
                 "orphaned2": "Veljavni bloki, ni so del glavne verige.",
-
-
-
-                "pools": "Mining Pool Stats",
-                "header": "Other Bitcoin Links",
-                "largest": "Largest Transactions",
-                "pools2": "Pie chart showing the market share of the top bitcoin mining pools",
-                "orphaned": "Orphaned Blocks",
-                "notifications": "Payment Notifications",
-                "nodes": "Bitcoin Nodes List",
-                "notifications2": "Receive free email notifications when there is activity on your bitcoin addresses",
-                "unconfirmed2": "Transactions waiting to be included in a block",
-                "wallet2": "Manage your money with Bitcoin's most advanced web wallet.",
-                "address_tags": "Address Tags",
-                "address_tags2": "Tag your public bitcoin addresses."
+                "pools": "Statistike rudarskih združenj",
+                "header": "Druge povezave",
+                "largest": "Največje transakcije",
+                "pools2": "Kolačni diagram tržnih deležev največjih rudarskih združenj.",
+                "orphaned": "Osiroteli bloki",
+                "notifications": "Obveščanje o plačilih",
+                "nodes": "Zapisnik vozlišč",
+                "notifications2": "Prejemajte brezplačna e-poštna obvestila ob plačilih na vaših naslovih",
+                "unconfirmed2": "Transakcije, ki čakajo na vključitev v blok",
+                "wallet2": "Upravljajte s svojim denarjem v najnaprednejši spletni denarnici v svetu bitcoina.",
+                "address_tags": "Značke naslovov",
+                "address_tags2": "Označite svoje javne naslove."
             },
-            "sub_header": "Most recently mined blocks in the bitcoin block chain",
-            "search_explain": "You may enter a block height, address, block hash, transaction hash, hash160, or ipv4 address..",
-            "title": "Bitcoin Block Explorer - Blockchain.info",
+            "sub_header": "Najnovejši bloki v bitcoinovi verigi blokov",
+            "search_explain": "Vnesete lahko višino bloka, naslov, zgoščeno vrednost bloka, zgoščeno vrednost transakcije, hash160 ali IPv4-naslov.",
+            "title": "Raziskovalec bitcoin blokov - Blockchain.info",
             "table_headers": {
-                "transactions": "Transactions",
-                "sent": "Total Sent",
-                "height": "Height",
-                "age": "Age",
-                "size": "Size (kB)",
-                "relayed": "Relayed By"
+                "transactions": "Transakcije",
+                "sent": "Skpuno poslano",
+                "height": "Višina",
+                "age": "Starost",
+                "size": "Velikost (kB)",
+                "relayed": "Posredoval"
             },
-            "more": "More...",
-            "meta_description": "Bitcoin Block Explorer & Currency Statistics. View detailed information on all bitcoin transactions and blocks.",
-            "search": "Search",
+            "more": "Več...",
+            "meta_description": "Raziskovalec bitcoin blokov in valutne statistike. Pregledovanje podrobnih informacij o vseh bitcoin transakcijah in blokih.",
+            "search": "Išči",
             "about": {
-                "p3": "For an introduction to bitcoin please see {0}",
-                "p2": "This site allows you to navigate the bitcoin blockchain (a database which holds information about all transactions). We also operate bitcoin's largest and most secure wallet service.",
-                "p1": "Bitcoin is a peer-to-peer currency. Peer-to-peer means that no central authority issues new money or tracks transactions. These tasks are managed collectively by the network.",
-                "header": "About",
-                "link_txt" : "weusecoins.com",
-                "link_href" : "http://www.weusecoins.com/"
+                "p3": "Za uvod v bitcoin si oglejte {0}",
+                "p2": "Na tem spletišču lahko raziskujete verigo blokov - podatkovno bazo, ki vsebuje podatke o vseh transakcijah. Ponujamo tudi največjo in najbolj varno spletno storitev bitcoin denarnice.",
+                "p1": "Bitcoin je internetna vrstniška valuta. To pomeni, da ni osrednje avtoritete, ki bi izdajala nov denar ali vodila transakcije. Namesto osrednje avtoritete to vlogo vzajemno opravlja vrstniško omrežje vseh udeleženih.",
+                "header": "O bitcoinu",
+                "link_txt" : "Kaj je bitcoin?",
+                "link_href" : "http://www.youtube.com/watch?v=LrLzaeQpCRc"
             },
-            "latest_transactions": "Latest Transactions",
-            "header": "Home",
-            "search_placeholder": "Address / Firstbits / ip / SHA hash"
+            "latest_transactions": "Najnovejši prevodi",
+            "header": "Prva stran",
+            "search_placeholder": "Naslov / Firstbits / IP / SHA zg.vr."
         },
         "header": {
-            "home_title": "Blockchain.info Home",
-            "charts": "Charts",
-            "home": "Home",
-            "stats_title": "Bitcoin Stats",
-            "logo_alt_title": "Bitcoin block explorer and currency statistics",
-            "developer": "Developers",
-            "stats": "Stats",
-            "charts_title": "Bitcoin Charts",
-            "wallet_title": "Bitcoin Wallet",
-            "developer_title": "Blockchain Developer Tools",
-            "wallet": "Wallet",
-            "search_placeholder": "Search"
+            "home_title": "Blockchain.info - prva stran",
+            "charts": "Grafikoni",
+            "home": "Prva stran",
+            "stats_title": "Statistike",
+            "logo_alt_title": "Raziskovalec blokov in valutne statistike",
+            "developer": "Razvijalci",
+            "stats": "Statistike",
+            "charts_title": "Grafikoni o bitcoinu",
+            "wallet_title": "Moja Denarnica",
+            "developer_title": "Orodja za razvijalce",
+            "wallet": "Denarnica",
+            "search_placeholder": "Iskanje"
         },
         "misc": {
-            "recommended" : "Recommended",
-            "unknown_exception": "Unknown Exception",
-            "unknown": "Unknown",
-            "and_word" : "and",
-            "support_desk" : "Support Desk",
-            "disclaimer" : "Any use of the term money on this website refers to virtual currency only. We do not guarantee that bitcoins can be redeemed at the purchase price."
+            "recommended" : "Priporoči",
+            "unknown_exception": "Neznana napaka",
+            "unknown": "Neznano",
+            "and_word" : "in",
+            "support_desk" : "Podpora",
+            "disclaimer" : "Izraz \"denar\" na tem spletišču se nanaša na virtualno valuto. Ne zagotavljamo, da bo mogoče bitcoine zamenjati po nakupni ceni."
         },
         "stats" : {
-            "title" : "Bitcoin Statistics - Blockchain.info",
-            "header" : "Currency Stats",
-            "meta_description" : "Over 100 different bitcoin market and network statistics. Number of nodes, Transaction volume, Mining difficulty and more.",
-            "sub_header" : "Bitcoin currency statistics",
+            "title" : "Bitcoin Statistike - Blockchain.info",
+            "header" : "Valutne statistike",
+            "meta_description" : "Prek 100 različnih tržnih in omrežnih statistik o bitcoinu: število vorzišč, obseg transakcij, težavnost rudarjenja in še več.",
+            "sub_header" : "Valutne statistike o bitcoinu",
             "table" : {
-                "minutes" : "minutes",
-                "blocks_mined" : "Blocks Mined",
-                "time_between_blocks" : "Time Between Blocks",
-                "bitcoins_mined" : "Bitcoins Mined",
-                "total_transaction_fees" : "Total Transaction Fees",
-                "number_of_transactions" : "No. of Transactions",
-                "total_output_volume" : "Total Output Volume",
-                "estimated_transaction_volume" : "Estimated Transaction Volume",
-                "market_summary" : "Market Summary",
-                "total_market_cap" : "Total Market Cap",
-                "million" : "million",
-                "market_price" : "Market Price",
-                "trade_volume" : "Trade Volume",
-                "mining_cost" : "Mining Cost",
-                "total_miners_revenue" : "Total Miners Revenue",
-                "percent_earned_from_fees" : "% earned from transaction fees",
-                "percent_of_transaction_volume" : "% of transaction volume",
-                "cost_per_transaction" : "Cost Per Transaction",
-                "hash_rate_electricity" : "Hash Rate and Electricity Consumption",
-                "difficulty" : "Difficulty",
-                "hash_rate" : "Hash Rate",
-                "electricity_consumption" : "Electricity Consumption",
-                "electricity_cost" : "Electricity Cost",
-                "mining_profits" : "Mining Profits",
-                "operating_profit" : "Operating Profit",
-                "operating_margin" : "Operating Margin",
-                "profit_margin" : "Profit Margin",
-                "weighted" : "weighted"
+                "minutes" : "min",
+                "blocks_mined" : "Narudarjenih blokov",
+                "time_between_blocks" : "Čas med bloki",
+                "bitcoins_mined" : "Narudarjenih bitcoinov",
+                "total_transaction_fees" : "Skupne transakcijske pristojbine",
+                "number_of_transactions" : "Št. transakcij",
+                "total_output_volume" : "Skupen obseg izhodov",
+                "estimated_transaction_volume" : "Ocena obsega transakcij",
+                "market_summary" : "Podatki o trgu",
+                "total_market_cap" : "Skupna tržna kapitalizacija",
+                "million" : "milijonov",
+                "market_price" : "Tržna cena",
+                "trade_volume" : "Obseg trgovanja",
+                "mining_cost" : "Cena rudarjenja",
+                "total_miners_revenue" : "Skupni prihodki rudarjenja",
+                "percent_earned_from_fees" : "Delež prihodkov iz pristojbin",
+                "percent_of_transaction_volume" : "Prihodki kot delež obsega transakcij",
+                "cost_per_transaction" : "Cena na transakcijo",
+                "hash_rate_electricity" : "Hitrost zgoščevanja in poraba električne energije",
+                "difficulty" : "Težavnost",
+                "hash_rate" : "Hitrost zgoščevanja",
+                "electricity_consumption" : "Poraba električne energije",
+                "electricity_cost" : "Strošek električne energije",
+                "mining_profits" : "Donosnost rudarjenja",
+                "operating_profit" : "Donos (USD)",
+                "operating_margin" : "Donos (%)",
+                "profit_margin" : "Donosnost (%)",
+                "weighted" : "uteženo"
             },
-            "period" : "All statistics are for the previous 24 hour period unless otherwise stated",
-            "notice1" : "Electricity consumption is estimated based on power consumption of 650 Watts per gigahash and electricity price of 15 cent per kilowatt hour. In reality some miners will be more or less efficient.",
-            "notice2" : "For profit margin hardware costs are estimated to be $1000 per gigahash every 2 years, and bandwidth $1 per gigahash per year."
+            "period" : "Vse statistike so izračunane za obdobje zadnjih 24 ur, če ni drugače navedeno.",
+            "notice1" : "Strošek električne energije je ocenjen pri 650 vatih na gigahash (milijardo zgoščenih vrednosti) in ceni 0.15 USD / kWh. Realni rudarski sistemi so lahko bolj ali manj učinkoviti od teh vrednosti.",
+            "notice2" : "Stroški strojne opreme so ocenjeni na 1000 USD na gigahash vsaki 2 leti, prenos podatkov pa na 1 USD na gigahash na leto."
         },
         "wallet" : {
             "my_wallet" : "Moja Denarnica",
