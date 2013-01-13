@@ -4,7 +4,8 @@ Prevodi pogostih izrazov
 
 volume: obseg; lahko tudi količina
 total: skupen
-received: prejeto, v dobro
+received: v dobro, prejeto
+sent: v breme, poslano
 
 Bitcoin Days Destroyed: Izničeni bitcoin-dnevi
 
@@ -24,6 +25,8 @@ profit: donos rudarjenja (kot znesek) -- podobno
  -- "operating profit", "operating margin", "profit margin" ne znam dobro prevesti, sem pa vprašal znanca ekonomista.
 
 My Wallet: Moja Denarnica
+
+taint: sledovi. Nisem prepričan, da je super prevod, se mi pa zdi, da dobro opisuje koncept.
 
 escrow: ne znam prevesti. V slovenskem spletu se uporablja kar "escrow", npr. http://www.unicreditbank.si/sl/Pravne_osebe/Transakcijski_racun/Escrow_dogovor
 
@@ -364,42 +367,42 @@ Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/
             "title" : "Naslov {0}",
             "meta_description" : "Vplačila in izplačila naslova ",
             "bitcoin_address" : "Bitcoin naslov",
-            "sub_header" : "Addresses are identifiers which you use to send bitcoins to another person.",
-            "double_spend_warning" : "Warning! this bitcoin address contains transactions which maybe double spends. You should be extremely careful when trusting any transactions to or from this address.",
+            "sub_header" : "Naslovi se uporabljajo za pošiljanje in prejemanje bitcoinov.",
+            "double_spend_warning" : "Opozorilo! Ta naslov vsebuje transakcije, ki so morda dvojna trošenja. Svetujemo visoko stopnjo previdnosti pri transakcijah s tem naslovom.",
             "table_summary" : {
-                "title" : "Summary",
-                "address" : "Address",
-                "short_link" : "Short Link",
-                "tools" : "Tools",
-                "related_tags" : "Related Tags",
-                "taint_analysis" : "Taint Analysis",
-                "view_analysis" : "View Analysis"
+                "title" : "Povzetek",
+                "address" : "Naslov",
+                "short_link" : "Kratka povezava",
+                "tools" : "Orodja",
+                "related_tags" : "Povezane značke",
+                "taint_analysis" : "Analiza sledov",
+                "view_analysis" : "Prikaži analizo"
             },
             "table_transactions" : {
-                "title" : "Transactions",
-                "number_of_transactions" : "No. Transactions",
-                "unspent_inputs" : "Unspent Inputs",
-                "total_received" : "Total Received",
-                "final_balance" : "Final Balance"
+                "title" : "Transakcije",
+                "number_of_transactions" : "Št. transakcij",
+                "unspent_inputs" : "Nepotrošeni vhodi",
+                "total_received" : "Skupaj v dobro",
+                "final_balance" : "Končno stanje"
             },
-            "deposit_with_cash" : "Deposit With Cash",
-            "request_payment" : "Request Payment",
-            "donation_button" : "Donation Button",
-            "sent" : "Sent",
-            "received" : "Received",
+            "deposit_with_cash" : "Polog gotovine",
+            "request_payment" : "Zaprosi za plačilo",
+            "donation_button" : "Gumb za donacije",
+            "sent" : "V breme",
+            "received" : "V dobro",
             "escrow" : "Escrow",
-            "confirmed" : "Confirmed",
-            "confirmed_only" : "Confirmed Only",
-            "newest_first" : "(Newest First)",
-            "oldest_first" : "(Oldest First)",
-            "transactions" : "Transactions",
-            "no_transactions" : "No transactions found for this address, it has probably not been used on the network yet.",
-            "previous" : "Previous",
-            "next" : "Next",
-            "too_large_to_filter" : "This Address ledger is too large to filter",
-            "invalid_address" : "Sorry this is is not a valid bitcoin address",
-            "invalid_hash_160" : "Sorry this is is not a valid  hash 160",
-            "no_address_provided" : "No Address Provided"
+            "confirmed" : "Potrjene",
+            "confirmed_only" : "Le potrjene",
+            "newest_first" : "(Novejše najprej)",
+            "oldest_first" : "(Starejše najprej)",
+            "transactions" : "Transakcije",
+            "no_transactions" : "Nobenih transakcij s tem naslovom ni. Verjetno se še ni uporabljal v omrežju.",
+            "previous" : "Prejšnja stran",
+            "next" : "Naslednja stran",
+            "too_large_to_filter" : "Seznam transakcij tega naslova je prevelik za filtriranje.",
+            "invalid_address" : "Oprostite, to ni veljaven bitcoin naslov.",
+            "invalid_hash_160" : "Oprostite, to ni veljaven bitcoin naslov v obliki hash 160.",
+            "no_address_provided" : "Naslov manjka."
         },
         "wallet_index" : {
             "title" : "Bitcoin Wallet",
