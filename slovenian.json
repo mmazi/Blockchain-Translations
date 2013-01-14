@@ -20,15 +20,20 @@ Revenue: prihodek, prihodki
 hash: zgoščena vrednost
 hash rate: hitrost zgoščevanja
 difficulty: težavnost
-margin: donos rudarjenja (kot delež) -- tu ne poznam dobrega kratkega izraza, ki bi izražal, da gre za delež v odstotkih
-profit: donos rudarjenja (kot znesek) -- podobno
- -- "operating profit", "operating margin", "profit margin" ne znam dobro prevesti, sem pa vprašal znanca ekonomista.
+margin: donos/dobiček rudarjenja (kot delež) -- tu ne poznam dobrega kratkega izraza, ki bi izražal, da gre za delež v odstotkih
+profit: donos/dobiček/donosnost rudarjenja (kot znesek) -- podobno
 
 My Wallet: Moja Denarnica
+
+FAQ: VINO (Vprašanja IN Odgovori) :)
+
+logging: beleženje
+log: dnevnik
 
 taint: sledovi. Nisem prepričan, da je super prevod, se mi pa zdi, da dobro opisuje koncept.
 
 escrow: ne znam prevesti. V slovenskem spletu se uporablja kar "escrow", npr. http://www.unicreditbank.si/sl/Pravne_osebe/Transakcijski_racun/Escrow_dogovor
+
 
 Tikanje, vikanje:
 
@@ -287,8 +292,8 @@ Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/
                 "electricity_consumption" : "Poraba električne energije",
                 "electricity_cost" : "Strošek električne energije",
                 "mining_profits" : "Donosnost rudarjenja",
-                "operating_profit" : "Donos (USD)",
-                "operating_margin" : "Donos (%)",
+                "operating_profit" : "Dobiček iz poslovanja (USD)",
+                "operating_margin" : "Dobiček iz poslovanja (%)",
                 "profit_margin" : "Donosnost (%)",
                 "weighted" : "uteženo"
             },
@@ -304,7 +309,7 @@ Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/
             "existing_users" : "Registrirani uporabniki",
             "existing_users_p1" : "Če ste si že ustvarili denarnico, kliknite spodaj za prijavo.",
             "help" : "Pomoč in podpora",
-            "help_p1" : "Če imate vprašanje, prosimo preberite Pogosta vprašanja. Če imate težave s spletiščem, nas prosimo kontaktirajte.",
+            "help_p1" : "Če imate vprašanje, prosimo preberite VINO. Če imate težave s spletiščem, nas prosimo kontaktirajte.",
             "start_new" : "Odpri novo denarnico",
             "login_now" : "Prijavi se",
             "support_pages" : "Strani s podporo"
@@ -405,141 +410,141 @@ Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/
             "no_address_provided" : "Naslov manjka."
         },
         "wallet_index" : {
-            "title" : "Bitcoin Wallet",
-            "meta_description" : "Moja Denarnica is a free online bitcoin wallet which you can use to make worldwide payments for free. We make paying with bitcoins easy and secure.",
+            "title" : "Bitcoin Denarnica",
+            "meta_description" : "Moja Denarnica je brezplačna spletna denarnica za bitcoin, s katero lahko breplačno plačujete po vsem svetu. Z njo je plačevanje v bitcoinih enostavno in varno.",
             "confused" : {
-                "p1" : "Confused? Read the",
-                "p2" : "Beginners FAQ"
+                "p1" : "Potrebujete pomoč? Preberite",
+                "p2" : "VINO"
             },
-            "p1" : "Moja Denarnica is a free online bitcoin wallet which you can use to make worldwide payments for free. We make paying with bitcoins easy and secure available anywhere on your phone or desktop.",
-            "p2" : "We are not a bank, you retain complete ownership of your Money. We cannot view your balance, see your transactions or make payments on your behalf.",
-            "create_my_free_wallet" : "Create My Free Wallet",
-            "try_demo_account" : "Try A Demo Account",
-            "techradar_quote" : "By 2015, cash could be looking like an endangered species",
-            "introduction_video" : "Bitcoin Introduction View",
+            "p1" : "Moja Denarnica je brezplačna spletna denarnica za bitcoin, s katero lahko breplačno plačujete po vsem svetu. Z njo je plačevanje v bitcoinih enostavno in varno ter vam je na voljo tako na telefonu kot računalniku.",
+            "p2" : "Nismo banka; vaš denar ostaja popolnoma pod vašim nadzorom. Ne vidimo vašega stanja ali vaših transakcij in ne moremo izvajati plačil v vašem imenu.",
+            "create_my_free_wallet" : "Ustvari mi brezplačno denarnico",
+            "try_demo_account" : "Preskusite vzorčni račun",
+            "techradar_quote" : "Do leta 2015 zna imeti gotovina status ogrožene vrste.",
+            "introduction_video" : "Oglejte si video-uvod v bitcoin",
             "slides" : {
-                "mobile_support" : "Mobile Support",
-                "mobile_support_p1" : "Our web interface supports all popular mobile devices including",
-                "mobile_support_p2" : "If your phone gets lost or stolen your wallet will still be safely backed up on our servers.",
-                "android_app" : "Blockchain Android App",
-                "iphone_app" : "Blockchain iPhone App",
-                "double_encryption" : "Double Encryption",
-                "double_encryption_p1" : "Before your bitcoin wallet is saved on our servers it is AES 256 Bit encrypted in your browser. Your password is never shared with us so not even we can open your wallet. Not only that but your wallet can be optionally encrypted again with a second password requiring one password to login and a separate password to make transactions. If that's not enough we also support a variety of two-factor authentication methods including Mt.Gox Yubikeys.",
-                "one_click_backups" : "One Click Backups",
-                "one_click_backups_p1" : "We make every effort to keep your wallet safely backed up. However there is no substitution for having a backup on your own PC. At a touch of a button you can have your encrypted wallet emailed to you, saved to your dropbox account or saved locally. Then even if blockchain.info suffers data loss or goes offline for you can still access your funds.",
-                "payment_notifications" : "Payment Notifications",
-                "payment_notifications_p1" : "Receive Notifications whenever a payment is sent or received from your bitcoin wallet. The average delay for payment notifications is less that 50ms. If you receive a payment while logged into Moja Denarnica a sound will play and the interface will instantaneously update without needing a page reload.",
-                "charts_analytics" : "Charts & Analytics",
-                "charts_analytics_p1" : "Generate charts and reports for recent bitcoin transactions. View your account balance over time, number of transactions and revenue per day.",
-                "charts_analytics_img_title" : "Built In Charts & Analytics",
-                "payment_notifications_skype" : "Bitcoin Payment Notifications Skype",
-                "payment_notifications_gtalk" : "Payment Notifications Google Talk"
+                "mobile_support" : "Podpora za mobilne naprave",
+                "mobile_support_p1" : "Naš spletni vmesnik podpira vse priljubljene mobilne naprave, kot so ",
+                "mobile_support_p2" : "Če vam ukradejo telefon, bo vaša denarnica še vedno varno shranjena na naših strežnikih.",
+                "android_app" : "Aplikacija Blockchain za Android",
+                "iphone_app" : "Aplikacija Blockchain za iPhone",
+                "double_encryption" : "Dvojno šifriranje",
+                "double_encryption_p1" : "Preden se vaša denarnica prenese na naše strežnike, se šifrira z 256-bitno šifro AES. Vaše geslo se nikoli ne prenese na naše strežnike, tako da nikoli ne moremo odpreti vaše denarnice. Še več, denarnico lahko šifrirate še z dodatnim drugim geslom; prvo geslo uporabljate za prijavo, drugo pa za izvajanje plačil. Če želite še več varnosti, podpiramo tudi več metod dvostopenjske overitve, npr. Mt.Goxove Yubikeys.",
+                "one_click_backups" : "Varnostne kopije z enim klikom",
+                "one_click_backups_p1" : "V varno varnostno kopiranje vaše denarnice na naših strežnikih vlagamo veliko truda. Vseeno pa je najboljša rešitev, da imate varnostno kopijo pri sebi. Z enostavnim klikom na gumb lahko dosežete, da vam vašo denarnico pošljemo po elektronski pošti, shranimo v Dropbox, ali pa shranite lokalno kopijo. Potem boste imeli dostop do svojega denarja tudi v primeru, da Blockchain.info izgubi podatke ali se odklopi iz omrežja.",
+                "payment_notifications" : "Obvestila o plačilih",
+                "payment_notifications_p1" : "Prejmite obvestilo, kadarkoli se z vašo denarnico izvede izplačilo ali vplačilo. Obvestila v povprečju prispejo prej kot v 50 ms. Če prejmete plačilo medtem, ko ste prijavljeni v Mojo Denarnico, boste na to opozorjeni z zvokom in podatki na zaslonu se bodo avtomatsko osvežili.",
+                "charts_analytics" : "Grafikoni in analize",
+                "charts_analytics_p1" : "Oglejte si grafikone in poročila o vaših nedavnih transakcijah. Pregledujte svoje stanje skozi čas, število transakcij in dnevne prihodke.",
+                "charts_analytics_img_title" : "Vgrajeni grafikoni in analize",
+                "payment_notifications_skype" : "Obvestila o plačilih prek storitve Skype",
+                "payment_notifications_gtalk" : "Obvestila o plačilih prek storitve Google Talk"
             },
-            "free_open_source" : "Free. Open Source.",
-            "successfully_transacted" : "Successfully Transacted.",
+            "free_open_source" : "Brezplačna. Odprtokodna.",
+            "successfully_transacted" : "Transakcija uspešna.",
             "security" : {
-                "title" : "Secure",
-                "p1" : "Blockchain.info uses industry standard",
-                "p2" : "encryption to protect your wallet from thieves and hackers. The amazing part is the encryption is all done within your browser, before it is saved on our servers, so not even we have access to your account!",
-                "p3" : "Moja Denarnica builds on the security of bitcoin by providing a host of features to help you keep your money safe including",
-                "paper_wallets" : "Paper Wallets",
-                "offline_transactions" : "Offline Transactions",
-                "remote_backups" : "Remote Backups"
+                "title" : "Varna",
+                "p1" : "Blockchain.info uporablja industrijski standard šifriranja",
+                "p2" : "za zaščito vaše denarnice pred tatovi in hekerji. Najboljši del tega je, da se šifriranje izvaja v vašem brskalniku, še preden se vaša denarnica prenese na naše strežnike, tako da niti mi nimamo dostopa do vaših sredstev!",
+                "p3" : "Moja Denarnica gradi na varnosti bitcoin-protokola in ponuja širok nabor storitev, ki vam olajšajo varno hranjenje vašega denarja, kot so",
+                "paper_wallets" : "papirnate denarnice",
+                "offline_transactions" : "transakcije brez povezave",
+                "remote_backups" : "oddaljene varnostne kopije"
             },
             "easy" : {
-                "title" : "Easy To Use",
-                "p1" : "Using Moja Denarnica is no different to using",
-                "p2" : "or online banking. Upon login you will presented with your Balance and a list of your recent transactions",
-                "send_via" : "Send Via Facebook, Email or SMS."
+                "title" : "Enostavna za uporabo",
+                "p1" : "Uporabljati Mojo Denarnico ni nič težje, kot uporabljati",
+                "p2" : "ali spletno bančništvo. Ko se prijavite, vidite svoje stanje in pregled svojih transakcij.",
+                "send_via" : "Plačajte prek Facebooka, e-pošte ali SMS-a."
             },
             "control" : {
-                "title" : "Retain Control",
-                "p1" : "The beauty of bitcoin is that it's fully decentralized, no government or corporation can block payments or revoke accounts.",
-                "p2" : "With Moja Denarnica you retain full control of your",
-                "p3" : "private key",
-                "p4" : "meaning wallets can never be seized or blocked and can be imported into any desktop bitcoin client.",
-                "read" : "Read",
-                "how_it_works" : "How It Works"
+                "title" : "Ohranite nadzor",
+                "p1" : "Lepota bitcoina je v tem, da je povsem decentraliziran in nobena vlada ali korporacija ne more blokirati plačil ali zapirati računov.",
+                "p2" : "Z Mojo Denarnico ohranite popoln nadzor nad svojimi",
+                "p3" : "zasebnimi ključi,",
+                "p4" : "torej vam denarnice nihče ne more zaseči ali blokirati in lahko jo uvozite v druge odjemalce za bitcoin.",
+                "read" : "Oglejte si, ",
+                "how_it_works" : "kako denarnica deluje"
             },
             "features" : {
-                "title" : "Feature Rich",
-                "p1" : "The most advanced online bitcoin wallet available.",
-                "full_list" : "View a full list of features",
-                "free" : "Free, No Fees",
-                "two_factor" : "Two Factor Authentication",
-                "client_side_encryption" : "Secure Client Side Encryption",
-                "live_update" : "Live Updating Interface",
-                "backups" : "Ability to make your own backups.",
-                "import_export" : "Import / Export Private keys.",
-                "payment_notifications" : "SMS & Email Payment notifications"
+                "title" : "Širok nabor funckij",
+                "p1" : "Najbolj napredna spletna denarnica za bitcoin na trgu.",
+                "full_list" : "Oglejte si celoten seznam funkcij",
+                "free" : "Brezlplačna, brez provizij",
+                "two_factor" : "Dvostopenjska overitev",
+                "client_side_encryption" : "Varno šifriranje v brskalniku",
+                "live_update" : "Avtomatsko osveževanje prikaza",
+                "backups" : "Možnost lastnih varnostnih kopij",
+                "import_export" : "Uvoz in izvoz zasebnih ključev",
+                "payment_notifications" : "Obveščanje o plačilih prek SMS in e-pošte"
             },
             "anonymous" : {
-                "title" : "Anonymous",
-                "p1" : "All we require for an account is a password, no other personally identifiable information is needed. We cannot see your public keys, view your transactions or check your account balance.",
-                "p2" : "Moja Denarnica also includes a built in",
-                "mixing_service" : "mixing service",
-                "p3" : "guaranteeing 100% anonymous transactions."
+                "title" : "Anonimnost",
+                "p1" : "Za odprte računa potrebujete le geslo; ne zahtevamo prav nobenih osebnih informacij. Ne vidimo vaših javnih ključev, transkacij ali stanja na računu.",
+                "p2" : "Moja Denarnica vsebuje tudi",
+                "mixing_service" : "storitev mešanja,",
+                "p3" : "ki zagotavlja popolnoma anonimne transakcije."
             },
             "deposit" : {
-                "title" : "Instant Deposits",
-                "p1" : "Deposit Bitcoins directly into your Moja Denarnica account in seconds. Via Bank Transfer, Cash Deposit, Barclays PingIt or Phone Billing. Available in the US, UK and 100's of other countries worldwide.",
+                "title" : "Trenutni pologi",
+                "p1" : "Sredstva lahko položite v Mojo Denarnico v nekaj sekundah prek bančnega transferja, telefona ali storitve Barclays PingIt. Na voljo v ZDA, GB in stotinah drugih držav po svetu.",
             },
             "merchants" : {
-                "title" : "Worldwide Merchants",
-                "p1" : "1000's of Merchants already accept bitcoin worldwide with new ones joining everyday. Everything from Online Poker to Organic Coffee you name it you can buy it with bitcoins.",
-                "p2" : "A full list of bitcoin merchants can be found on the",
-                "wiki" : "official wiki"
+                "title" : "Trgovci po vsem svetu",
+                "p1" : "Tisoči trgovcev po vsem svetu že sprejemajo bitcoin in vsak dan se pridružujejo novi. Za bitcoin lahko kupiti vse od spletnega pokra do ekološko pridelane kave.",
+                "p2" : "Obsežen seznam trgovcev najdete na",
+                "wiki" : "glavnem wiki spletišču"
             },
             "tooltips" : {
-                "aes_title" : "AES Encryption",
-                "aes" : "An extremely strong encryption standard adopted by the US government and now widely used worldwide for VPN and other encrypted communications",
-                "paper_wallet" : "A paper wallet is a printable document which contains all the information required to recover your bitcoins.",
-                "paper_wallet_title" : "Paper Wallet",
-                "remote_backup" : "Remote backup is when your wallet is stored in separate location other than your local PC. This is important to ensure your money is not lost in the event of a hard drive failure or other computer malfunction",
-                "remote_backup_title" : "Remote Backups",
-                "offline_transactions_title" : "Offline Transactions",
-                "offline_transactions" : "Offline transactions are bitcoin transactions which are generated without an active internet connection. They are considered more secure as your PC is isolated from the internet.",
+                "aes_title" : "Šifriranje AES",
+                "aes" : "Izjemno močen standard šifriranja, ki ga je sprejela vlada ZDA in se danes uporablja po vsem svetu za VPN in druge načine šifrirane komunikacije.",
+                "paper_wallet" : "Papirnata denarnica je dokument, ki ga natisnete na papir in vsebuje vse informacije, potrebne za dostop do vaših bitcoinov.",
+                "paper_wallet_title" : "Papirnata denarnica",
+                "remote_backup" : "Oddaljena varnostna kopija je kopija vaše denarnice, ki je shranjena na drugi lokaciji daleč od vašega računalnika. Omogoča vam, da ne izgubite svojih sredstev v primeru, ko se vam pokvari računalnik.",
+                "remote_backup_title" : "Oddaljene varnostne kopije",
+                "offline_transactions_title" : "Transakcije brez povezave",
+                "offline_transactions" : "Transakcije brez povezave se podpišejo med tem, ko vaš računalnik ni povezan z internetom. Veljajo za varnejše, ker je vaš računalnik med dostopanjem do zasebnega ključa odklopljen in zato varen pred zunanjimi vdori.",
                 "paypal_title" : "PayPal",
-                "paypal" : "PayPal is an obsolete payment provider",
-                "private_key_title" : "Private Key",
-                "private_key" : "Bitcoin addresses consist of two parts. The private key is the part which is used to prove ownership of an address and is need to withdraw funds. It should be kept safe at all times."
+                "paypal" : "PayPal je zastarel ponudnih plačilnih storitev",
+                "private_key_title" : "Zasebni ključ",
+                "private_key" : "Bitcoin naslov je sestavljen iz dveh delov. Eden od teh delov, zasebni ključ, se uporablja za dokazovanje lastništva denarja in je potreben pri izvajanju plačil. Zasebni ključ mora biti ves čas varno shranjen."
             }
         },
         "block" : {
-            "title" : "Bitcoin Block #{0}",
-            "meta_description" : "Transactions contained within bitcoin block",
-            "header" : "Block",
+            "title" : "Bitcoin blok #{0}",
+            "meta_description" : "Transakcije v bloku",
+            "header" : "Blok",
             "summary_table" : {
-                "title" : "Summary",
-                "number_of_transactions" : "Number Of Transactions",
-                "output_title" : "Output Total",
-                "estimated_transaction_volume" : "Estimated Transaction Volume",
-                "transaction_fees" : "Transaction Fees",
-                "height" : "Height",
-                "timestamp" : "Timestamp",
-                "main_chain" : "Main Chain",
-                "orphaned" : "Orphaned",
-                "received_time" : "Received Time",
-                "relayed_by" : "Relayed By",
-                "difficulty" : "Difficulty",
-                "bits" : "Bits",
-                "size" : "Size",
-                "version" : "Version",
+                "title" : "Povzetek",
+                "number_of_transactions" : "Število transakcij",
+                "output_title" : "Skupna vrednost izhodov",
+                "estimated_transaction_volume" : "Ocena obsega transakcij",
+                "transaction_fees" : "Transakcijske pristojbine",
+                "height" : "Višina",
+                "timestamp" : "Čas",
+                "main_chain" : "glavna veriga",
+                "orphaned" : "osirotel",
+                "received_time" : "Prejet ob",
+                "relayed_by" : "Posredoval",
+                "difficulty" : "Težavnost",
+                "bits" : "Bitov",
+                "size" : "Velikost",
+                "version" : "Verzija",
                 "nonce" : "Nonce",
-                "block_reward" : "Block Reward"
+                "block_reward" : "Nagrada"
             },
             "hash_table" : {
-                "title" : "Hashes",
-                "hash" : "Hash",
-                "previous_block" : "Previous Block",
-                "next_block" : "Next Block(s)",
-                "merkle_root" : "Merkle Root",
+                "title" : "Zgoščene vrednosti",
+                "hash" : "Zgoščena vrednost",
+                "previous_block" : "Prejšnji blok",
+                "next_block" : "Naslednji blok(i)",
+                "merkle_root" : "Merklov koren",
             },
-            "network_propagation" : "Network Propagation",
-            "click_to_view" : "Click To View",
-            "transactions_header" : "Transactions",
-            "transactions_sub_header" : "Transactions contained within this block",
-            "no_block_index" : "No block index provided"
+            "network_propagation" : "Prenos po omrežju",
+            "click_to_view" : "kliknite za ogled",
+            "transactions_header" : "Transakcije",
+            "transactions_sub_header" : "Transakcije, ki jih ta blok vsebuje",
+            "no_block_index" : "Indeks bloka manjka"
         },
         "wallet_new" : {
             "title" : "Moja Denarnica",
