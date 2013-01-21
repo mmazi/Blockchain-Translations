@@ -23,6 +23,7 @@ hash rate: hitrost zgoščevanja
 difficulty: težavnost
 margin: donos/dobiček rudarjenja (kot delež) -- tu ne poznam dobrega kratkega izraza, ki bi izražal, da gre za delež v odstotkih
 profit: donos/dobiček/donosnost rudarjenja (kot znesek) -- podobno
+profit margin: dobičkonosnost poslovanja -- če si iskal prevod za ta izraz, uporablja se tudi izraz profitna marža, ki govori o profitu v prihodkih pred davki (http://www.cek.ef.uni-lj.si/UPES/ribnikar35.pdf, str. 18)
 
 My Wallet: Moja Denarnica (z velikimi začetnicami)
 Brain Wallet: možganska denarnica -- a ima kdo kak bolj izvirno in lepše zvenečo idejo?
@@ -38,6 +39,8 @@ taint: sledovi. Nisem prepričan, da je super prevod, se mi pa zdi, da dobro opi
 
 escrow: ne znam prevesti. V slovenskem spletu se uporablja kar "escrow", npr. http://www.unicreditbank.si/sl/Pravne_osebe/Transakcijski_racun/Escrow_dogovor
 
+sweep keys: prevedel sem kot "čistilni ključi", lahko bi bili tudi "prenosni ključi".
+mixer: mešalnik
 
 Tikanje, vikanje:
 
@@ -48,6 +51,8 @@ Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/
  "Prikaži podrobnosti transakcije", "Pošlji Bitcoin", "Prekliči"
  
 kako prevajamo "email"? (e-naslov, elektronski naslov, email, e-mail, e-poštni naslov)
+
+
 
 */
 
@@ -773,33 +778,33 @@ kako prevajamo "email"? (e-naslov, elektronski naslov, email, e-mail, e-poštni 
                 "backup_description" : "Varnostno kopiranje denarnice je pomebno, a nanj hitro pozabimo. Pri Blockchain.info vlagamo ogromno truda v varnost vaše denarnice, vseeno pa je dobro, da imate varnostno kopijo denarnice tudi pri sebi."
             },
             "receive_money" : {
-                "header" : "Addresses",
-                "sub_header" : "Your receiving bitcoin addresses",
-                "active" : "Active",
-                "archived" : "Archived",
-                "anonymous" : "Anonymous",
-                "address" : "Address",
-                "balance" : "Balance",
-                "new_address" : "New Address",
-                "new_address_tooltip" : "Click here to generate a new bitcoin address. You can begin receiving bitcoins into this address immediately",
-                "more_actions" : "More Actions",
-                "chord_diagram" : "View Relationship Diagram",
-                "group_by_taint" : "Group Addresses By Taint",
-                "verify_message" : "Verify Message",
-                "archived_addresses" : "Archived Addresses",
-                "archived_addresses_description" : "Archived addresses are addresses you may not need anymore that are hidden from the main view but still part of your wallet. You can un-archive them at any time by clicking the blue icon.",
-                "bitcoin_address" : "Bitcoin Address",
-                "sweep_keys" : "Sweep Keys",
-                "sweep_keys_tooltip" : "Move any bitcoins in the selected keys to a different bitcoin address.",
-                "delete_keys" : "Delete Keys",
-                "delete_keys_tooltip" : "Delete the selected private keys.",
-                "anonymous_addresses" : "Anonymous Addresses",
-                "anonymous_addresses_description" : "Payments received to anonymous addresses will be forwarded to another address in your wallet. Any payments received are sent through the a mixer isolating your personal wallet from the sender. Transactions received to anonymous addresses cannot be linked to your regular wallet.",
-                "more_info" : "More Info",
-                "anonymous_addresses_description2" : "Anonymous Addresses are valid for one transaction only and incur a 1.5% transaction fee.",
-                "forward_to" : "Forward To",
-                "expires_in" : "Expires In",
-                "new_anonymous_address" : "New Anonymous Address"
+                "header" : "Naslovi",
+                "sub_header" : "Vaši bitcoin naslovi za prejemanje",
+                "active" : "Aktivno",
+                "archived" : "Arhivirano",
+                "anonymous" : "Anonimno",
+                "address" : "Naslov",
+                "balance" : "Stanje",
+                "new_address" : "Nov naslov",
+                "new_address_tooltip" : "Kliknite tukaj za generiranje novega bitcoin naslova. Na ta naslov lahko začnete prejemati bitcoine takoj.",
+                "more_actions" : "Več možnosti",
+                "chord_diagram" : "Poglej relacijski diagram",
+                "group_by_taint" : "Združi naslove po sledovih",
+                "verify_message" : "Preveri sporočilo",
+                "archived_addresses" : "Arhivirani naslovi",
+                "archived_addresses_description" : "Arhivirani naslovi so naslovi, ki so še vedno del vaše denarnice, vendar so skriti iz osnovnega pogleda, ker jih verjetno ne boste več potrebovali. De-arhivirate jih lahko kadarkoli s klikom na modro ikono.",
+                "bitcoin_address" : "Bitcoin naslov",
+                "sweep_keys" : "Čistilni ključi",
+                "sweep_keys_tooltip" : "Premakni vse bitcoine na izbranih ključih na drug bitcoin naslov.",
+                "delete_keys" : "Izbriši ključe",
+                "delete_keys_tooltip" : "Izbriši izbrane privatne ključe.",
+                "anonymous_addresses" : "Anonimni naslovi",
+                "anonymous_addresses_description" : "Plačila, prejeta na anonimne naslove, bodo posredovana na drug naslov v vaši denarnici. Vsako prejeto plačilo je poslano skozi mešalnik, kar izolira vašo osebno denarnico od pošiljatelja. Nakazil, ki so prejeta na anonimne naslove, ni možno povezati z vašo običajno denarnico.",
+                "more_info" : "Več informacij",
+                "anonymous_addresses_description2" : "Anonimni naslovi so veljavni samo za eno transakcijo, za katero velja 1.5% provizija.",
+                "forward_to" : "Posreduj na",
+                "expires_in" : "Poteče čez",
+                "new_anonymous_address" : "Nov anonimni naslov"
             },
             "login" : {
                 "lost_two_factor" : "Ste pozabili dvo-faktorske prijavne podatke?",
