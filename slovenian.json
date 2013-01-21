@@ -27,6 +27,7 @@ profit margin: dobičkonosnost poslovanja -- če si iskal prevod za ta izraz, up
 
 My Wallet: Moja Denarnica (z velikimi začetnicami)
 Brain Wallet: možganska denarnica -- a ima kdo kak bolj izvirno in lepše zvenečo idejo?
+alias - vzdevek
 
 FAQ: VINO (Vprašanja IN Odgovori) :)
 
@@ -51,8 +52,10 @@ Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/
  "Prikaži podrobnosti transakcije", "Pošlji Bitcoin", "Prekliči"
 
 e-mail (technology): elektronska pošta, e-pošta
+e-mail (message): elektronsko sporočilo
 e-mail (address): e-naslov, elektronski naslov
 e-mail (verb): poslati po elektronski pošti
+e-mail (adjective): e-poštni
 
 
 Authentication: overitev
@@ -783,9 +786,9 @@ Two-factor authentication : "Dvostopenjska overitev",
             "receive_money" : {
                 "header" : "Naslovi",
                 "sub_header" : "Vaši bitcoin naslovi za prejemanje",
-                "active" : "Aktivno",
-                "archived" : "Arhivirano",
-                "anonymous" : "Anonimno",
+                "active" : "Aktivni",
+                "archived" : "Arhivirani",
+                "anonymous" : "Anonimni",
                 "address" : "Naslov",
                 "balance" : "Stanje",
                 "new_address" : "Nov naslov",
@@ -795,7 +798,7 @@ Two-factor authentication : "Dvostopenjska overitev",
                 "group_by_taint" : "Združi naslove po sledovih",
                 "verify_message" : "Preveri sporočilo",
                 "archived_addresses" : "Arhivirani naslovi",
-                "archived_addresses_description" : "Arhivirani naslovi so naslovi, ki so še vedno del vaše denarnice, vendar so skriti iz osnovnega pogleda, ker jih verjetno ne boste več potrebovali. De-arhivirate jih lahko kadarkoli s klikom na modro ikono.",
+                "archived_addresses_description" : "Arhivirani naslovi so naslovi, ki so še vedno del vaše denarnice, vendar so skriti iz osnovnega pogleda, ker jih verjetno ne boste več potrebovali. Dearhivirate jih lahko kadarkoli s klikom na modro ikono.",
                 "bitcoin_address" : "Bitcoin naslov",
                 "sweep_keys" : "Čistilni ključi",
                 "sweep_keys_tooltip" : "Premakni vse bitcoine na izbranih ključih na drug bitcoin naslov.",
@@ -804,7 +807,7 @@ Two-factor authentication : "Dvostopenjska overitev",
                 "anonymous_addresses" : "Anonimni naslovi",
                 "anonymous_addresses_description" : "Plačila, prejeta na anonimne naslove, bodo posredovana na drug naslov v vaši denarnici. Vsako prejeto plačilo je poslano skozi mešalnik, kar izolira vašo osebno denarnico od pošiljatelja. Nakazil, ki so prejeta na anonimne naslove, ni možno povezati z vašo običajno denarnico.",
                 "more_info" : "Več informacij",
-                "anonymous_addresses_description2" : "Anonimni naslovi so veljavni samo za eno transakcijo, za katero velja 1.5% provizija.",
+                "anonymous_addresses_description2" : "Anonimni naslovi veljajo samo za eno transakcijo, za katero velja 1.5% provizija.",
                 "forward_to" : "Posreduj na",
                 "expires_in" : "Poteče čez",
                 "new_anonymous_address" : "Nov anonimni naslov"
@@ -825,10 +828,10 @@ Two-factor authentication : "Dvostopenjska overitev",
                 "sms_code" : "SMS koda:",
                 "sms_code_help" : "A text message has been sent to your cell phone. Prosim, vnesite kodo v SMS-u v zgornje polje.",
                 "open_wallet" : "Odpri denarnico",
-                "password_unrecoverable_warning" : "Vaše geslo ni nikoli deljeno z našimi strežniki, zato v primeru pozabljenega gesla povrnitev gesla ni možna!",
-                "resend_link_title" : "Ne najdete vaše email kode?",
-                "resend_link_p1" : "Email bo poslan z naslova wallet@blockchain.info. Ne pozabite preveriti tudi mape za neželeno pošto (Spam, Junk mail). Če še vedno niste našli emaila, kliknite gumb spodaj za ponovno pošiljanje.",
-                "resend_link_btn" : "Ponovno pošlji email",
+                "password_unrecoverable_warning" : "Vaše geslo se nikoli ne prenese na naše strežnike, zato v primeru pozabljenega gesla povrnitev gesla ni možna!",
+                "resend_link_title" : "Ne najdete vaše e-poštne kode?",
+                "resend_link_p1" : "Elektronsko spročilo bo poslano z naslova wallet@blockchain.info. Ne pozabite preveriti tudi mape za neželeno pošto (Spam, Junk mail). Če še vedno niste našli sporočila, kliknite spodnji gumb za ponovno pošiljanje.",
+                "resend_link_btn" : "Ponovno pošlji e-sporočilo",
                 "resend_sms_link_title" : "Niste prejeli SMS kode?",
                 "resend_sms_link_p1" : "Prosim, preverite signal omrežja. Dostava SMS sporočil traja tudi do 10 minut. Če je minilo že več kot 10 minut, kliknite na gumb spodaj za ponovno pošiljanje SMS sporočila.",
                 "resend_sms_link_btn" : "Ponovno pošlji SMS",
