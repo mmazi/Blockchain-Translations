@@ -14,6 +14,7 @@ transaction fee: transakcijska pristojbina
 reward: nagrada
 input, output: vhod, izhod (pri transakcijah)
 Double spend: dvojno trošenje
+watch-only address/wallet: opazovan/-a naslov/denarnica
 
 Mining: rudarjenje
 Revenue: prihodek, prihodki
@@ -23,12 +24,15 @@ difficulty: težavnost
 margin: donos/dobiček rudarjenja (kot delež) -- tu ne poznam dobrega kratkega izraza, ki bi izražal, da gre za delež v odstotkih
 profit: donos/dobiček/donosnost rudarjenja (kot znesek) -- podobno
 
-My Wallet: Moja Denarnica
+My Wallet: Moja Denarnica (z velikimi začetnicami)
+Brain Wallet: možganska denarnica -- a ima kdo kak bolj izvirno in lepše zvenečo idejo?
 
 FAQ: VINO (Vprašanja IN Odgovori) :)
 
 logging: beleženje
 log: dnevnik
+
+private/public key: zasebni/javni ključ
 
 taint: sledovi. Nisem prepričan, da je super prevod, se mi pa zdi, da dobro opisuje koncept.
 
@@ -927,72 +931,72 @@ Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/
                 "advanced_warning_sub" : "V tem delu aplikacije imate možnost spreminjati nekatere zapletene nastavitve. Priporočamo, da nadaljujete samo, če ste izkušen uporabnik bitcoina. Potrebno je, da razumete, kaj so zasebni ključi in kako so povezani z bitcoin naslovi.",
                 "advanced_warning_continue" : "Razumem.",
                 "import_export" : "Uvoz / izvoz",
-                "import_menu" : "Import",
-                "import_backup" : "Import Backup",
-                "import_backup_sub" : "A list of wallet backups available from our cloud storage server.",
-                "export_encrypted" : "Export Encrypted",
-                "export_unencrypted" : "Export Unencrypted",
-                "desktop_sync" : "Desktop Sync",
-                "paper_wallet" : "Paper Wallet",
-                "watch_only_title" : "Add Watch Only Bitcoin Address",
-                "watch_only_p1" : "You may add a {0} bitcoin address to your wallet. You will not be able to send bitcoins from this address without later providing the private key",
-                "watch_only_placeholder" : "Bitcoin Address",
-                "watch_only_btn" : "Add Watch Only Address",
-                "import_private_key_title" : "Import Private Key",
-                "import_private_key_p1" : "Import an existing private key below. All private key formats are supported.",
-                "import_private_key_btn" : "Add Private Key",
-                "brain_wallet_title" : "Brain Wallet",
-                "brain_wallet_p1" : "A Brain Wallet is a private key seeded from a memorable pass-phrase. It is possible to memorize this password in order to restore the funds at this address without needing a wallet backup.",
-                "brain_wallet_p2" : "The minimum pass-phrase length is 15 characters. It is highly recommended you still keep regular wallet backups even with the pass-phrase memorized.",
-                "brain_wallet_btn" : "Generate Key",
-                "import_paper_title" : "Import Using Paper Wallet",
-                "import_paper_p1" : "Use your Webcam to scan a QR code from a paper wallet",
-                "import_paper_btn" : "Scan With Webcam",
-                "import_wallet_title" : "Import Wallet",
-                "import_wallet_p1" : "You may import keys in several different formats.",
+                "import_menu" : "Uvoz",
+                "import_backup" : "Obnovitev",
+                "import_backup_sub" : "Seznam varnostnih kopij vaše denarnice na našem strežniku brez povezave",
+                "export_encrypted" : "Izvozi šifrirano",
+                "export_unencrypted" : "Izvozi nešifrirano",
+                "desktop_sync" : "Sinhronizacija z namizjem",
+                "paper_wallet" : "Papirnata denarnica",
+                "watch_only_title" : "Dodajanje naslova za opazovanje",
+                "watch_only_p1" : "V svojo denarnico lahko dodate {0} bitcoin naslov. S tega naslova ne boste mogli pošiljati sredstev, ne da bi dodali še njegov zasebni ključ.",
+                "watch_only_placeholder" : "Bitcoin naslov",
+                "watch_only_btn" : "Dodaj opazovan naslov",
+                "import_private_key_title" : "Uvoz zasebnega ključa",
+                "import_private_key_p1" : "Uvozite obstoječ zasebni ključ. Vse oblike zasebnih ključev so podprte.",
+                "import_private_key_btn" : "Dodaj zasebni ključ",
+                "brain_wallet_title" : "Možganska denarnica",
+                "brain_wallet_p1" : "Možganska denarnica je zasebni ključ, izdelan iz gesla - stavka, ki si ga lastnik zapomni. Sredstva v denarnici je mogoče uporabibiti samo z uporabo tega stavka, brez potrebe po varnostnem kopiranju.",
+                "brain_wallet_p2" : "Najmanjša dolžina gesla je 15 znakov. Toplo priporočamo, da vseeno hranite tudi varnostne kopije denarnice.",
+                "brain_wallet_btn" : "Izdelaj ključ",
+                "import_paper_title" : "Uvoz iz papirnate denarnice",
+                "import_paper_p1" : "S kamero računalnika prečitajte QR-kodo vaše papirnate denarnice.",
+                "import_paper_btn" : "Prečitaj s kamero",
+                "import_wallet_title" : "Uvoz denarnice",
+                "import_wallet_p1" : "Uvozite lahko ključe v različnih formatih.",
                 "import_wallet_formats" : {
-                    "aes" : "AES encrypted backup from blockchain.info. (Must be encrypted with the same password)",
-                    "plain" : "Plaintext JSON backup from blockchain.info",
-                    "output_from" : "Output from {0}"
+                    "aes" : "Varnostna kopija z blockchain.info, šifrirana z AES. (Šifrirana mora biti z istim geslom.)",
+                    "plain" : "Varnostna kopija z blockchain.info - čistopis v obliki JSON.",
+                    "output_from" : "Izvoz iz {0}"
                 },
-                "import_keys_limit" : "Please be aware there is currently a limit of 400 private keys per wallet. For large wallets your browser may become unresponsive for a few minutes.",
-                "import_textarea_placeholder" : "Copy And Paste your wallet data into this area",
-                "import_wallet_btn" : "Import Wallet",
-                "export_title" : "Export",
-                "export_p1" : "Below are your private keys AES encrypted.",
-                "export_btn" : "Download Backup",
-                "export_unencrypted_title" : "Export Unencrypted",
-                "export_unencrypted_p1" : "Below are your private keys in JSON format. Warning! This data is unencrypted keep it safe.",
-                "leave_encrypted" : "Leave Private Keys Encrypted",
-                "select_private_key_format" : "Select private key format:",
-                "desktop_sync_title" : "Desktop Client Sync",
-                "desktop_sync_p1" : "This tool enables you to sync your wallet with the official desktop client available from bitcoin.org.",
-                "desktop_sync_step1" : "Step 1. Install The Browser Extension",
-                "desktop_sync_instructions" : "Please install the {0} available for Google Chrome or the {1} available for Mozilla Firefox and Apple Safari (V >= 1.9 required).",
-                "installed_refresh_page" : " Once installed please refresh this page.",
-                "desktop_sync_step2" : "Step 2. Enable Bitcoin RPC",
-                "desktop_sync_step2_p1" : " In order for your browser to talk to your desktop client your must enable the bitcoin RPC server in the bitcoin.conf file. If the file does not exist you must create it. For Example:",
-                "desktop_sync_change_password" : "Change username and password to one of your own choice.",
-                "desktop_sync_step2_further_instructions" : "Once your have modified the file restart the Bitcoin application. For more information on enable the bitcoin RPC interface consult the {0}",
+                "import_keys_limit" : "Opozarjamo vas, da imate v denarnici lahko največ 400 ključev. Denarnice z veliko ključi lahko povzročijo večminutno neodzivnost brskalnika.",
+                "import_textarea_placeholder" : "Prilepite podatke o vaši denarnici v to polje",
+                "import_wallet_btn" : "Uvozi denarnico",
+                "export_title" : "Izvoz",
+                "export_p1" : "V spodnjem polju so vaši zasebni ključi, šifrirani z AES.",
+                "export_btn" : "Shrani varnostno kopijo",
+                "export_unencrypted_title" : "Nešifriran izvoz",
+                "export_unencrypted_p1" : "V spodnjem polju so vaši zasebni ključi v formatu JSON. Pozor! Ti podatki so nešifrirani, zato jih morate varno hraniti.",
+                "leave_encrypted" : "Pusti zasebne ključe šifrirane",
+                "select_private_key_format" : "Izberite obliko kodiranja zasebnih ključev:",
+                "desktop_sync_title" : "Sinhronizacija z namiznim odjemalcem",
+                "desktop_sync_p1" : "To orodje vam omogoča uskladitev vaše denarnice na Blockchain.info z denarnico referenčnega odjemalca z bitcoin.org.",
+                "desktop_sync_step1" : "Korak 1. Namestite razširitev za brskalnik",
+                "desktop_sync_instructions" : "Prosimo, namestite {0} za brskalnik Google Chrome ali {1} za brskalnika Mozilla Firefox in Apple Safari (verzija 1.9 ali več).",
+                "installed_refresh_page" : "Po namestitvi osvežite to stran.",
+                "desktop_sync_step2" : "Korak 2. Omogočite Bitcoin RPC (klic oddaljenih postopkov)",
+                "desktop_sync_step2_p1" : "Da omogočite komunikacijo med brskalnikom in namiznim odjemalcem, morate v datoteki bitcoin.conf omogočiti strežnik za bitcoin RPC. Če datoteka ne obstaja, jo morate ustvariti. Npr.:",
+                "desktop_sync_change_password" : "Nastavite uporabniško ime in geslo po lastni izbiri.",
+                "desktop_sync_step2_further_instructions" : "Po tem ko spremenite datoteko, zaustavite in ponovno zaženite bitcoin odjemalca. Za več informacij o nastavitvah bitcoin RPC glejte {0}.",
                 "rpc" : {
-                    "action" : "Action",
-                    "balance" : "Balance",
-                    "label" : "Label",
-                    "address" : "Address",
-                    "download_address_list" : "Download Address List",
-                    "password" : "Wallet Password:",
-                    "password_help" : "If your Bitcoin-Qt Wallet is encrypted enter the password here.",
-                    "ssl_help" : "SSL is currently not supported",
-                    "rpc_password" : "RPC Password:",
-                    "rpc_port" : "RPC Port:",
-                    "rpc_username" : "RPC Username:",
-                    "_continue" : "Continue"
+                    "action" : "Dejanje",
+                    "balance" : "Stanje",
+                    "label" : "Oznaka",
+                    "address" : "Naslov",
+                    "download_address_list" : "Prenesi seznam naslovov",
+                    "password" : "Geslo denarnice:",
+                    "password_help" : "Če je vaša denarnica v aplikaciji bitcoin-qt šifrirana, vnesite ustrezno geslo:",
+                    "ssl_help" : "SSL trenutno ni podprt.",
+                    "rpc_password" : "Geslo za RPC:",
+                    "rpc_port" : "Vrata za RPC:",
+                    "rpc_username" : "Uporabniško ime za RPC:",
+                    "_continue" : "Nadaljuj"
                 },
                 "import_backup_table" : {
-                    "file_name" : "File Name",
-                    "last_modified" : "Last Modified",
-                    "size" : "Size",
-                    "action" : "Action"
+                    "file_name" : "Ime datoteke",
+                    "last_modified" : "Zadnjič spremenjena",
+                    "size" : "Velikost",
+                    "action" : "Dejanje"
                 }
             },
             "modals" : {
@@ -1038,7 +1042,7 @@ Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/
                 "address_not_synced_p1" : "You are receiving this warning because you have copied an address which has not been yet been synced to the clipboard.",
                 "address_not_synced_p1" : "This Address has not been saved on our servers yet and maybe lost after leaving this page.",
                 "watch_only_warning" : "Watch Only Address Warning",
-                "watch_only" : "Watch Only",
+                "watch_only" : "opazovan",
                 "watch_only_warning_p1" : "You are receiving this warning because you have copied a {0} address to the clipboard.",
                 "watch_only_warning_p2" : "A {0} address means you can only observe the transactions at this address. Unless you have the private key saved elsewhere then you do not own the funds at this address.",
                 "watch_only_warning_p3" : "If you do not have a paper wallet or other backup you should not withdraw coins to this address or instruct anyone to send you coins at this address",
