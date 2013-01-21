@@ -55,6 +55,7 @@ e-mail (address): e-naslov, elektronski naslov
 e-mail (verb): poslati po elektronski pošti
 
 
+Two-factor authentication : "Dvostopenjska overitev",
 
 */
 
@@ -808,8 +809,8 @@ e-mail (verb): poslati po elektronski pošti
                 "new_anonymous_address" : "Nov anonimni naslov"
             },
             "login" : {
-                "lost_two_factor" : "Ste pozabili dvo-faktorske prijavne podatke?",
-                "two_factor_reset" : "Ponastavitev dvo-faktorske avtentikacije",
+                "lost_two_factor" : "Ste pozabili podatke za dvostopenjsko overitev?",
+                "two_factor_reset" : "Ponastavitev dvostopenjske overitve",
                 "welcome_back" : "Pozdravljeni nazaj",
                 "please_enter_login_details" : "Prosim, vnesite prijavne podatke spodaj:",
                 "identifier" : "ID:",
@@ -835,9 +836,9 @@ e-mail (verb): poslati po elektronski pošti
                 "lost_identifier_title" : "Pozabljen ID ali vzdevek",
                 "lost_identifier_p1" : " Če ste pozabili ID vaše denarnice, najprej preverite potrditveni email, ki ste ga prejeli ob registraciji. Ne najdete emaila? Kliknite na gumb spodaj in poslali vam ga bomo ponovno.",
                 "forgotten_identifier_btn" : "Pozabljen ID",
-                "lost_two_factor_title" : "Pozabljeni podatki za dvo-faktorsko avtentikacijo.",
-                "lost_two_factor_p1" : "Če ste pozabili podatke za dvo-faktorsko avtentikacijo, lahko še vedno pridobite dostop do svoje denarnice. Potrebujemo le zadosten dokaz, da ste lastnik računa, kar lahko storite z izpolnitvijo spodnjega obrazca.",
-                "lost_two_factor_btn" : "Ponastavi dvo-faktorsko avtentikacijo",
+                "lost_two_factor_title" : "Pozabljeni podatki za dvostopenjsko overitev.",
+                "lost_two_factor_p1" : "Če ste pozabili podatke za dvostopenjsko overitev, lahko še vedno pridobite dostop do svoje denarnice. Potrebujemo le zadosten dokaz, da ste lastnik računa, kar lahko storite z izpolnitvijo spodnjega obrazca.",
+                "lost_two_factor_btn" : "Ponastavi dvostopenjsko overitev",
                 "lost_password" : "Pozabljeno geslo",
                 "lost_password_p1" : "Vaša denarnica je enkriptirana s strani vašega brskalnika preden podatki prispejo do nas, zato vam ne moremo pomagati pri povrnitvi pozabljenih gesel. Da bi se izognili izgubi finančnih sredstev zaradi izgubljenih gesel, je priporočeno, da si naredite papirnate varnostne kopije privatnih ključev vaše denarnice.",
                 "password_hints_btn" : "Namigi za geslo",
