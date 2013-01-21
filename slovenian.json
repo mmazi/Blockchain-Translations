@@ -1690,3 +1690,13 @@ Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/
         }
     }
 }
+   "flag":"sl.png",
+   "name":"Slovenian",
+   "strings":{
+      
+   },
+   "properties":{
+      "extends":"auto_slovenian"
+   },
+   "code":"sl"
+}
