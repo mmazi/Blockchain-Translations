@@ -571,9 +571,8 @@ kako prevajamo "email"? (e-naslov, elektronski naslov, email, e-mail, e-poštni 
             "wallet_created" : "Nova denarnica je bila ustvarjena.",
             "wallet_created_p1" : "Vaša nova spletna denarnica je bila uspešno ustvarjena. Pomembno je, da varno shranite tako vzdevek svoje denarnice kot tudi geslo. Če pozabite vzdevek denarnice, vam ga lahko pomagamo obnoviti samo, če vnesete pravilen elektronski naslov. Pozabljenega gesla pa ne moremo v nobenem primeru obnoviti!",
             "restore_link_title" : "Svojo denarnico lahko vedno najdete na tem naslovu:",
-            "fav_recommendation" : "Priporočamo, da si ta nasov sedaj shranite med Priljbuljene.",
-            "
-            " : "Elektronska pošta",
+            "fav_recommendation" : "Priporočamo, da si ta nasov sedaj shranite med Priljubljene.",
+            "email" : "Elektronska pošta",
             "email_placeholder" : "Elektronski naslov",
             "email_sub" : "Če želite, da vam po elektronski pošti pošljemo spletni naslov vaše denarnice, prosimo, vpišite svoj elektronski naslov:",
             "alias" : "Vzdevek",
