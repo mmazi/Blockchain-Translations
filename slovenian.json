@@ -923,10 +923,10 @@ Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/
                 "add_new_entry" : "Dodaj nov vnos"
             },
             "import_export" : {
-                "advanced_warning_title" : "Advanced Warning!",
-                "advanced_warning_sub" : "This section allows you to make changes to your wallet which can be complicated and confusing. It is recommended only experienced Bitcoin Users proceed from here. You should have an understanding of what private keys are and how they relate to bitcoin addresses.",
-                "advanced_warning_continue" : "I Understand",
-                "import_export" : "Import / Export",
+                "advanced_warning_title" : "Opozorilo!",
+                "advanced_warning_sub" : "V tem delu aplikacije imate možnost spreminjati nekatere zapletene nastavitve. Priporočamo, da nadaljujete samo, če ste izkušen uporabnik bitcoina. Potrebno je, da razumete, kaj so zasebni ključi in kako so povezani z bitcoin naslovi.",
+                "advanced_warning_continue" : "Razumem.",
+                "import_export" : "Uvoz / izvoz",
                 "import_menu" : "Import",
                 "import_backup" : "Import Backup",
                 "import_backup_sub" : "A list of wallet backups available from our cloud storage server.",
