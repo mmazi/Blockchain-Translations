@@ -1361,15 +1361,15 @@ Two-factor authentication : "Dvostopenjska overitev",
             "orphaned" : "Osirotel"
         },
         "connected_nodes" : {
-            "title" : "Bitcoin Connected Nodes List",
-            "header" : "Connected Nodes",
-            "sub_header" : "List of nodes blockchain.info is connected to",
-            "total_connected" : "Total Connected: {0}",
-            "ip_address" : "IP",
-            "port" : "Port",
-            "connected_time" : "Connected (minutes)",
-            "location" : "Location",
-            "hostname" : "Hostname"
+            "title" : "Seznam povezanih vozlišč",
+            "header" : "Povezana vozlišča",
+            "sub_header" : "Seznam vozlišč, s katerimi je povezan blockchain.info",
+            "total_connected" : "Število povezanih: {0}",
+            "ip_address" : "IP-naslov",
+            "port" : "Vrata",
+            "connected_time" : "Trajanje povezave (minut)",
+            "location" : "Kraj",
+            "hostname" : "Ime gostitelja"
         },
         "notifications" : {
             "payment_received_title" : "Bitcoin Payment Received",
