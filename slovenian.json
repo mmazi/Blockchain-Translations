@@ -1562,22 +1562,22 @@ decryption: dešifriranje
             "cluster_by_address" : "Združi po naslovu"
         },
         "emails" : {
-            "your_wallet_identifier" : "Your wallet identifier is:",
-            "top_tip" : "Top Tip",
-            "tip_backup" : "Backup your bitcoin wallet using dropbox. It's free, easy to use and secure.",
-            "tip_reversible" : "This payment can be reversed by the sender until claimed.",
+            "your_wallet_identifier" : "Identifikator vaše denarnice:",
+            "top_tip" : "Namig",
+            "tip_backup" : "Za varnostne kopije uporabite Dropbox. Je brezplačen, hiter in enostaven za uporabo.",
+            "tip_reversible" : "To plačilo lahko pošiljatelj stornira, dokler ga prejemnik ne prevzame.",
             "account_locked" : {
-                "header" : "Account Locked",
-                "p1" : "A number of failed attempts have been made to login to to your Moja Denarnica account. For your protection the new login attempts have been disabled until {0}",
-                "p2" : "If these login attempts were not made by you it is recommended you change your password as soon as the account is available again. If you are particularly concerned please contact us and we will extend the lock."
+                "header" : "Račun zaklenjen",
+                "p1" : "Prišlo je do nekaj neuspešnih poskusov prijave v vaš račun Moja Denarnica. Za vašo zaščito je vaš račun zaklenjen in prijava onemogočena do {0}.",
+                "p2" : "Če teh neuspešnih poskusov niste izvedli sami, priporočamo, da spremenite svoje geslo takoj, ko bo vaš račun spet dostopen. Če ste zelo zaskrbljeni glede tega, stopite v stik z nami in podaljšali bomo zaklep vašega računa."
             },
             "confirmation_code" : {
-                "header" : "Confirmation Required",
-                "p1" : "An attempt has been made to login to your Moja Denarnica account from ip address {0}. Enter the confirmation code below to access your account. If it was not you who made this login attempt you can ignore this email."
+                "header" : "Potrebna je potrditev",
+                "p1" : "Prišlo je do poskusa prijave v vaš račun z IP-naslova {0}. Za dostop do vašega računa vpišite spodnjo kodo. Če se s tega IP-naslova niste skušali prijaviti vi, lahko to sporočilo prezrete."
             },
             "wallet_backup" : {
-                "header" : "Wallet Backup",
-                "p1" : "Attached to this email is an AES encrypted wallet backup which contains everything you need to restore your bitcoin balance. You can use it to restore the wallet at anytime at {0} or using the 3rd party {1} Desktop client. "
+                "header" : "Varnostna kopija denarnice",
+                "p1" : "V prilogi tega sporočila vam pošiljamo varnostno kopijo vaše denarnice, šifrirano z AES. V njej je vse, kar potrebujete za dostop do svojih sredstev. Svojo denarnico lahko iz te datoteke obnovite kadarkoli s storitvijo {0} ali s pomočjo namiznega odjemalca {1}."
             },
             "two_factor_reset_request" : {
                 "header" : "Two Factor Authentication Reset Request",
