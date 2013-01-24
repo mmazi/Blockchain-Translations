@@ -512,7 +512,7 @@ decryption: dešifriranje
             },
             "deposit" : {
                 "title" : "Trenutni pologi",
-                "p1" : "Sredstva lahko položite v Mojo Denarnico v nekaj sekundah prek bančnega transferja, telefona ali storitve Barclays PingIt. Na voljo v ZDA, GB in stotinah drugih držav po svetu.",
+                "p1" : "Sredstva lahko položite v Mojo Denarnico v nekaj sekundah prek bančnega transferja, telefona ali storitve Barclays PingIt. Na voljo v ZDA, GB in stotinah drugih držav po svetu."
             },
             "merchants" : {
                 "title" : "Trgovci po vsem svetu",
@@ -563,7 +563,7 @@ decryption: dešifriranje
                 "hash" : "Zgoščena vrednost",
                 "previous_block" : "Prejšnji blok",
                 "next_block" : "Naslednji blok(i)",
-                "merkle_root" : "Merklov koren",
+                "merkle_root" : "Merklov koren"
             },
             "network_propagation" : "Prenos po omrežju",
             "click_to_view" : "kliknite za ogled",
@@ -620,7 +620,7 @@ decryption: dešifriranje
                 "transactions" : "Moje transakcije",
                 "send" : "Pošlji sredstva",
                 "receive" : "Prejmi sredstva",
-                "import_export" : "Uvoz / izvoz",
+                "import_export" : "Uvoz / izvoz"
             },
             "tooltips" : {
                 "balance" : {
@@ -1296,7 +1296,7 @@ decryption: dešifriranje
             "ip_address" : "IP-naslov",
             "count" : "Število",
             "country" : "Država",
-            "warning" : "Ti IP-naslovi so bili prvi, ki so posredovali posamezne transakcije v dobro ali breme izbranega naslova. To ne pomeni nujno, da predstavljajo lastnika tega naslova.",
+            "warning" : "Ti IP-naslovi so bili prvi, ki so posredovali posamezne transakcije v dobro ali breme izbranega naslova. To ne pomeni nujno, da predstavljajo lastnika tega naslova."
         },
         "about_us" : {
             "title" : "O nas - Blockchain.info",
@@ -1655,7 +1655,7 @@ decryption: dešifriranje
             "medium_package" : "Srednji paket",
             "large_package" : "Veliki paket",
             "payment_method" : "Način plačila:",
-            "sms_p1" : "Po verifikaciji bo dejanski nakup možen tudi z druge mobilne ali stacionarne telefonske številke.",
+            "sms_p1" : "Po verifikaciji bo dejanski nakup možen tudi z druge mobilne ali stacionarne telefonske številke."
         },
         "transactions_summary" : {
             "you_received" : "Prejeli ste",
