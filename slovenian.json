@@ -248,7 +248,7 @@ decryption: dešifriranje
                 "height": "Višina",
                 "age": "Starost",
                 "size": "Velikost (kB)",
-                "relayed": "Posredoval"
+                "relayed": "Posrednik"
             },
             "more": "Več...",
             "meta_description": "Raziskovalec bitcoin blokov in valutne statistike. Pregledovanje podrobnih informacij o vseh bitcoin transakcijah in blokih.",
@@ -550,7 +550,7 @@ decryption: dešifriranje
                 "main_chain" : "glavna veriga",
                 "orphaned" : "osirotel",
                 "received_time" : "Prejet ob",
-                "relayed_by" : "Posredoval",
+                "relayed_by" : "Posrednik",
                 "difficulty" : "Težavnost",
                 "bits" : "Bitov",
                 "size" : "Velikost",
@@ -1337,7 +1337,7 @@ decryption: dešifriranje
             "next_blocks" : "Sledeči bloki",
             "time" : "Čas",
             "received_time" : "Čas prejetja",
-            "relayed_by" : "Posredoval",
+            "relayed_by" : "Posrednik",
             "difficulty" : "Težavnost",
             "number_of_transactions" : "Število transakcij",
             "output_total" : "Skupna izhodna vrednost",
@@ -1361,7 +1361,7 @@ decryption: dešifriranje
             "height" : "Višina",
             "time" : "Čas",
             "hash" : "Zgoščena vrednost",
-            "relayed_by" : "Posredoval",
+            "relayed_by" : "Posrednik",
             "transactions" : "Transakije",
             "size" : "Velikost (KB)",
             "main_chain" : "Glavna veriga",
@@ -1439,108 +1439,108 @@ decryption: dešifriranje
             "home" : "Domov"
         },
         "propagation" : {
-            "title" : "Bitcoin Network Propagation - Blockchain.info",
-            "disconnected" : "Disconnected",
-            "connected" : "Connected",
-            "header" : "Network Propagation",
-            "sub_header" : "Shows the distribution of a transaction or block throughout the network",
-            "h3" : "Inventory Hash: {0}",
-            "node_list" : "Node List",
-            "node_list_sub" : "All nodes that have relayed this inventory item",
-            "summary" : "Summary",
-            "type" : "Type",
-            "first_seen" : "First Seen",
-            "last_seen" : "Last Seen",
-            "first_relayed" : "First Relayed",
-            "probable_owner" : "Probable Owner",
-            "nodes_connected" : "Nodes Connected",
-            "total_relayed" : "Total Relayed",
-            "network_percent" : "Percent Of Network",
-            "mining_pools" : "Mining Pools"
+            "title" : "Širjenje po bitcoin omrežju - Blockchain.info",
+            "disconnected" : "Brez povezave",
+            "connected" : "Povezan",
+            "header" : "Širjenje po omrežju",
+            "sub_header" : "Prikazuje širjenje bitcoin transakcije ali bloka po omrežju",
+            "h3" : "Zgoščena vrednost: {0}",
+            "node_list" : "Seznam vozlišč",
+            "node_list_sub" : "Vsa vozlišča, ki so posredovala ta element",
+            "summary" : "Povzetek",
+            "type" : "Vrsta",
+            "first_seen" : "Prvič opaženo",
+            "last_seen" : "Nazadnje opaženo",
+            "first_relayed" : "Prvi posrednik",
+            "probable_owner" : "Verjetni lastnik",
+            "nodes_connected" : "Povezanih vozlišč",
+            "total_relayed" : "Skupaj posrednikov",
+            "network_percent" : "Delež omrežja",
+            "mining_pools" : "Rudarska združenja"
         },
         "ip_info" : {
-            "title" : "Transactions Relayed By {0} - Blockchain.info",
-            "meta_description" : "Bitcoin Transactions relayed by ip address {0}",
-            "header" : "Transactions Relayed By {0}",
-            "sub_header" : "Transactions that were relayed first by the ip {0}",
-            "next_page" : "Next Page"
+            "title" : "Transakcije, posredovane prek {0} - Blockchain.info",
+            "meta_description" : "Transakcije, ki jih je posredoval IP-naslov {0}",
+            "header" : "Transakcije, posredovane prek {0}",
+            "sub_header" : "Transakcije, ki jih je prvi posredoval {0}",
+            "next_page" : "Naslednja stran"
         },
         "largest_transactions" : {
-            "title" : "Largest Bitcoin Transactions - Blockchain.info",
-            "meta_description" : "A list of the largest recent bitcoin transactions",
-            "header" : "Largest Recent Transactions"
+            "title" : "Največje transakcije - Blockchain.info",
+            "meta_description" : "Seznam nedavnih transakcij z največjim zneskom prenešenih bitcoinov",
+            "header" : "Največje nedavne transakcije"
         },
         "orphaned_blocks" : {
-            "title" : "Orphaned Blocks - Blockchain.info",
-            "meta_description" : "Orphaned blocks are valid blocks not part of the main bitcoin block chain.",
-            "header" : "Orphaned Blocks",
-            "p1" : "Detached or Orphaned blocks are valid blocks which are not part of the main chain. They can occur naturally when two miners produce blocks at similar times or they can be caused by an attacker (with enough hashing power) attempting to reverse transactions.",
-            "previous_page" : "Previous Page",
-            "next_page" : "Next Page",
-            "timestamp" : "Timestamp",
-            "btc_sent" : "BTC Sent",
-            "number_of_transactions" : "Number Of Transactions",
-            "relayed_by" : "Relayed By"
+            "title" : "Osiroteli bloki - Blockchain.info",
+            "meta_description" : "Osirotel blok je veljaven blok, ki ni del glavne verige blokov.",
+            "header" : "Osiroteli bloki",
+            "p1" : "Osiroteli ali ločeni bloki so bloki, ki so veljavni, a niso del glavne verige blokov. Pojavijo se lahko ob normalnem delovanju omrežja, če dva rudarja hkrati izkopljeta nov blok, lahko pa so posledica napada (z visoko močjo zgoščevanja), kjer napadalec skuša preklicati izvedene transakcije.",
+            "previous_page" : "Prejšnja stran",
+            "next_page" : "Naslednja stran",
+            "timestamp" : "Čas",
+            "btc_sent" : "Skupni znesek BTC",
+            "number_of_transactions" : "Število transakcij",
+            "relayed_by" : "Posrednik"
         },
         "payment_request" : {
-            "title" : "Payment Request {0}",
-            "please_send" : "Please send payment to bitcoin address",
-            "pay_me" : "Pay me with bitcoin",
-            "p1" : "Use this form to request someone sends you bitcoins or simply to show people you have a bitcoin address.",
-            "amount" : "Amount:"
+            "title" : "Zahtevek za plačilo {0}",
+            "please_send" : "Prosimo, pošljite plačilo na naslov",
+            "pay_me" : "Plačajte mi z bitcoinom",
+            "p1" : "Ta obrazec lahko uporabite za to, da koga zaprosite za plačilo v bitcoinu ali pa zgolj da pokažete, da ste lastnik bitcoin naslova.",
+            "amount" : "Znesek:"
         },
         "donation_button" : {
-            "title" : "Create Donation Button",
-            "p1" : "Insert the following code into the head section of the page.",
-            "p2" : "Insert the following html code at the position where you would like the button to appear"
+            "title" : "Ustvari gumb za darovanje",
+            "p1" : "Sledečo kodo vstavite v zaglavje (head) spletne strani.",
+            "p2" : "Sledečo HTML-kodo vstavite na mesto, kjer želite imeti gumb."
         },
         "pools" : {
-            "title" : "Bitcoin Hashrate Distribution - Blockchain.info",
-            "meta_description" : "A pie chart showing the hashrate distribution between the major bitcoin mining pools",
-            "header" : "Hashrate Distribution",
-            "sub_header" : "An estimation of hashrate distribution amongst the largest mining pools",
-            "p1" : "The graph below shows the market share of the most popular bitcoin mining pools. It should only be used as a rough estimate and for various reasons will not be 100% accurate.",
-            "warning" : "A large portion of Unknown blocks does not mean an attack on the network, it simply means we have been unable to determine the origin.",
-            "hours_24" : "24 hours",
-            "hours_48" : "48 hours",
-            "days_4" : "4 Days",
-            "known_blocks" : "Known Blocks.",
-            "relayed_by" : "Relayed By",
-            "count" : "count",
-            "unknown_blocks" : "Unknown Blocks."
+            "title" : "Porazdelitev moči zgoščevanja - Blockchain.info",
+            "meta_description" : "Kolačni grafikon, ki prikazuje porazdelitev moči zgoščevanja med največjimi rudarskimi združenji",
+            "header" : "Porazdelitev moči zgoščevanja",
+            "sub_header" : "Ocena porazdelitve moči zgoščevanja med največjimi rudarskimi združenji",
+            "p1" : "Spodnji grafikon prikazuje tržni delež največjih rudarskih združenj. Gre za grobo oceno, ki iz več razlogov ne more biti stoodstotno natančna.",
+            "warning" : "Velik delež blokov neznanih rudarjev (Unknown) ne pomeni napada na omrežje; pomeni le, da nismo uspeli določiti vira določenih blokov.",
+            "hours_24" : "24 ur",
+            "hours_48" : "48 ur",
+            "days_4" : "4 dni",
+            "known_blocks" : "Bloki znanih rudarjev",
+            "relayed_by" : "Posrednik",
+            "count" : "Število",
+            "unknown_blocks" : "Bloki neznanih rudarjev"
         },
         "popular_addresses" : {
-            "title" : "100 Most Popular Bitcoin Addresses - Blockchain.info",
-            "meta_description" : "A list of the top 100 most popular bitcoin addresses by number of outputs.",
-            "header" : "Popular Addresses",
-            "sub_header" : "Most popular bitcoin addresses by number of outputs",
-            "address" : "Address",
-            "number_of_outputs" : "Number Of Outputs"
+            "title" : "100 nabolj priljubljenih naslovov - Blockchain.info",
+            "meta_description" : "Seznam 100 najbolj priljubljenih bitcoin naslovov glede na število izhodov",
+            "header" : "Priljubljeni naslovi",
+            "sub_header" : "Najbolj priljubljeni bitcoin naslovoi glede na število izhodov",
+            "address" : "Naslov",
+            "number_of_outputs" : "Št. izhodov"
         },
         "push_tx" : {
-            "title" : "Broadcast Transaction - Blockchain.info",
-            "header" : "Broadcast Transaction",
-            "p1" : "This page allows you to paste a raw transaction in hex (i.e. characters 0-9, a-f) this will then be checked it is valid and transmitted over the network.",
-            "submit" : "Submit Transaction"
+            "title" : "Oddaj transakcijo - Blockchain.info",
+            "header" : "Oddaj transakcijo",
+            "p1" : "Tu lahko prilepite surovo transakcijo v šestnajstiškem kodiranju (znaki 0-9 in A-F). Preverili bomo, da je veljavna, in jo poslali v omrežje.",
+            "submit" : "Oddaj transaskcijo"
         },
         "rejected" : {
-            "title" : "Rejected Transactions & Blocks - Blockchain.info",
-            "header" : "Rejected Inventory",
-            "sub_header" : "Transactions and blocks which have been rejected by our bitcoin nodes.",
-            "hash" : "Hash",
-            "reason" : "Reason",
-            "time" : "Time"
+            "title" : "Zavrnjene transakcije in bloki - Blockchain.info",
+            "header" : "Zavrnjeni elementi",
+            "sub_header" : "Transakcije in bloki, ki so jih naša vozlišča zavrnila",
+            "hash" : "Zgoščena vrednost",
+            "reason" : "Razlog",
+            "time" : "Čas"
         },
         "startup_message" : {
-            "title" : "Site Loading - Blockchain.info",
-            "header" : "Site is Loading...",
-            "p1" : "Should be back in a few seconds. There might even be new features."
+            "title" : "Nalaganje - Blockchain.info",
+            "header" : "Spletišče se nalaga...",
+            "p1" : "Na voljo bomo čez nekaj sekund; morda celo z novimi funkcionalnostmi."
         },
         "strange_transactions" : {
-            "title" : "Strange Transactions - Blockchain.info",
-            "meta_description" : "A list of bitcoin with non-standard outputs",
-            "header" : "Strange Transactions",
-            "sub_header" : "Transactions containing outputs from which we were unable to decode a bitcoin address."
+            "title" : "Nenavadne transakcije - Blockchain.info",
+            "meta_description" : "Seznam transakcij z nestandardnimi izhodi",
+            "header" : "Nenavadne transakcije",
+            "sub_header" : "Transakcije z izhodi, iz katerih nismo uspeli izpeljati bitcoin naslovov"
         },
         "hub_nodes" : {
             "title" : "Bitcoin Hub Nodes - Blockchain.info",
