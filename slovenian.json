@@ -1543,23 +1543,23 @@ decryption: dešifriranje
             "sub_header" : "Transakcije z izhodi, iz katerih nismo uspeli izpeljati bitcoin naslovov"
         },
         "hub_nodes" : {
-            "title" : "Bitcoin Hub Nodes - Blockchain.info",
-            "meta_description" : "IP addresses of bitcoin nodes which relay the most transactions to blockchain.info",
-            "header" : "Hub Nodes",
-            "sub_header" : "Shows the nodes who have relayed the most transactions first to blockchain.info. The nodes on this page are well connected often hub nodes for merchants or miners.",
-            "ip_address" : "IP Address",
-            "relay_count" : "Relay Count",
-            "location" : "Location",
-            "hostname" : "Hostname"
+            "title" : "Zvezdišča bitcoin omrežja - Blockchain.info",
+            "meta_description" : "IP-naslovi bitcoin vozlišč, ki posredujejo največ transakcij na blockchain.info",
+            "header" : "Zvezdišča",
+            "sub_header" : "Prikazuje vozlišča, ki kot prvi posredniki posredujejo največ transakcij na blockchain.info. Ta vozlišča so močno povezana in so običajno centralna vozlišča rudarjev ali trgovcev.",
+            "ip_address" : "IP-naslov",
+            "relay_count" : "Število posredovanj",
+            "location" : "Kraj",
+            "hostname" : "Ime gostitelja"
         },
         "tx_tree" : {
-            "title" : "Visualise Transaction {0} - Blockchain.info",
-            "meta_description" : "A tree graph showing the outputs of bitcoin transaction {0}",
-            "header" : "Transaction Visualization",
-            "output_spent" : "Output is spent - Click to load its children.",
-            "output_unspent" : "Output is unspent and has no children.",
-            "no_clustering" : "No Clustering",
-            "cluster_by_address" : "Cluster By Address"
+            "title" : "Diagram transakcij za {0} - Blockchain.info",
+            "meta_description" : "Drevesna ponazoritev izhodov za transakcijo {0}",
+            "header" : "Diagram transakcije",
+            "output_spent" : "Izhod je potrošen - kliknite za prikaz nadaljnjih transakcij.",
+            "output_unspent" : "Izhod ni potrošen in ni nadaljnjih transakcij.",
+            "no_clustering" : "Brez združevanja",
+            "cluster_by_address" : "Združi po naslovu"
         },
         "emails" : {
             "your_wallet_identifier" : "Your wallet identifier is:",
