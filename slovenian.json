@@ -997,7 +997,7 @@ Računalnik/sistem vedno tikamo. Torej, če uporabnik nekaj ukaže računalniku/
             },
             "modals" : {
                 "cancel" : "Cancel",
-                "close" : "Close",
+                "close" : "Zapri",
                 "continue_btn" : "Continue",
                 "save" : "Save",
                 "send" : "Send",
