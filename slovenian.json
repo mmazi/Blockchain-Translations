@@ -1580,33 +1580,33 @@ decryption: dešifriranje
                 "p1" : "V prilogi tega sporočila vam pošiljamo varnostno kopijo vaše denarnice, šifrirano z AES. V njej je vse, kar potrebujete za dostop do svojih sredstev. Svojo denarnico lahko iz te datoteke obnovite kadarkoli s storitvijo {0} ali s pomočjo namiznega odjemalca {1}."
             },
             "two_factor_reset_request" : {
-                "header" : "Two Factor Authentication Reset Request",
-                "p1" : "A request has been made to remove two-factor authentication from your Moja Denarnica account:",
-                "p2" : "If this request was made by you please open the following URL to approve this request:",
-                "p3" : "If this request was not made by you please open the following URL to decline this request:",
-                "p4" : "It is possible someone maybe trying to maliciously access to your bitcoin wallet. Please do not ignore this request."
+                "header" : "Zahtevek za ponastavitev dvostopenjske overitve",
+                "p1" : "Prejeli smo zahtevo, da se z vašega računa odstrani dvostopenjska overitev:",
+                "p2" : "Če ste zahtevo oddali vi, jo prosimo odobrite s klikom na tole povezavo:",
+                "p3" : "Če zahteve NISTE oddali vi, prosimo ZAVRNITE to zahtevo s klikom na tole povezavo:",
+                "p4" : "Možno je, da nekdo skuša pridobiti nepooblaščen dostop do vaše denarnice. Prosimo, ne prezrite tega sporočila."
             },
             "password_hints" : {
-                "header" : "Moja Denarnica Password Hints",
-                "p1" : "You are receiving this email because a request was made to view your wallet password hints.",
-                "main_hint" : "Main Password Hint:",
-                "second_hint" : "Second Password Hint:"
+                "header" : "Namigi za gesla v Moji Dearnici",
+                "p1" : "To elektronsko sporočilo smo vam poslali, ker smo prejeli zahtevo za ogled namigov za gesla.",
+                "main_hint" : "Namig za glavno geslo:",
+                "second_hint" : "Namig za drugo geslo:"
             },
             "tx" : {
-                "header_sent" : "Payment Sent Notification",
-                "header_received" : "Payment Received Notification",
-                "sent_p1" : "A Payment has been sent from your bitcoin wallet.",
-                "received_p1" : "A Payment has been received into your bitcoin wallet."
+                "header_sent" : "Obvestilo o prometu v breme",
+                "header_received" : "Obvestilo o prometu v dobro",
+                "sent_p1" : "Izvedeno je bilo plačilo sredstev iz vaše denarnice.",
+                "received_p1" : "V denarnico ste prejeli plačilo."
             },
             "welcome" : {
-                "header" : "Welcome To Moja Denarnica",
-                "p1" : "This email contains important information about your new bitcoin wallet. Be sure to keep this safe and stored separately from your password.",
-                "login_link" : "Login Link:",
-                "notifications" : "Notifications:",
-                "alias" : "Alias:",
-                "confirmation_code" : "Confirmation Code:",
-                "notifications_enabled" : "Notifications Are Enabled",
-                "notifications_disabled" : "Notifications Are Disabled"
+                "header" : "Dobrodošli v storitvi Moja Denarnica",
+                "p1" : "To elektronsko sporočilo vsebuje pomemebne podatke o vaši bitcoin denarnici. Hranite ga varno in ločeno od gesla svoje denarnice.",
+                "login_link" : "Povezava za prijavo:",
+                "notifications" : "Obveščanje:",
+                "alias" : "Vzdevek:",
+                "confirmation_code" : "Potrditvena koda:",
+                "notifications_enabled" : "Obveščanje je vklopljeno",
+                "notifications_disabled" : "Obveščanje je izklopljeno"
             }
         },
         "deposit" : {
