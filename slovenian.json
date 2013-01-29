@@ -50,7 +50,7 @@
             "my_wallet_transaction_volume_label": "Obseg transakcij (BTC)",
             "estimated_transaction_volume_usd": "Ocenjen obseg transakcij v USD",
             "transaction_fees2": "Grafikon dnevnega obsega vseh transakcijskih pristojbin, ki jih poberejo rudarji.",
-            "miners_revenue_label": "Prihodek rudajenja (BTC)",
+            "miners_revenue_label": "Prihodek rudarjenja (BTC)",
             "hash_rate2": "Ocenjeno število giga-zgoščenj na sekundo (milijard izračunanih vrednosti zgoščevalne funkcije na sekundo), ki jih izvaja celotno bitcoin omrežje.",
             "balance_of_address": "Stanje na BTC-naslovu:",
             "days_destroyed_filter_year2": "Le podatki transakcij z vsaj eno leto starimi vhodi.",
@@ -93,7 +93,7 @@
             "n_unique_addresses": "Število uporabljenih različnih naslovov",
             "n_transactions_per_block": "Število transakcij na blok",
             "avg_confirmation_time2": "Povprečen čas, preden je posamezna transakcija sprejeta v blok.",
-            "mywallet_total_Received_per_day": "Moja Denarnica: Skupnen obseg BTC, prejetih na dan na naslov:",
+            "mywallet_total_Received_per_day": "Moja Denarnica: Skupen obseg BTC, prejetih na dan na naslov:",
             "hide_data_points": "Skrij točke",
             "log_scale": "Logaritemsko merilo",
             "number_of_addresses": "Število naslovov",
@@ -101,7 +101,7 @@
             "estimated_transaction_volume_usd2": "Ocenjen obseg transakcij v USD.",
             "transaction_fees_label": "Transakcijske pristojbine (BTC)",
             "final_balance": "Končno stanje",
-            "days_destroyed_cumulative": "Izničeni bitcoin-dnevi - kumulativa",
+            "days_destroyed_cumulative": "Izničeni bitcoin-dnevi – kumulativno",
             "estimated_transaction_volume_label": "Obseg transakcij (BTC)",
             "total_received": "Skupno v dobro",
             "days_destroyed": "Izničeni bitcoin-dnevi",
@@ -124,14 +124,14 @@
             "transaction_fees_usd_label": "Transakcijske pristojbine (USD)",
             "market_cap": "Tržna kapitalizacija",
             "transactions_per_block": "Št. transakcij na blok",
-            "meta_description": "Najbolj priljubljeni grafikoni in statistike o omrežju bitcoin. Število dnevnih transkacij, tržna cena, grafikoni obsega itd.",
+            "meta_description": "Najbolj priljubljeni grafikoni in statistike o omrežju bitcoin. Število dnevnih transakcij, tržna cena, grafikoni obsega itd.",
             "miners_revenue2": "Grafikon: (Število dnevno narudarjenih BTC + transakcijske pristojbine na dan) * tržna cena.",
             "market_price": "Tržna cena (USD)",
-            "source": "Vir: blockchain.info",
+            "source": "Vir: Blockchain.info",
             "miners_revenue": "Prihodek rudarjenja",
             "all_time": "Celoten časovni obseg",
             "cost_percent_per_transaction_label": "% obsega transakcij",
-            "days_destroyed_cumulative2": "Izničeni bitcoin-dnevi so ena od ocen obsega bitcoin transakcij. Če nekdo potroši 100 BTC, ki jih je prejel pred enim tedno, to nanese 700 izničenih bitcoin-dnevov. Če ta oseba teh 100 BTC in jih večkrat pošlje sem in tja med svojimi naslovi ter nato potroši, bo skupni obseg transakcij lahko poljubno velik, izničenih bitcoin-dnevov pa bo še vedno 700.",
+            "days_destroyed_cumulative2": "Izničeni bitcoin-dnevi so ena od ocen obsega bitcoin transakcij. Če nekdo potroši 100 BTC, ki jih je prejel pred enim tednom, to nanese 700 izničenih bitcoin-dnevov. Če ta oseba teh 100 BTC in jih večkrat pošlje sem in tja med svojimi naslovi ter nato potroši, bo skupni obseg transakcij lahko poljubno velik, izničenih bitcoin-dnevov pa bo še vedno 700.",
             "avg_confirmation_time_label": "Čas do potrditve (min)",
             "tx_trade_ratio" : "Razmerje obsega trgovanja in obsega transakcij",
             "tx_trade_ratio2" : "Grafikon razmerja med obsegom trgovanja na menjalnicah in obsegom vseh transakcij.",
@@ -175,7 +175,7 @@
             "title": "Raziskovalec bitcoin blokov - Blockchain.info",
             "table_headers": {
                 "transactions": "Transakcije",
-                "sent": "Skpuno poslano",
+                "sent": "Skupno poslano",
                 "height": "Višina",
                 "age": "Starost",
                 "size": "Velikost (kB)",
@@ -211,17 +211,17 @@
             "search_placeholder": "Iskanje"
         },
         "misc": {
-            "recommended" : "Priporoči",
+            "recommended" : "Priporočeno",
             "unknown_exception": "Neznana napaka",
             "unknown": "Neznano",
             "and_word" : "in",
             "support_desk" : "Podpora",
-            "disclaimer" : "Izraz \"denar\" na tem spletišču se nanaša na virtualno valuto. Ne zagotavljamo, da bo mogoče bitcoine zamenjati po nakupni ceni."
+            "disclaimer" : "Izraz 'denar' na tem spletišču se nanaša na virtualno valuto. Ne zagotavljamo, da bo mogoče bitcoine zamenjati po nakupni ceni."
         },
         "stats" : {
             "title" : "Bitcoin Statistike - Blockchain.info",
             "header" : "Valutne statistike",
-            "meta_description" : "Prek 100 različnih tržnih in omrežnih statistik o bitcoinu: število vorzišč, obseg transakcij, težavnost rudarjenja in še več.",
+            "meta_description" : "Prek 100 različnih tržnih in omrežnih statistik o bitcoinu: število vozlišč, obseg transakcij, težavnost rudarjenja in še več.",
             "sub_header" : "Valutne statistike o bitcoinu",
             "table" : {
                 "minutes" : "min",
@@ -270,12 +270,12 @@
             "login_now" : "Prijavi se",
             "support_pages" : "Strani s podporo"
         },
-        "transaction_page" :{
+        "transaction_page": {
             "title" : "Transakcija {0}",
             "header" : "Transakcija",
             "meta_description" : "Prikaži informacije o transakciji {0}",
             "sub_header" : "Podrobne informacije o transakciji",
-            "double_spend" : {
+            "double_spend": {
                 "p1" : "Opozorilo! Ta transakcija prestavlja dvojno trošenje transakcije ",
                 "p2" : "Svetujemo vam, da ste zelo previdni pri prejemanju in pošiljanju transakcij temu pošiljatelju."
             },
@@ -293,7 +293,7 @@
             "reward_from_block" : "Nagrada bloka",
             "scripts" : "Skripte",
             "hide_scripts" : "Skrij skripte in coinbase",
-            "show_scripts" : "Prikaži skripte in coinbase",
+            "show_scripts" : "Skripte",
             "relayed_by_ip" : "Posredoval IP",
             "visualize" : "Grafični prikaz",
             "tree_chart" : "Prikaži drevesni graf",
@@ -309,7 +309,7 @@
             "strange" : "Nenavadna",
             "ok" : "OK"
         },
-        "transaction" : {
+        "transaction": {
             "public_note" : "Javni komentar:",
             "size" : "Velikost:",
             "fee" : "Pristojbina:",
@@ -317,20 +317,20 @@
             "output" : "Izhod",
             "input_decode_error" : "Dekodiranje vhodnega naslova ni uspelo",
             "output_decode_error" : "Dekodiranje izhodnega naslova ni uspelo",
-            "no_inputs" : "Ni vhodov (sveži konanci)",
+            "no_inputs" : "Ni vhodov (sveži kovanci)",
             "spent" : "Potrošeno",
             "unspent" : "Nepotrošeno",
             "unconfirmed_transaction" : "Nepotrjena transakcija!",
             "confirmations" : "potrditev",
             "double_spend" : "Dvojno trošenje!"
         },
-        "address" : {
+        "address": {
             "title" : "Naslov {0}",
             "meta_description" : "Vplačila in izplačila naslova ",
             "bitcoin_address" : "Bitcoin naslov",
             "sub_header" : "Naslovi se uporabljajo za pošiljanje in prejemanje bitcoinov.",
             "double_spend_warning" : "Opozorilo! Ta naslov vsebuje transakcije, ki so morda dvojna trošenja. Svetujemo visoko stopnjo previdnosti pri transakcijah s tem naslovom.",
-            "table_summary" : {
+            "table_summary": {
                 "title" : "Povzetek",
                 "address" : "Naslov",
                 "short_link" : "Kratka povezava",
@@ -339,7 +339,7 @@
                 "taint_analysis" : "Analiza sledov",
                 "view_analysis" : "Prikaži analizo"
             },
-            "table_transactions" : {
+            "table_transactions": {
                 "title" : "Transakcije",
                 "number_of_transactions" : "Št. transakcij",
                 "unspent_inputs" : "Nepotrošeni vhodi",
@@ -365,20 +365,20 @@
             "invalid_hash_160" : "Oprostite, to ni veljaven bitcoin naslov v obliki hash 160.",
             "no_address_provided" : "Naslov manjka."
         },
-        "wallet_index" : {
+        "wallet_index": {
             "title" : "Bitcoin Denarnica",
-            "meta_description" : "Moja Denarnica je brezplačna spletna denarnica za bitcoin, s katero lahko breplačno plačujete po vsem svetu. Z njo je plačevanje v bitcoinih enostavno in varno.",
-            "confused" : {
+            "meta_description" : "Moja Denarnica je brezplačna spletna denarnica za bitcoin, s katero lahko brezplačno plačujete po vsem svetu. Z njo je plačevanje v bitcoinih enostavno in varno.",
+            "confused": {
                 "p1" : "Potrebujete pomoč? Preberite",
                 "p2" : "VINO"
             },
-            "p1" : "Moja Denarnica je brezplačna spletna denarnica za bitcoin, s katero lahko breplačno plačujete po vsem svetu. Z njo je plačevanje v bitcoinih enostavno in varno ter vam je na voljo tako na telefonu kot računalniku.",
+            "p1" : "Moja Denarnica je brezplačna spletna denarnica za bitcoin, s katero lahko brezplačno plačujete po vsem svetu. Z njo je plačevanje v bitcoinih enostavno in varno ter vam je na voljo tako na telefonu kot računalniku.",
             "p2" : "Nismo banka; vaš denar ostaja popolnoma pod vašim nadzorom. Ne vidimo vašega stanja ali vaših transakcij in ne moremo izvajati plačil v vašem imenu.",
             "create_my_free_wallet" : "Ustvari mi brezplačno denarnico",
             "try_demo_account" : "Preskusite vzorčni račun",
             "techradar_quote" : "Do leta 2015 zna imeti gotovina status ogrožene vrste.",
             "introduction_video" : "Oglejte si video-uvod v bitcoin",
-            "slides" : {
+            "slides": {
                 "mobile_support" : "Podpora za mobilne naprave",
                 "mobile_support_p1" : "Naš spletni vmesnik podpira vse priljubljene mobilne naprave, kot so ",
                 "mobile_support_p2" : "Če vam ukradejo telefon, bo vaša denarnica še vedno varno shranjena na naših strežnikih.",
@@ -398,22 +398,22 @@
             },
             "free_open_source" : "Brezplačna. Odprtokodna.",
             "successfully_transacted" : "Transakcija uspešna.",
-            "security" : {
+            "security": {
                 "title" : "Varna",
                 "p1" : "Blockchain.info uporablja industrijski standard šifriranja",
                 "p2" : "za zaščito vaše denarnice pred tatovi in hekerji. Najboljši del tega je, da se šifriranje izvaja v vašem brskalniku, še preden se vaša denarnica prenese na naše strežnike, tako da niti mi nimamo dostopa do vaših sredstev!",
-                "p3" : "Moja Denarnica gradi na varnosti bitcoin-protokola in ponuja širok nabor storitev, ki vam olajšajo varno hranjenje vašega denarja, kot so",
+                "p3" : "Moja Denarnica gradi na varnosti bitcoin protokola in ponuja širok nabor storitev, ki vam olajšajo varno hranjenje vašega denarja, kot so",
                 "paper_wallets" : "papirnate denarnice",
                 "offline_transactions" : "transakcije brez povezave",
                 "remote_backups" : "oddaljene varnostne kopije"
             },
-            "easy" : {
+            "easy": {
                 "title" : "Enostavna za uporabo",
                 "p1" : "Uporabljati Mojo Denarnico ni nič težje, kot uporabljati",
                 "p2" : "ali spletno bančništvo. Ko se prijavite, vidite svoje stanje in pregled svojih transakcij.",
                 "send_via" : "Plačajte prek Facebooka, e-pošte ali SMS-a."
             },
-            "control" : {
+            "control": {
                 "title" : "Ohranite nadzor",
                 "p1" : "Lepota bitcoina je v tem, da je povsem decentraliziran in nobena vlada ali korporacija ne more blokirati plačil ali zapirati računov.",
                 "p2" : "Z Mojo Denarnico ohranite popoln nadzor nad svojimi",
@@ -422,11 +422,11 @@
                 "read" : "Oglejte si, ",
                 "how_it_works" : "kako denarnica deluje"
             },
-            "features" : {
-                "title" : "Širok nabor funckij",
+            "features": {
+                "title" : "Širok nabor funkcij",
                 "p1" : "Najbolj napredna spletna denarnica za bitcoin na trgu.",
                 "full_list" : "Oglejte si celoten seznam funkcij",
-                "free" : "Brezlplačna, brez provizij",
+                "free" : "Brezplačna, brez provizij",
                 "two_factor" : "Dvostopenjska overitev",
                 "client_side_encryption" : "Varno šifriranje v brskalniku",
                 "live_update" : "Avtomatsko osveževanje prikaza",
@@ -434,24 +434,24 @@
                 "import_export" : "Uvoz in izvoz zasebnih ključev",
                 "payment_notifications" : "Obveščanje o plačilih prek SMS in e-pošte"
             },
-            "anonymous" : {
+            "anonymous": {
                 "title" : "Anonimnost",
                 "p1" : "Za odprte računa potrebujete le geslo; ne zahtevamo prav nobenih osebnih informacij. Ne vidimo vaših javnih ključev, transkacij ali stanja na računu.",
                 "p2" : "Moja Denarnica vsebuje tudi",
                 "mixing_service" : "storitev mešanja,",
                 "p3" : "ki zagotavlja popolnoma anonimne transakcije."
             },
-            "deposit" : {
+            "deposit": {
                 "title" : "Trenutni pologi",
                 "p1" : "Sredstva lahko položite v Mojo Denarnico v nekaj sekundah prek bančnega transferja, telefona ali storitve Barclays PingIt. Na voljo v ZDA, GB in stotinah drugih držav po svetu."
             },
-            "merchants" : {
+            "merchants": {
                 "title" : "Trgovci po vsem svetu",
                 "p1" : "Tisoči trgovcev po vsem svetu že sprejemajo bitcoin in vsak dan se pridružujejo novi. Za bitcoin lahko kupiti vse od spletnega pokra do ekološko pridelane kave.",
                 "p2" : "Obsežen seznam trgovcev najdete na",
                 "wiki" : "glavnem wiki spletišču"
             },
-            "tooltips" : {
+            "tooltips": {
                 "aes_title" : "Šifriranje AES",
                 "aes" : "Izjemno močen standard šifriranja, ki ga je sprejela vlada ZDA in se danes uporablja po vsem svetu za VPN in druge načine šifrirane komunikacije.",
                 "paper_wallet" : "Papirnata denarnica je dokument, ki ga natisnete na papir in vsebuje vse informacije, potrebne za dostop do vaših bitcoinov.",
@@ -461,16 +461,16 @@
                 "offline_transactions_title" : "Transakcije brez povezave",
                 "offline_transactions" : "Transakcije brez povezave se podpišejo med tem, ko vaš računalnik ni povezan z internetom. Veljajo za varnejše, ker je vaš računalnik med dostopanjem do zasebnega ključa odklopljen in zato varen pred zunanjimi vdori.",
                 "paypal_title" : "PayPal",
-                "paypal" : "PayPal je zastarel ponudnih plačilnih storitev",
+                "paypal" : "PayPal je zastarel ponudnik plačilnih storitev",
                 "private_key_title" : "Zasebni ključ",
                 "private_key" : "Bitcoin naslov je sestavljen iz dveh delov. Eden od teh delov, zasebni ključ, se uporablja za dokazovanje lastništva denarja in je potreben pri izvajanju plačil. Zasebni ključ mora biti ves čas varno shranjen."
             }
         },
-        "block" : {
+        "block": {
             "title" : "Bitcoin blok #{0}",
             "meta_description" : "Transakcije v bloku",
             "header" : "Blok",
-            "summary_table" : {
+            "summary_table": {
                 "title" : "Povzetek",
                 "number_of_transactions" : "Število transakcij",
                 "output_title" : "Skupna vrednost izhodov",
@@ -489,7 +489,7 @@
                 "nonce" : "Nonce",
                 "block_reward" : "Nagrada"
             },
-            "hash_table" : {
+            "hash_table": {
                 "title" : "Zgoščene vrednosti",
                 "hash" : "Zgoščena vrednost",
                 "previous_block" : "Prejšnji blok",
@@ -502,7 +502,7 @@
             "transactions_sub_header" : "Transakcije, ki jih ta blok vsebuje",
             "no_block_index" : "Indeks bloka manjka"
         },
-        "wallet_new" : {
+        "wallet_new": {
             "title" : "Moja Denarnica",
             "header1" : "Odpiranje nove denarnice",
             "sub_header1" : "Izberite vzdevek in geslo za svojo novo denarnico.",
@@ -513,7 +513,7 @@
             "wallet_created" : "Nova denarnica je bila ustvarjena.",
             "wallet_created_p1" : "Vaša nova spletna denarnica je bila uspešno ustvarjena. Pomembno je, da varno shranite tako vzdevek svoje denarnice kot tudi geslo. Če pozabite vzdevek denarnice, vam ga lahko pomagamo obnoviti samo, če vnesete pravilen elektronski naslov. Pozabljenega gesla pa ne moremo v nobenem primeru obnoviti!",
             "restore_link_title" : "Svojo denarnico lahko vedno najdete na tem naslovu:",
-            "fav_recommendation" : "Priporočamo, da si ta nasov sedaj shranite med Priljubljene.",
+            "fav_recommendation" : "Priporočamo, da si ta naslov sedaj shranite med Priljubljene.",
             "email" : "Elektronska pošta",
             "email_placeholder" : "Elektronski naslov",
             "email_sub" : "Če želite, da vam po elektronski pošti pošljemo spletni naslov vaše denarnice, prosimo, vpišite svoj elektronski naslov:",
@@ -531,43 +531,48 @@
             "disclaimer" : "Omejitev odgovornosti",
             "anonymity_policy" : "Politika anonimnosti",
             "please_read" : "Prosimo, preberite dokument {0}.",
-            "optional" : "Neobvezno"
+            "optional" : "Neobvezno",
+            "mnemonic_modal_title" : "Niz besed za obnovitev gesla",
+            "mnemonic_modal_p1" : "Vaša denarnica je bila uspešno ustvarjena. Če pozabite geslo, lahko za obnovitev gesla uporabite spodnji mnemonični niz besed.",
+            "mnemonic_please_write_down" : "Prosimo, zapišite si tole:",
+            "mnemonic_modal_p2" : "Brez mnemoničnega niza besed vam ne moremo pomagati obnoviti pozabljenih gesel; to lahko vodi v <b>izgubo vseh vaših bitcoinov!</b>"
         },
-        "wallet_forgot_identifier" : {
+        "wallet_forgot_identifier": {
             "title" : "Pozabljen identifikator",
             "header" : "Pozabljeni identifikator",
-            "sub_header" : "Vpišite svoj elektronski naslov ali SMS-številko in poslali vam bomo potrdtiveno povezavo:",
+            "sub_header" : "Vpišite svoj elektronski naslov ali SMS-številko in poslali vam bomo potrditveno povezavo:",
             "email_or_sms" : "E-naslov ali SMS:",
             "send" : "Pošlji",
-            "p1" : "Če nam v svojem računu niste sporočili svojega elektronskega naslova, nam prosimo sporčite ({0}) vse informacije, ki jih lahko, vključno s svojim uporabniškim imenom za Skype ali Google Talk ter skrivnim stavkom in vzdevkom denarnice."
+            "p1" : "Če nam v svojem računu niste sporočili svojega elektronskega naslova, nam prosimo sporočite ({0}) vse informacije, ki jih lahko, vključno s svojim uporabniškim imenom za Skype ali Google Talk ter skrivnim stavkom in vzdevkom denarnice."
         },
-        "wallet_app" : {
+        "wallet_app": {
             "title" : "Moja Denarnica",
             "loading" : "Nalagam",
             "status" : "Stanje:",
             "disconnected" : "BREZ POVEZAVE",
-            "nav" : {
+            "nav": {
                 "home" : "Domača stran",
                 "transactions" : "Moje transakcije",
                 "send" : "Pošlji sredstva",
                 "receive" : "Prejmi sredstva",
                 "import_export" : "Uvoz / izvoz"
             },
-            "tooltips" : {
-                "balance" : {
+            "tooltips": {
+                "balance": {
                     "title" : "Vaše stanje",
                     "tip" : "Prikazano je stanje v vaši denarnici. Ta znesek boste lahko potrošili šele, ko bodo vse transakcije potrjene."
                 },
-                "connection_status" : {
+                "connection_status": {
                     "title" : "Stanje povezave",
                     "tip" : "Če delate brez povezave, boste morali za ogled novih transakcij osvežit stran. Če ste povezani, se bo stran osveževala avtomatsko."
                 }
             },
-            "account_settings" : {
+            "account_settings": {
                 "title" : "Nastavitve računa",
                 "sub_header" : "Uredite nastavitve svojega računa storitve Moja Denarnica.",
-                "nav" : {
+                "nav": {
                     "header" : "Informacije o računu",
+                    "personal" : "Osebno",
                     "general" : "Splošno",
                     "notifications" : "Obveščanje",
                     "passwords" : "Gesla",
@@ -580,12 +585,12 @@
                 "action" : "Dejanje",
                 "ip_address" : "IP-naslov",
                 "user_agent" : "Brskalnik/agent",
-                "logging_deletion" : "Ob spremembi nastavitev beleženja se stari dnevniki ne izbišejo. Dnevniki se hranijo 2 tedna.",
+                "logging_deletion" : "Ob spremembi nastavitev beleženja se stari dnevniki ne izbrišejo Dnevniki se hranijo 2 tedna.",
                 "logging_level" : "Stopnja beleženja",
                 "logging_disabled" : "Beleženje izklopljeno. Nobena dejanja se ne beležijo.",
                 "logging_level_description" : "Stopnja beleženja določa, katera dejanja v vaši denarnici se beležijo. Privzeto je beleženje izklopljeno, razen za dejanja administratorjev. Vklopljeno beleženje omogoča višjo varnost, saj ponudi več podatkov o morebitnem nepooblaščenem dostpu do vaše denarnice, po drugi strani pa s tem žtrvujete nekaj zasebnosti.",
                 "logging_disabled" : "Beleženje izklopljeno.",
-                "logging_hashed" : "Beleži dejanja z zgočšenimi IP-naslovi.",
+                "logging_hashed" : "Beleži dejanja z zgoščenimi IP-naslovi.",
                 "logging_full" : "Beleži dejanja z IP-naslovi in agenti (brskalniki)",
                 "recommended" : "Priporočeno",
                 "optional" : "Neobvezno",
@@ -601,7 +606,7 @@
                 "alias_description" : "Vzdevek denarnice je kratka beseda, ki jo lahko uporabljate namesto identifikatorja denarnice za lažji dostop.",
                 "alias_placeholder" : "Vzdevek oz. nekaj, kar si boste lahko zapomnili.",
                 "mobile_number" : "Mobilna številka",
-                "mobile_number_description" : "Prosimo, vnesite svojo mobilno številko. Mednarodno pošiljanje SMS-ov je včasih nezanesljivo ali celo nedeostopno v določenih državah ali pri določenih ponudnikih.",
+                "mobile_number_description" : "Prosimo, vnesite svojo mobilno številko. Mednarodno pošiljanje SMS-ov je včasih nezanesljivo ali celo nedostopno v določenih državah ali pri določenih ponudnikih.",
                 "sms_verified" : "Mobilna številka overjena",
                 "send_sms_code" : "Pošlji SMS-kodo",
                 "enter_sms_code" : "Vnesite kodo, ki ste jo prejeli v SMS-sporočilu.",
@@ -613,6 +618,12 @@
                 "local_currency_description" : "S klikom na stanje zgoraj desno lahko hitro preklapljate med prikazom zneskov v BTC in v svoji lokalni valuti.",
                 "language" : "Jezik",
                 "language_description" : "Izberite svoj jezik",
+                "inactivity_logout" : "Odjava pri neaktivnosti",
+                "inactivity_logout_description" : "Privzeto boste odjavljeni iz denarnice po 10 minutah neaktivnosti. Ta čas lahko spremenite spodaj.",
+                "inactivity_5_minutes" : "5 minut",
+                "inactivity_10_minutes" : "10 minut",
+                "inactivity_30_minutes" : "30 minut",
+                "inactivity_never" : "Nikoli",
                 "fee_policy" : "Privzeta politika plačevanja pristojbin",
                 "fee_policy_description" : "Blockchain.info ne zaračunava pristojbin za transakcije. Vseeno pa lahko plačujete majhne pristojbine, namenjene rudarjem, da bi hitreje obdelali vaše transakcije. Spodaj lahko nastavite, kolikšne pristojbine želite plačevati pri transakcijah.",
                 "fee_policy_low" : "Varčna",
@@ -628,14 +639,16 @@
                 "notifications" : "Obveščanje",
                 "notifications_description" : "Odločite se lahko za prejemanje obvestil, kadarkoli se izvede kako plačilo v dobro ali v breme vaše denarnice.",
                 "email_notifications" : "Elektronska obvestila",
-                "email_notifications_description" : "Prejmali boste obvestila po elektronski pošti. Če še niste, prosimo, overite svoj elektronski naslov.",
+                "email_notifications_description" : "Prejemali boste obvestila po elektronski pošti. Če še niste, prosimo, overite svoj elektronski naslov.",
                 "sms_notifications" : "SMS-obvestila",
                 "google_talk" : "Google Talk",
-                "google_talk_description" : "Prejmali boste obvestila prek storitve Google Talk.",
+                "google_talk_description" : "Prejemali boste obvestila prek storitve Google Talk.",
                 "skype" : "Skype",
-                "skype_description" : "Prejmali boste obvestila prek storitve Skype na sledeče uporabniško ime:",
+                "skype_description" : "Prejemali boste obvestila prek storitve Skype na sledeče uporabniško ime:",
                 "boxcar_description_p1" : "Prosimo, vnesite svoj",
                 "boxcar_description_p2" : "elektronski naslov:",
+                "http_notifications" : "Obveščanje prek HTTP",
+                "http_notifications_p1" : "Obvestila prek HTTP pošiljamo ob prejeti ali poslanih transakcijah. Prosimo, oglejte si informacije na strani za razvijalce.",
                 "html5_notifications" : "Obvestila s tehnologijo HTML 5",
                 "html5_notifications_p1" : "Obvestila s tehnologijo HTML 5 zahtevajo, da jih dovolite v brskalniku. Trenutno podprto v brskalnikih Chrome in Safari.",
                 "notifications_when" : "Obveščaj me, ko Moja denarnica",
@@ -651,10 +664,14 @@
                 "five_confirmations" : "po 5 potrditvah",
                 "six_confirmations" : "po 6 potrditvah",
                 "device_pairing" : "Seznanitev z napravami",
-                "device_pairing_description" : "Svojo napravo Android ali iPhone seznanite s svojim računom pri Blockchain.info tako, da skenirate spodnjo QR-kodo.",
+                "device_pairing_description" : "Svojo napravo Android ali iPhone seznanite s svojim računom pri Blockchain.info tako, da optično prečitate spodnjo QR-kodo.",
+                "show_hide_pairing_code" : "Prikaži/skrij kodo za seznanjanje",
                 "forgot_password_warning" : "Opozorilo!",
                 "forgot_password_warning_p2" : "Če pozabite geslo, bo vaša denarnica izgubljena. Gesel ni mogoče obnoviti!",
                 "password_notice" : "Naši strežniki nikoli na noben način ne izvedo vašega gesla. To pomeni, da bo vaša denarnica varna tudi v primeru napada na naš strežnik. Nadalje zaradi tega mi ne moremo videti vašega stanja ali zgodovine transakcij.",
+                "password_mnemonic" : "Mnemonični niz besed",
+                "password_mnemonic_description" : "Mnemonični niz besed lahko uporabite za obnovitev gesla, če geslo pozabite. Brez mnemoničnega niza ni načina za obnovitev gesla. Mnemonični niz se spremeni, če spremenite geslo.",
+                "show_hide_password_mnemonic" : "Skrij/prikaži mnemonični niz",
                 "main_password" : "Glavno geslo",
                 "password" : "Geslo:",
                 "confirm_password" : "Ponovite geslo:",
@@ -680,20 +697,23 @@
                 "google_authenticator_description" : "Zaženite aplikacijo Google Authenticator in prečitajte spodnjo QR-kodo.",
                 "google_authenticator_warning" : "Če ne zaključite procesa seznanjanja z Google Authenticatorjem ali izklopite dvostopenjske overitve in zapustite to stran, lahko izgubite dostop do svoje denarnice.",
                 "secret_phrase" : "Skrivni stavek",
-                "secret_phrase_description" : "Skrivni stavek nam lahko pomaga pri preverjanju vaše istovetnosti v primeru, da izgubite identifikator svoje denarnice ali yubikey. Skrivni stavek je lahko ena sama beseda ali stavek dolžine do 255 znakov.",
+                "secret_phrase_description" : "Skrivni stavek nam lahko pomaga pri preverjanju vaše istovetnosti v primeru, da izgubite identifikator svoje denarnice ali Yubikey. Skrivni stavek je lahko ena sama beseda ali stavek dolžine do 255 znakov.",
                 "never_remember_two_factor" : "Nikoli si ne zapomni dvostopenjske overitve.",
-                "never_remember_two_factor_description" : "Privzeto bomo za kratek čas po dvostopenski overitvi vašemu računalniku dovolili prijavo brez ponovne overitve. Izberite to možnost, če tega ne želite in torej želite, da se vsakič zahteva polna overitev.",
+                "never_remember_two_factor_description" : "Privzeto bomo za kratek čas po dvostopenjski overitvi vašemu računalniku dovolili prijavo brez ponovne overitve. Izberite to možnost, če tega ne želite in torej želite, da se vsakič zahteva polna overitev.",
                 "never_remember" : "Vedno pozabi overitev",
                 "enable_disable" : "Omogoči omejitev na IP:",
                 "my_wallet_verifier" : "Preverjevalnik Moje denarnice",
                 "my_wallet_verifier_description" : "Če vas skrbi varnost, vam toplo priporočamo, da si namestite razširitev za brskalnik {0}. Preverjevalnik pomaga pri zaščiti pred napadi s strežnika, zlonamerno javascript kodo in phishing napadi.",
                 "restrict_to_ip" : "Omeji na IP-naslov",
-                "restrict_to_ip_description" : "S to nastavitvijo omejite dostop do denarnice na dostop z enega ali več IP-naslovov (ločite jih z vejico). Uporabite to možnost samo, če uporabljate statičen IP-naslov. Dostop do dearnice in API-jev ne bo mogoč z drugih IP-naslovov, medtem ko bodo seznanjene mobilne aplikacije še vedno delovale.",
+                "restrict_to_ip_description" : "S to nastavitvijo omejite dostop do denarnice na dostop z enega ali več IP-naslovov (ločite jih z vejico). Uporabite to možnost samo, če uporabljate statičen IP-naslov. Dostop do denarnice in API-jev ne bo mogoč z drugih IP-naslovov, medtem ko bodo seznanjene mobilne aplikacije še vedno delovale.",
                 "lock_to_ip" : "Omeji na IP-naslove:",
                 "multiple_ip_comma_seperated" : "Več IP-naslovov ločite z vejicami.",
-                "current_ip" : "Vaš trenutni IP-naslov:"
+                "current_ip" : "Vaš trenutni IP-naslov:",
+                "security_warning_title" : "Občutljivi podatki",
+                "security_warning_sub" : "V nastavitvah računa so vidni občutljivi podatki, ki jih ne kažite nepooblaščenim osebam. Svetujemo vam, da ne odpirate teh strani v javnosti in da ne snemate zaslonskih posnetkov.",
+                "security_warning_continue" : "Nadaljuj"
             },
-            "wallet_home" : {
+            "wallet_home": {
                 "total_transactions" : "Število transakcij",
                 "total_received" : "Skupaj v dobro",
                 "total_sent" : "Skupaj v breme",
@@ -703,7 +723,7 @@
                 "deposit" : "Polog",
                 "deposit_and_withdraw" : "Polog in dvig",
                 "deposit_description" : "Najhitrejši in najlažji način za polog bitcoinov na vaš račun je uporaba spodnjih storitev.",
-                "cash_deposit" : "Polog gotovoine",
+                "cash_deposit" : "Polog gotovine",
                 "pingit_deposit" : "PingIt",
                 "phone_deposit" : "Polog po telefonu",
                 "sofort_deposit" : "Sofort Banking",
@@ -716,9 +736,9 @@
                 "account_settings" : "Nastavitve računa",
                 "account_settings_description" : "Uredite nastavitve svojega računa, npr. svoj e-naslov, geslo in nastavitve obveščanja.",
                 "account_settings_btn" : "Nastavitve računa",
-                "backup_description" : "Varnostno kopiranje denarnice je pomebno, a nanj hitro pozabimo. Pri Blockchain.info vlagamo ogromno truda v varnost vaše denarnice, vseeno pa je dobro, da imate varnostno kopijo denarnice tudi pri sebi."
+                "backup_description" : "Varnostno kopiranje denarnice je pomembno, a nanj hitro pozabimo. Pri Blockchain.info vlagamo ogromno truda v varnost vaše denarnice, vseeno pa je dobro, da imate varnostno kopijo denarnice tudi pri sebi."
             },
-            "receive_money" : {
+            "receive_money": {
                 "header" : "Naslovi",
                 "sub_header" : "Vaši bitcoin naslovi za prejemanje",
                 "active" : "Aktivni",
@@ -727,7 +747,7 @@
                 "address" : "Naslov",
                 "balance" : "Stanje",
                 "new_address" : "Nov naslov",
-                "new_address_tooltip" : "Kliknite tukaj za generiranje novega bitcoin naslova. Na ta naslov lahko začnete prejemati bitcoine takoj.",
+                "new_address_tooltip" : "Kliknite tukaj, če želite ustvariti nov bitcoin naslov. Na ta naslov lahko začnete prejemati bitcoine takoj.",
                 "more_actions" : "Več možnosti",
                 "chord_diagram" : "Poglej relacijski diagram",
                 "group_by_taint" : "Združi naslove po sledovih",
@@ -747,7 +767,7 @@
                 "expires_in" : "Poteče čez",
                 "new_anonymous_address" : "Nov anonimni naslov"
             },
-            "login" : {
+            "login": {
                 "lost_two_factor" : "Ste pozabili podatke za dvostopenjsko overitev?",
                 "two_factor_reset" : "Ponastavitev dvostopenjske overitve",
                 "welcome_back" : "Pozdravljeni nazaj",
@@ -757,7 +777,7 @@
                 "password" : "Geslo:",
                 "google_authenticator" : "Google Authenticator:",
                 "google_authenticator_help" : "Prosimo, odprite aplikacijo Google Authenticator in vnesite prikazano kodo.",
-                "yubikey_help" :"Izberite tekstovno polje zgoraj in pritisnite zeleno LED lučko na vašem Yubikeyu.",
+                "yubikey_help" : "Izberite tekstovno polje zgoraj in pritisnite zeleno LED lučko na vašem Yubikeyu.",
                 "email_code" : "E-poštna koda:",
                 "email_code_help" : "Elektronsko sporočilo, ki vsebuje začasno potrditveno kodo, smo poslali na vaš elektronski naslov.",
                 "sms_code" : "SMS koda:",
@@ -765,7 +785,7 @@
                 "open_wallet" : "Odpri denarnico",
                 "password_unrecoverable_warning" : "Vaše geslo se nikoli ne prenese na naše strežnike, zato v primeru pozabljenega gesla povrnitev gesla ni možna!",
                 "resend_link_title" : "Ne najdete vaše e-poštne kode?",
-                "resend_link_p1" : "Elektronsko spročilo bo poslano z naslova wallet@blockchain.info. Ne pozabite preveriti tudi mape za neželeno pošto (Spam, Junk mail). Če še vedno niste našli sporočila, kliknite spodnji gumb za ponovno pošiljanje.",
+                "resend_link_p1" : "Elektronsko sporočilo bo poslano z naslova wallet@blockchain.info. Ne pozabite preveriti tudi mape za neželeno pošto (Spam, Junk mail). Če še vedno niste našli sporočila, kliknite spodnji gumb za ponovno pošiljanje.",
                 "resend_link_btn" : "Ponovno pošlji e-sporočilo",
                 "resend_sms_link_title" : "Niste prejeli SMS kode?",
                 "resend_sms_link_p1" : "Prosim, preverite signal omrežja. Dostava SMS sporočil traja tudi do 10 minut. Če je minilo že več kot 10 minut, kliknite na gumb spodaj za ponovno pošiljanje SMS sporočila.",
@@ -781,11 +801,12 @@
                 "lost_password" : "Pozabljeno geslo",
                 "lost_password_p1" : "Vaša denarnica se šifrira v brskalniku preden podatki prispejo do nas, zato vam ne moremo pomagati pri povrnitvi pozabljenih gesel. Da bi se izognili izgubi finančnih sredstev zaradi izgubljenih gesel, je priporočeno, da si naredite papirnate varnostne kopije privatnih ključev vaše denarnice.",
                 "password_hints_btn" : "Namigi za geslo",
+                "forgot_password_btn" : "Pozabljeno geslo",
                 "need_help" : "Potrebujete pomoč?",
                 "need_help_p1" : "Preberite {0}",
                 "support_pages" : "Strani za podporo"
             },
-            "transactions" : {
+            "transactions": {
                 "header" : "Transakcije",
                 "sub_header" : "Pregled vaših nedavnih transakcij",
                 "compact" : "Skrčeno",
@@ -796,7 +817,7 @@
                 "escrow" : "Escrow",
                 "no_transactions" : "Vaše bitcoin transakcije bodo vidne tukaj, čim boste kako opravili"
             },
-            "send_coins" : {
+            "send_coins": {
                 "transaction_types" : "Tip transakcije",
                 "quick_send" : "Hitro pošiljanje",
                 "custom" : "Po meri",
@@ -820,8 +841,8 @@
                 "amount_help" : "Vnesite količino bitcoinov, ki jih želite poslati",
                 "send_payment" : "Pošlji plačilo",
                 "send_payment_tooltip" : "Kliknite tukaj za izvedbo plačila. Predogleda transakcije ne bo.",
-                "send_via_sms" : "Pošlji preko SMSa",
-                "send_via_sms_sub" : "Uporabite spodnji obrazec za pošiljanje bitcoinov preko SMSa.",
+                "send_via_sms" : "Pošlji preko SMS-a",
+                "send_via_sms_sub" : "Uporabite spodnji obrazec za pošiljanje bitcoinov preko SMS-a.",
                 "sms_number" : "SMS številka",
                 "sms_number_tooltip" : "Vnesite SMS številko osebe, ki ji želite poslati bitcoine.",
                 "sms_number_help" : "Vnesite SMS številko prejemnika.",
@@ -868,14 +889,14 @@
                 "pending" : "V čakanju",
                 "btcdice_header" : "Stavi z BTCDice",
                 "btcdice_sub" : "{0} - Izberi verjetnost, položi stavo in prejmi zmagovalni znesek nazaj v nekaj trenutkih.",
-                "send_via_facebook" : "Pošlji preko facebooka",
-                "send_via_facebook_sub" : "Uporabi spodnji obrazec za pošiljanje bitcoinov prijatelju na facebook-u.",
-                "facebook_help" : "Vnesi ime prejemnika na facebook-u",
+                "send_via_facebook" : "Pošlji preko Facebooka",
+                "send_via_facebook_sub" : "Uporabi spodnji obrazec za pošiljanje bitcoinov prijatelju na Facebooku.",
+                "facebook_help" : "Vnesi ime prejemnika na Facebooku",
                 "address_book" : "Imenik",
                 "address_book_sub" : "Imenik vsebuje seznam naslovov prejemnikov. Lahko ga uporabite za hrambo naslovov oseb, ki jih poznate, ali prodajalcev s katerimi pogosto poslujete.",
                 "add_new_entry" : "Dodaj nov vnos"
             },
-            "import_export" : {
+            "import_export": {
                 "advanced_warning_title" : "Opozorilo!",
                 "advanced_warning_sub" : "V tem delu aplikacije imate možnost spreminjati nekatere zapletene nastavitve. Priporočamo, da nadaljujete samo, če ste izkušen uporabnik bitcoina. Potrebno je, da razumete, kaj so zasebni ključi in kako so povezani z bitcoin naslovi.",
                 "advanced_warning_continue" : "Razumem.",
@@ -903,9 +924,9 @@
                 "import_paper_btn" : "Prečitaj s kamero",
                 "import_wallet_title" : "Uvoz denarnice",
                 "import_wallet_p1" : "Uvozite lahko ključe v različnih formatih.",
-                "import_wallet_formats" : {
-                    "aes" : "Varnostna kopija z blockchain.info, šifrirana z AES. (Šifrirana mora biti z istim geslom.)",
-                    "plain" : "Varnostna kopija z blockchain.info - čistopis v obliki JSON.",
+                "import_wallet_formats": {
+                    "aes" : "Varnostna kopija z Blockchain.info, šifrirana z AES. (Šifrirana mora biti z istim geslom.)",
+                    "plain" : "Varnostna kopija z Blockchain.info - čistopis v obliki JSON.",
                     "output_from" : "Izvoz iz {0}"
                 },
                 "import_keys_limit" : "Opozarjamo vas, da imate v denarnici lahko največ 400 ključev. Denarnice z veliko ključi lahko povzročijo večminutno neodzivnost brskalnika.",
@@ -927,7 +948,7 @@
                 "desktop_sync_step2_p1" : "Da omogočite komunikacijo med brskalnikom in namiznim odjemalcem, morate v datoteki bitcoin.conf omogočiti strežnik za bitcoin RPC. Če datoteka ne obstaja, jo morate ustvariti. Npr.:",
                 "desktop_sync_change_password" : "Nastavite uporabniško ime in geslo po lastni izbiri.",
                 "desktop_sync_step2_further_instructions" : "Po tem ko spremenite datoteko, zaustavite in ponovno zaženite bitcoin odjemalca. Za več informacij o nastavitvah bitcoin RPC glejte {0}.",
-                "rpc" : {
+                "rpc": {
                     "action" : "Dejanje",
                     "balance" : "Stanje",
                     "label" : "Oznaka",
@@ -941,21 +962,24 @@
                     "rpc_username" : "Uporabniško ime za RPC:",
                     "_continue" : "Nadaljuj"
                 },
-                "import_backup_table" : {
+                "import_backup_table": {
                     "file_name" : "Ime datoteke",
                     "last_modified" : "Zadnjič spremenjena",
                     "size" : "Velikost",
                     "action" : "Dejanje"
                 }
             },
-            "modals" : {
+            "modals": {
                 "cancel" : "Prekliči",
                 "close" : "Zapri",
                 "continue_btn" : "Nadaljuj",
                 "save" : "Shrani",
                 "send" : "Pošlji",
                 "second_password_needed" : "Potrebno je še drugo geslo",
-                "second_password_p1" : "Da bi bila denarnica v celoti dešifrirana, morate vpisati še drugo geslo. Nikoli ne vnašajte drugega gesla z računalnika, ki mu ne zaupate. Da nekoliko zmanjšate možnost neželjenega beleženja znakov s tipkovnice, lahko uporabite virtualno tipkovnico.",
+                "second_password_p1" : "Da bi bila denarnica v celoti dešifrirana, morate vpisati še drugo geslo. Nikoli ne vnašajte drugega gesla z računalnika, ki mu ne zaupate. Da nekoliko zmanjšate možnost neželenega beleženja znakov s tipkovnice, lahko uporabite virtualno tipkovnico.",
+                "main_password_needed" : "Vnesite glavno geslo",
+                "main_password" : "Glavno geslo",
+                "main_password_p1" : "Za nadaljevanje morate vnesti glavno geslo. Prosimo, vnesite ga pazljivo; ob napačnem vnosu boste morda odjavljeni iz denarnice.",
                 "transaction_information" : "Informacije o transakciji",
                 "first_seen" : "Prvič se je pojavila",
                 "last_seen" : "Zadnjč se je pojavila",
@@ -977,7 +1001,7 @@
                 "message_placeholder" : "Vnesite sporočilo, ki ga želite podpisati.",
                 "signature" : "Podpis:",
                 "verify_message" : "Preveri sporočilo",
-                "verify_message_p1" : "S tem orodjem lahko preverite, ali je določeno sporočilo podpisal lastnik določega bitcoin naslova",
+                "verify_message_p1" : "S tem orodjem lahko preverite, ali je določeno sporočilo podpisal lastnik določenega bitcoin naslova",
                 "verify_message_placeholder" : "Vnesite sporočilo",
                 "verify_signature_placeholder" : "Vnesite podpis, ki ga želite preveriti",
                 "verify_result" : "To sporočilo je bilo podpisano z naslovom {0}. <br /> Ali je to naslov, ki ste ga pričakovali?",
@@ -989,11 +1013,11 @@
                 "add_address" : "Dodaj naslov",
                 "address_not_synced" : "Naslov ni shranjen",
                 "address_not_synced_p1" : "To opozorilo ste dobili, ker ste kopirali naslov, ki še ni bil sinhroniziran za odložiščem.",
-                "address_not_synced_p1" : "Ta naslov še ni shranjen na na naš stržnik in ga lahko izgubite, ko boste zapustili to stran. ",
+                "address_not_synced_p1" : "Ta naslov še ni shranjen na na naš strežnik in ga lahko izgubite, ko boste zapustili to stran. ",
                 "watch_only_warning" : "Opozorilo, ta naslov je le za opazovanje. ",
                 "watch_only" : "opazovan",
                 "watch_only_warning_p1" : "To opozorilo ste dobili, ker ste v odložišče kopirali {0} naslov.",
-                "watch_only_warning_p2" : "Da je naslov {0}, pomeni, da lahko transkacije na njem le opazujete, ne morete pa sredstev trošiti. Če zanj nimate nekje shranjenega zasebnega ključa, potem niste lastnik sredstev na tem naslovu.",
+                "watch_only_warning_p2" : "Da je naslov {0}, pomeni, da lahko transakcije na njem le opazujete, ne morete pa sredstev trošiti. Če zanj nimate nekje shranjenega zasebnega ključa, potem niste lastnik sredstev na tem naslovu.",
                 "watch_only_warning_p3" : "Če nimate papirne denarnice ali varnostne kopije, ne shranjujte bitcoinov na ta naslov. Prav tako ne ne uporabljajte tega naslova za nakazila od drugih uporabnikov.",
                 "add_watch_only_address" : "Dodaj opazovan bitcoin naslov",
                 "add_watch_only_address_p1" : "Prosimo, potrdite, da želite dodati {0} naslov {1}.",
@@ -1008,11 +1032,11 @@
                 "sweep_keys_p1" : "Počistiti pomeni premakniti vsa razpoložljiva sredstva iz enega ali več naslovov na drug naslov. Prosimo, izberite naslov, na katerega bi radi počistili izbrane naslove (stanje: {0}).",
                 "sweep_to" : "Počisti na:",
                 "ask_for_anonymous" : "Pošljite anonimno?",
-                "ask_for_anonymous_p1" : "Naš bitcoin mešalnik potrebuje vaše bitcoine. Izvedite to transakcijo ananimno in pridobite bonus v višini {0}%</b> ({1} bitcoinov bo poslano nazaj na naslov, s katerega pošiljate). Transakcija bo izvedena z zakasnitvijo približno {2}.",
-                "ask_for_anonymous_warning" : "Zavrnite, če pričakujete kako plačilo nazaj na naslov, iz katerega izvira prvotna transakcija. Anonimne transkacije so nezdružljive s SatoshiDICE, BitLotto in številnimi drugimi bitcoin igrami.",
+                "ask_for_anonymous_p1" : "Naš bitcoin mešalnik potrebuje vaše bitcoine. Izvedite to transakcijo anonimno in pridobite bonus v višini {0}%</b> ({1} bitcoinov bo poslano nazaj na naslov, s katerega pošiljate). Transakcija bo izvedena z zakasnitvijo približno {2}.",
+                "ask_for_anonymous_warning" : "Zavrnite, če pričakujete kako plačilo nazaj na naslov, iz katerega izvira prvotna transakcija. Anonimne transakcije so nezdružljive s SatoshiDICE, BitLotto in številnimi drugimi bitcoin igrami.",
                 "never_ask_again" : "Ne sprašuj več.",
                 "continue_without" : "Nadaljuj brez",
-                "miners_fee_recommended" : "Pripororočljiva je provizija za rudarjenje",
+                "miners_fee_recommended" : "Priporočljiva je provizija za rudarjenje",
                 "miners_fee_recommended_p1" : "Ta transakcija ima nizko prioriteto. Priporočljivo je, da vključite vsaj 0,005 BTC provizije, da zagotovite obdelavo.",
                 "miners_fee_recommended_warning" : "Če ne vključite provizije, bo lahko trajalo dolgo, da bo transakcija potrjena. Vsa sredstva vam bodo vrnjena v približno 24 urah.",
                 "continue_without_fee" : "Nadaljuj brez provizije",
@@ -1021,8 +1045,8 @@
                 "password_change_p1" : "Vaše geslo bo veljavno takoj. Geslo si zabeležie, saj ga ni možno povrniti, če ga pozabite. Če imate stare varnostne kopije, jih bo možno dešifrirati s starim geslom, zato je priporočljivo, da stare varnostne kopije po spremembi gesla izbrišete.",
                 "update_password" : "Shrani geslo",
                 "creating_transaction" : "Transakcija se ustvarja",
-                "created_offline_p1" : "Vaša transkacija je bila uspešno ustvarjena, vendar še ni objavljena v vrstniškem omrežju.",
-                "offline_instructions" : "Za zaključek transkacija odprite {0}. Spodnje besedilo kopirajte in ga prilepite v območje za besedilo in pritisnite Pošlji.</p>",
+                "created_offline_p1" : "Vaša transakcija je bila uspešno ustvarjena, vendar še ni objavljena v vrstniškem omrežju.",
+                "offline_instructions" : "Za zaključek transakcije odprite {0}. Spodnje besedilo kopirajte in ga prilepite v območje za besedilo in pritisnite Pošlji.</p>",
                 "signing_please_wait" : "Prosimo počakajte. Podpisujem vhod {0} od {1}...",
                 "please_confirm" : "Prosimo potrdite, da res želite storiti to: {0}",
                 "please_check_details" : "Prosimo, preverite spodnje podatke:",
@@ -1057,11 +1081,14 @@
                 "scan_using_webcam" : "Prečitaj s spletno kamero",
                 "enter_private_key" : "Vnesite zasebni ključ"
             },
-            "errors" : {
+            "errors": {
                 "account_locked" : "Ta račun je zaklenjen",
+                "invalid_sms_number" : "Neveljavna SMS-številka",
+                "wallet_already_exists" : "Denarnica že obstaja",
                 "login_attempts_left" : "Še {0} poskusov za prijavo",
                 "account_locked_for_minutes" : "Račun je zaklenjen za {0} minut.",
-                "unknown_identifier" : "Naznan identifikator. Prosimo preverite, če ste ga vnesli pravilno.",
+                "invalid_skype_username" : "Neveljavno uporabniško ime za Skype",
+                "unknown_identifier" : "Neznan identifikator. Prosimo preverite, če ste ga vnesli pravilno.",
                 "authentication_code_incorrect" : "Overitvena koda ni pravilna",
                 "authentication_code_used_already" : "Ta overitvena koda je bila že uporabljena",
                 "authentication_code_invalid" : "Neveljavna overitvena koda",
@@ -1095,7 +1122,7 @@
                 "error_saving_wallet" : "Napaka pri shranjevanju denarnice.",
                 "checksum_invalid" : "Napaka pri preverjanju kontrolne vsote.",
                 "error_updating_ip_lock" : "Napaka pri shranjevanju nastavitev zaklepa na IP-naslov.",
-                "checksum_reread_failed" : "Denarnica je bila shranjenja, vendar se kontronlna vsota po ponovnem branju ne ujema! To je resna napaka; prosimo, javite jo na {0}",
+                "checksum_reread_failed" : "Denarnica je bila shranjena, vendar se kontrolna vsota po ponovnem branju ne ujema! To je resna napaka; prosimo, javite jo na {0}",
                 "invalid_ip_address" : "Neveljaven IP-naslov.",
                 "error_updating_ip_address" : "Napaka pri shranjevanju IP-naslova.",
                 "error_updating_notification_settings" : "Napaka pri shranjevanju nastavitev obveščanja.",
@@ -1103,6 +1130,7 @@
                 "error_generating_google_secret" : "Napaka pri tvorbi skrivne kode za Google Authenticator.",
                 "error_updating_skype" : "Napaka pri shranjevanju uporabniškega imena za Skype.",
                 "invalid_email" : "Neveljaven e-naslov.",
+                "please_verify_email" : "Prosimo, overite svoj elektronski naslov v Nastavitvah računa.",
                 "error_updating_email" : "Napaka pri shranjevanju e-naslova.",
                 "error_updating_password_hint" : "Napaka pri shranjevanju namiga za geslo.",
                 "error_updating_yubikey" : "Napaka pri shranjevanju nastavitev za Yubikey.",
@@ -1121,22 +1149,25 @@
                 "error_alias_taken" : "Vzdevek je že zaseden.",
                 "unknown_currency_code" : "Neznana valutna koda.",
                 "error_updating_local_currency" : "Napaka pri shranjevanju nastavitve lokalne valute.",
-                "error_sending_wallet_backup" : "Napaka pri pošljanju varnostne kopije vaše denarnice.",
+                "error_sending_wallet_backup" : "Napaka pri pošiljanju varnostne kopije vaše denarnice.",
                 "unknown_language_code" : "Neznana jezikovna koda.",
                 "error_updating_language" : "Napaka pri shranjevanju nastavitve jezika.",
                 "invalid_version" : "Neveljavna verzija.",
                 "error_updating_logging_level_updated" : "Napaka pri shranjevanju stopnje beleženja.",
-                "two_factor_authentication_not_enabled" : "Dvostopenjska avtentikacija na vašem računu ni omogočena."
+                "two_factor_authentication_not_enabled" : "Dvostopenjska overitev na vašem računu ni omogočena.",
+                "reminder_recently_sent" : "Opomnik je bil pred kratkim poslan."
             },
-            "success" : {
+            "success": {
+                "logged_out" : "Odjavili ste se.",
                 "confirmation_email_sent" : "Potrditveno e-sporočilo poslano",
+                "confirmation_sms_sent" : "Potrditveni SMS poslan.",
                 "unsubscribed" : "Na vaš e-naslov ne boste več prejemali obvestil",
-                "password_hints_sent" : "Namigi za gesla posani.",
+                "password_hints_sent" : "Namigi za gesla poslani.",
                 "saved_to_dropbox" : "Denarnica je bila uspešno shranjena v Dropbox. To okno sedaj lahko zaprete.",
                 "saved_to_google_drive" : "Denarnica je bila uspešno shranjena v Google Drive. To okno lahko sedaj zaprete.",
                 "two_factor_authentication_request_approved" : "Zahteva za ponastavitev dvostopenjske overitve odobrena. Zahtevo bomo v kratkem pregledali.",
                 "sms_code_sent" : "Koda za preverjanje poslana po SMS.",
-                "email_code_resent" : "E-poštna koda je bila ponovno poslana. Preglejte nabiralnik za neželjeno pošto! Vsak ročni zahtevek za e-sporočilo štejemo kot neuspešno prijavo.",
+                "email_code_resent" : "E-poštna koda je bila ponovno poslana. Preglejte nabiralnik za neželeno pošto! Vsak ročni zahtevek za e-sporočilo štejemo kot neuspešno prijavo.",
                 "email_code_sent" : "E-sporočilo za dvostopenjsko prijavo poslano.",
                 "success" : "Končano.",
                 "create_wallet_success" : "Nova denarnica je bila uspešno shranjena.",
@@ -1145,7 +1176,7 @@
                 "updated_ip_address" : "IP-naslov shranjen.",
                 "notification_settings_updated" : "Nastavitve obveščanja shranjene.",
                 "two_factor_authentication_updated" : "Nastavitev dvostopenjske overitve shranjena.",
-                "logging_level_updated" : "Stopnja beležanje shranjena.",
+                "logging_level_updated" : "Stopnja beleženja shranjena.",
                 "google_secret_generated" : "Ustvarjeno skrivno geslo za Google.",
                 "skype_updated" : "Uporabniško ime za Skype shranjeno.",
                 "email_updated" : "E-naslov shranjen.",
@@ -1164,12 +1195,12 @@
                 "two_factor_reset_request_submitted" : "Zahtevek za ponastavitev dvostopenjske overitve je že bil poslan."
             }
         },
-        "api_index" : {
+        "api_index": {
             "title" : "Programski vmesniki za razvijalce (API) - Blockchain.info",
             "meta_description" : "Blockchain.info nudi programski vmesnik (API) za razvijalce in trgovce.",
             "header" : "Programski vmesnik za razvijalce",
             "sub_header" : "Orodja za razvijalce za pridobivanje podatkov o verigi blokov",
-            "abuse_notice" : "Storitve, ki jih nudi blockchain.info, so brezplačne. Prosimo, ne zlorabljajte jih.",
+            "abuse_notice" : "Storitve, ki jih nudi Blockchain.info, so brezplačne. Prosimo, ne zlorabljajte jih.",
             "complete_merchant_solution" : "Celostna rešitev za trgovce.",
             "bitpay_description" : "Blockchain toplo priporoča Bitpay - vodilno svetovno podjetje v poslovnih rešitvah za bitcoin. Bitpay ponuja celostno rešitev za spletne nakupe, ki vključuje avtomatsko pretvorbo v lokalne valute in integracijo z mnogimi programskimi rešitvami za spletne trgovine.",
             "welcome" : "Razvijalci, dobrodošli!",
@@ -1183,6 +1214,8 @@
             "receive_payments" : "Prejemanje plačil",
             "receive_payments_description" : "Neverjetno enostaven način za sprejemanje BTC na spletnih straneh.",
             "send_payments" : "Pošiljanje plačil",
+            "blockchain_wallet_api" : "Programski vmesnik storitve Blockchain.info",
+            "blockchain_wallet_api_description" : "Programski vmesnik za prejemanje in pošiljanje plačil v vaši denarnici",
             "send_description" : "Enostaven JSON vmesnik za programsko pošiljanje in prejemanje plačil z računom Moja Denarnica.",
             "json_rpc" : "JSON RPC, združljiv z bitcoin-qt",
             "json_rpc_description" : "Blockchain.info deluje kot strežnik za protokol bitcoind RPC; na ta način lahko trgovici upravljajo s svojim računom Moja Denarnica.",
@@ -1193,7 +1226,7 @@
             "data_api_description" : "Podatki o transakcijah in blokih v formatu JSON. Skoraj vsi podatki, ki jih lahko vidite na tem spletišču, so vam na voljo v formatu JSON.",
             "simple_query_api" : "Enostavni programski vmesnik",
             "simple_query_api_description" : "Enostaven tekstoven vmesnik za dostop do podatkov v verigi blokov. Združljiv z",
-            "websocket_description" : "Pretočni kanal prek vtičnice (socket) z nizko zakasnitvijo, ki nudi podatke o novih blokih in transakcijah. Naročite se na obvestila o blokih, transakcijah ali naslovin in prejmali boste podatke v obliki JSON takoj ob ustreznih dogodkih.",
+            "websocket_description" : "Pretočni kanal prek vtičnice (socket) z nizko zakasnitvijo, ki nudi podatke o novih blokih in transakcijah. Naročite se na obvestila o blokih, transakcijah ali naslovih in prejemali boste podatke v obliki JSON takoj ob ustreznih dogodkih.",
             "market_data" : "Tržni podatki",
             "exchange_rates" : "Menjalni tečaji",
             "exchange_rates_data" : "Podatki o valutnih vrednostih z največjih menjalnic",
@@ -1206,12 +1239,12 @@
             "requests_in_5_minutes" : "Zahtevkov v 5 minutah:",
             "maximum" : "Omejitev"
         },
-        "ip_log" : {
+        "ip_log": {
             "title" : "Dnevnik bitcoin vozlišč",
             "meta_description" : "Seznam vseh IP-naslovov, ki so se povezali v bitcoin omrežje",
             "total_unique" : "Skupno število enoličnih IP-naslovov:",
             "header" : "Dnevnik bitcoin vozlišč",
-            "sub_header" : "Seznam bitcoin vozlišč (odjemalcev), s katerimi je bil blockchain.info povezan v preteklosti.",
+            "sub_header" : "Seznam bitcoin vozlišč (odjemalcev), s katerimi je bil Blockchain.info povezan v preteklosti.",
             "search_placeholder" : "IP-naslov ali ime gostitelja",
             "search" : "Išči",
             "port" : "Vrata",
@@ -1221,7 +1254,7 @@
             "previous" : "Nazaj",
             "next" : "Naprej"
         },
-        "relayed_by" : {
+        "relayed_by": {
             "title" : "IP-naslovi, povezani z bitcoin naslovom",
             "associated_ips" : "Povezani IP-naslovi",
             "ip_address" : "IP-naslov",
@@ -1229,7 +1262,7 @@
             "country" : "Država",
             "warning" : "Ti IP-naslovi so bili prvi, ki so posredovali posamezne transakcije v dobro ali breme izbranega naslova. To ne pomeni nujno, da predstavljajo lastnika tega naslova."
         },
-        "about_us" : {
+        "about_us": {
             "title" : "O nas - Blockchain.info",
             "about_us" : "O nas",
             "sub_header" : "Kdo smo in kaj počnemo",
@@ -1237,13 +1270,13 @@
             "privacy" : "Zasebnost",
             "availability" : "Dostopnost",
             "about_p1" : "Blockchain.info je najbolj priljubljena denarnica za bitcoin in najbolj priljubljen raziskovalec blokov. Oktobra 2012 smo imeli prek 10.000 obiskovalcev dnevno in skupno prek 30.000 uporabnikov.",
-            "security_p1" : "Naša varnostna politika je, da na naših strežnikih hranimo kar se da malo vaših podatkov za primer, da kdo vdre v naše strežnike. Ne hranimo ali prestrezamo nobenih gesel ali informacij o vas, ki bi vas identificirale; vaša denarnica je pri nas vedno shranjena šifrirana. Blockchain.info teče na naši lastni strojni opremi, do katere ima dostop samo naš administrator. Redno izvajamo varnostne teste tako naše kode kot tudi strežnikov; to vključuje pregled spletišča z orodjem nmap, kar omogoča zgodnje zaznavanje morebitnih ranjlivosti. Do spletišča lahko vedno dostopate prek protokola HTTPS; strežniško potrdilo je overila avtoriteta GoDaddy.",
+            "security_p1" : "Naša varnostna politika je, da na naših strežnikih hranimo kar se da malo vaših podatkov za primer, da kdo vdre v naše strežnike. Ne hranimo ali prestrezamo nobenih gesel ali informacij o vas, ki bi vas identificirale; vaša denarnica je pri nas vedno shranjena šifrirana. Blockchain.info teče na naši lastni strojni opremi, do katere ima dostop samo naš administrator. Redno izvajamo varnostne teste tako naše kode kot tudi strežnikov; to vključuje pregled spletišča z orodjem nmap, kar omogoča zgodnje zaznavanje morebitnih ranljivosti Do spletišča lahko vedno dostopate prek protokola HTTPS; strežniško potrdilo je overila avtoriteta GoDaddy.",
             "privacy_p1" : "Vaših obiskov ne beležimo na noben način, le štejemo jih. Ne beležimo nobenih podatkov v zvezi s transakcijami, izvedenimi v Moji Denarnici, ali bitcoin naslovi, ki jih uporabljate v Moji Denarnici. Nobenih elektronskih naslovov, uporabniških imen za Skype ali drugih osebnih podatkov nikoli ne delimo s tretjimi osebami ali oglaševalci.",
             "availability_p1" : "Vlagamo veliko truda v naš cilj, ki je 99,5-odstotna dostopnost strežnika. Če bomo vnaprej vedeli za nedostopnost zaradi vzdrževanja, bomo uporabnike obvestili po elektronski pošti.",
             "up_time" : "Čas dostopnosti",
             "response_time" : "Odzivni čas",
-            "up_time_alt" : "Čas dostopnosti blockchain.info: zadnjih 30 dni",
-            "response_time_alt" : "Odzivni čas blockchain.info: zadnjih 30 dni",
+            "up_time_alt" : "Čas dostopnosti Blockchain.info: zadnjih 30 dni",
+            "response_time_alt" : "Odzivni čas Blockchain.info: zadnjih 30 dni",
             "view_website_status" : "Prikaži stanje spletišča",
             "company_footer" : "Lastnik in operater spletišča Blockchain.info je podjetje Qkos Services Ltd, registrirano v Veliki Britaniji pod številko 05106799.",
             "privacy_policy" : "Politika zasebnosti",
@@ -1254,9 +1287,9 @@
             "support" : "Podpora:",
             "tel" : "Tel.:",
             "media" : "Grafike",
-            "media_sub_header" : "Grafike in logitipi"
+            "media_sub_header" : "Grafike in logotipi"
         },
-        "block_height" : {
+        "block_height": {
             "title" : "Bloki na višini {0}",
             "meta_description" : "Bloki na višini {0} v verigi blokov",
             "header" : "Bločna višina {0}",
@@ -1282,7 +1315,7 @@
             "no_blocks" : "Na tej višini ni blokov",
             "error_fetching_blocks" : "Pri branju blokov je prišlo do neznane napake."
         },
-        "blocks" : {
+        "blocks": {
             "title1" : "Bloki rudarja {0}",
             "title2" : "Boki, najdeni ",
             "blocks_found_by" : "Bloki, ki jih je nedavno našel {0}",
@@ -1293,15 +1326,15 @@
             "time" : "Čas",
             "hash" : "Zgoščena vrednost",
             "relayed_by" : "Posrednik",
-            "transactions" : "Transakije",
+            "transactions" : "Transakcije",
             "size" : "Velikost (KB)",
             "main_chain" : "Glavna veriga",
             "orphaned" : "Osirotel"
         },
-        "connected_nodes" : {
+        "connected_nodes": {
             "title" : "Seznam povezanih vozlišč",
             "header" : "Povezana vozlišča",
-            "sub_header" : "Seznam vozlišč, s katerimi je povezan blockchain.info",
+            "sub_header" : "Seznam vozlišč, s katerimi je povezan Blockchain.info",
             "total_connected" : "Število povezanih: {0}",
             "ip_address" : "IP-naslov",
             "port" : "Vrata",
@@ -1309,7 +1342,7 @@
             "location" : "Kraj",
             "hostname" : "Ime gostitelja"
         },
-        "notifications" : {
+        "notifications": {
             "payment_received_title" : "Plačilo prejeto",
             "payment_sent_title" : "Plačilo poslano",
             "payment_received_body" : "Prejeli ste plačilo v dobro {0} (približno {1})",
@@ -1318,7 +1351,7 @@
             "wallet_login" : "Prijava",
             "notifications_limit" : "Omejitev števila obvestil",
             "notifications_limit_body" : "Število obvestil je doseglo zgornjo mejo. Obvestila so onemogočena za naslednjih 24 ur.",
-            "malformed_url" : "URL za obvestila je napačne oblike. Obvestila so onemogočna.",
+            "malformed_url" : "URL za obvestila je napačne oblike. Obvestila so onemogočena",
             "confirmation_code_title" : "Potrditvena koda za Mojo Denarnico",
             "wallet_welcome_title" : "Dobrodošli v Moji Denarnici",
             "password_hints_title" : "Moja Denarnica: namigi za gesla",
@@ -1327,18 +1360,18 @@
             "sms_authentication_code" : "Moja Denarnica - koda za overitev: {0}",
             "two_factor_reset_title" : "Ponastavitev dvostopenjske overitve"
         },
-        "maintenance" : {
-            "title" : "Vrdrževalna dela v teku - Blockchain.info",
+        "maintenance": {
+            "title" : "Vzdrževalna dela v teku - Blockchain.info",
             "header" : "V kratkem bomo spet dostopni",
             "p1" : "Blockchain.info je trenutno nedostopen zaradi vzdrževanja. Stanje lahko vidite na {0}. Opravičujemo se za morebitne nevšečnosti."
         },
-        "error_page" : {
+        "error_page": {
             "title" : "Napaka {0} - Blockchain.info",
             "header" : "Napaka {0}",
             "error_404" : "Stran ne obstaja. Prosimo, preverite, ali ste vpisali pravilen naslov.",
             "p1" : "Če menite, da je to naša napaka, nas prosimo obvestite na {0}."
         },
-        "unconfirmed" : {
+        "unconfirmed": {
             "title" : "{0} Nepotrjenih transakcij",
             "meta_description" : "Seznam nepotrjenih bitcoin transakcij",
             "header" : "{0} Nepotrjenih transakcij",
@@ -1352,7 +1385,7 @@
             "connected" : "Povezan",
             "new_transaction" : "Nova transakcija"
         },
-        "double_spends" : {
+        "double_spends": {
             "title" : "Dvojna trošenja - Blockchain.info",
             "header" : "Dvojna trošenja",
             "sub_header" : "Dvojna trošenja, ki smo jih zaznali med zadnjimi 500,000 transakcijami (10-minutni predpomnilnik)",
@@ -1360,7 +1393,7 @@
             "orphaned" : "Osirotela",
             "included_in_block" : "V bloku {0}"
         },
-        "webgl_globe" : {
+        "webgl_globe": {
             "title" : "Web GL Globus bitcoin vozlišč - Blockchain.info",
             "online_now" : "Trenutno povezan",
             "past_48_hours" : "Zadnjih 48 ur",
@@ -1369,7 +1402,7 @@
             "header" : "Globalna bitcoin vozlišča",
             "home" : "Domov"
         },
-        "propagation" : {
+        "propagation": {
             "title" : "Širjenje po bitcoin omrežju - Blockchain.info",
             "disconnected" : "Brez povezave",
             "connected" : "Povezan",
@@ -1389,19 +1422,19 @@
             "network_percent" : "Delež omrežja",
             "mining_pools" : "Rudarska združenja"
         },
-        "ip_info" : {
+        "ip_info": {
             "title" : "Transakcije, posredovane prek {0} - Blockchain.info",
             "meta_description" : "Transakcije, ki jih je posredoval IP-naslov {0}",
             "header" : "Transakcije, posredovane prek {0}",
             "sub_header" : "Transakcije, ki jih je prvi posredoval {0}",
             "next_page" : "Naslednja stran"
         },
-        "largest_transactions" : {
+        "largest_transactions": {
             "title" : "Največje transakcije - Blockchain.info",
-            "meta_description" : "Seznam nedavnih transakcij z največjim zneskom prenešenih bitcoinov",
+            "meta_description" : "Seznam nedavnih transakcij z največjim zneskom prenesenih bitcoinov",
             "header" : "Največje nedavne transakcije"
         },
-        "orphaned_blocks" : {
+        "orphaned_blocks": {
             "title" : "Osiroteli bloki - Blockchain.info",
             "meta_description" : "Osirotel blok je veljaven blok, ki ni del glavne verige blokov.",
             "header" : "Osiroteli bloki",
@@ -1413,19 +1446,19 @@
             "number_of_transactions" : "Število transakcij",
             "relayed_by" : "Posrednik"
         },
-        "payment_request" : {
+        "payment_request": {
             "title" : "Zahtevek za plačilo {0}",
             "please_send" : "Prosimo, pošljite plačilo na naslov",
             "pay_me" : "Plačajte mi z bitcoinom",
             "p1" : "Ta obrazec lahko uporabite za to, da koga zaprosite za plačilo v bitcoinu ali pa zgolj da pokažete, da ste lastnik bitcoin naslova.",
             "amount" : "Znesek:"
         },
-        "donation_button" : {
+        "donation_button": {
             "title" : "Ustvari gumb za darovanje",
             "p1" : "Sledečo kodo vstavite v zaglavje (head) spletne strani.",
             "p2" : "Sledečo HTML-kodo vstavite na mesto, kjer želite imeti gumb."
         },
-        "pools" : {
+        "pools": {
             "title" : "Porazdelitev moči zgoščevanja - Blockchain.info",
             "meta_description" : "Kolačni grafikon, ki prikazuje porazdelitev moči zgoščevanja med največjimi rudarskimi združenji",
             "header" : "Porazdelitev moči zgoščevanja",
@@ -1440,21 +1473,21 @@
             "count" : "Število",
             "unknown_blocks" : "Bloki neznanih rudarjev"
         },
-        "popular_addresses" : {
-            "title" : "100 nabolj priljubljenih naslovov - Blockchain.info",
+        "popular_addresses": {
+            "title" : "100 najbolj priljubljenih naslovov - Blockchain.info",
             "meta_description" : "Seznam 100 najbolj priljubljenih bitcoin naslovov glede na število izhodov",
             "header" : "Priljubljeni naslovi",
-            "sub_header" : "Najbolj priljubljeni bitcoin naslovoi glede na število izhodov",
+            "sub_header" : "Najbolj priljubljeni bitcoin naslovi glede na število izhodov",
             "address" : "Naslov",
             "number_of_outputs" : "Št. izhodov"
         },
-        "push_tx" : {
+        "push_tx": {
             "title" : "Oddaj transakcijo - Blockchain.info",
             "header" : "Oddaj transakcijo",
             "p1" : "Tu lahko prilepite surovo transakcijo v šestnajstiškem kodiranju (znaki 0-9 in A-F). Preverili bomo, da je veljavna, in jo poslali v omrežje.",
-            "submit" : "Oddaj transaskcijo"
+            "submit" : "Oddaj transakcijo"
         },
-        "rejected" : {
+        "rejected": {
             "title" : "Zavrnjene transakcije in bloki - Blockchain.info",
             "header" : "Zavrnjeni elementi",
             "sub_header" : "Transakcije in bloki, ki so jih naša vozlišča zavrnila",
@@ -1462,28 +1495,28 @@
             "reason" : "Razlog",
             "time" : "Čas"
         },
-        "startup_message" : {
+        "startup_message": {
             "title" : "Nalaganje - Blockchain.info",
             "header" : "Spletišče se nalaga...",
             "p1" : "Na voljo bomo čez nekaj sekund; morda celo z novimi funkcionalnostmi."
         },
-        "strange_transactions" : {
+        "strange_transactions": {
             "title" : "Nenavadne transakcije - Blockchain.info",
             "meta_description" : "Seznam transakcij z nestandardnimi izhodi",
             "header" : "Nenavadne transakcije",
             "sub_header" : "Transakcije z izhodi, iz katerih nismo uspeli izpeljati bitcoin naslovov"
         },
-        "hub_nodes" : {
+        "hub_nodes": {
             "title" : "Zvezdišča bitcoin omrežja - Blockchain.info",
-            "meta_description" : "IP-naslovi bitcoin vozlišč, ki posredujejo največ transakcij na blockchain.info",
+            "meta_description" : "IP-naslovi bitcoin vozlišč, ki posredujejo največ transakcij na Blockchain.info",
             "header" : "Zvezdišča",
-            "sub_header" : "Prikazuje vozlišča, ki kot prvi posredniki posredujejo največ transakcij na blockchain.info. Ta vozlišča so močno povezana in so običajno centralna vozlišča rudarjev ali trgovcev.",
+            "sub_header" : "Prikazuje vozlišča, ki kot prvi posredniki posredujejo največ transakcij na Blockchain.info. Ta vozlišča so močno povezana in so običajno centralna vozlišča rudarjev ali trgovcev.",
             "ip_address" : "IP-naslov",
             "relay_count" : "Število posredovanj",
             "location" : "Kraj",
             "hostname" : "Ime gostitelja"
         },
-        "tx_tree" : {
+        "tx_tree": {
             "title" : "Diagram transakcij za {0} - Blockchain.info",
             "meta_description" : "Drevesna ponazoritev izhodov za transakcijo {0}",
             "header" : "Diagram transakcije",
@@ -1492,46 +1525,46 @@
             "no_clustering" : "Brez združevanja",
             "cluster_by_address" : "Združi po naslovu"
         },
-        "emails" : {
+        "emails": {
             "your_wallet_identifier" : "Identifikator vaše denarnice:",
             "top_tip" : "Namig",
             "tip_backup" : "Za varnostne kopije uporabite Dropbox. Je brezplačen, hiter in enostaven za uporabo.",
             "tip_reversible" : "To plačilo lahko pošiljatelj stornira, dokler ga prejemnik ne prevzame.",
-            "account_locked" : {
+            "account_locked": {
                 "header" : "Račun zaklenjen",
                 "p1" : "Prišlo je do nekaj neuspešnih poskusov prijave v vaš račun Moja Denarnica. Za vašo zaščito je vaš račun zaklenjen in prijava onemogočena do {0}.",
                 "p2" : "Če teh neuspešnih poskusov niste izvedli sami, priporočamo, da spremenite svoje geslo takoj, ko bo vaš račun spet dostopen. Če ste zelo zaskrbljeni glede tega, stopite v stik z nami in podaljšali bomo zaklep vašega računa."
             },
-            "confirmation_code" : {
+            "confirmation_code": {
                 "header" : "Potrebna je potrditev",
                 "p1" : "Prišlo je do poskusa prijave v vaš račun z IP-naslova {0}. Za dostop do vašega računa vpišite spodnjo kodo. Če se s tega IP-naslova niste skušali prijaviti vi, lahko to sporočilo prezrete."
             },
-            "wallet_backup" : {
+            "wallet_backup": {
                 "header" : "Varnostna kopija denarnice",
                 "p1" : "V prilogi tega sporočila vam pošiljamo varnostno kopijo vaše denarnice, šifrirano z AES. V njej je vse, kar potrebujete za dostop do svojih sredstev. Svojo denarnico lahko iz te datoteke obnovite kadarkoli s storitvijo {0} ali s pomočjo namiznega odjemalca {1}."
             },
-            "two_factor_reset_request" : {
+            "two_factor_reset_request": {
                 "header" : "Zahtevek za ponastavitev dvostopenjske overitve",
                 "p1" : "Prejeli smo zahtevo, da se z vašega računa odstrani dvostopenjska overitev:",
                 "p2" : "Če ste zahtevo oddali vi, jo prosimo odobrite s klikom na tole povezavo:",
                 "p3" : "Če zahteve NISTE oddali vi, prosimo ZAVRNITE to zahtevo s klikom na tole povezavo:",
                 "p4" : "Možno je, da nekdo skuša pridobiti nepooblaščen dostop do vaše denarnice. Prosimo, ne prezrite tega sporočila."
             },
-            "password_hints" : {
-                "header" : "Namigi za gesla v Moji Dearnici",
+            "password_hints": {
+                "header" : "Namigi za gesla v Moji Denarnici",
                 "p1" : "To elektronsko sporočilo smo vam poslali, ker smo prejeli zahtevo za ogled namigov za gesla.",
                 "main_hint" : "Namig za glavno geslo:",
                 "second_hint" : "Namig za drugo geslo:"
             },
-            "tx" : {
+            "tx": {
                 "header_sent" : "Obvestilo o prometu v breme",
                 "header_received" : "Obvestilo o prometu v dobro",
                 "sent_p1" : "Izvedeno je bilo plačilo sredstev iz vaše denarnice.",
                 "received_p1" : "V denarnico ste prejeli plačilo."
             },
-            "welcome" : {
+            "welcome": {
                 "header" : "Dobrodošli v storitvi Moja Denarnica",
-                "p1" : "To elektronsko sporočilo vsebuje pomemebne podatke o vaši bitcoin denarnici. Hranite ga varno in ločeno od gesla svoje denarnice.",
+                "p1" : "To elektronsko sporočilo vsebuje pomembne podatke o vaši bitcoin denarnici. Hranite ga varno in ločeno od gesla svoje denarnice.",
                 "login_link" : "Povezava za prijavo:",
                 "notifications" : "Obveščanje:",
                 "alias" : "Vzdevek:",
@@ -1540,7 +1573,7 @@
                 "notifications_disabled" : "Obveščanje je izklopljeno"
             }
         },
-        "deposit" : {
+        "deposit": {
             "phone_sms" : "Telefon / SMS",
             "_continue" : "Nadaljuj",
             "back" : "Nazaj",
@@ -1570,10 +1603,10 @@
             "account_number" : "Številka računa",
             "fee" : "Provizija {0} %",
             "make_anonymous" : "Želite anonimno?",
-            "anonymous_help" : "Bitcoini bodo zaradi večje zasebnsti poslani skozi naš Bitcoin mešalnik (provizija 1.5%).",
+            "anonymous_help" : "Bitcoini bodo zaradi večje zasebnosti poslani skozi naš Bitcoin mešalnik (provizija 1.5%).",
             "amount_help" : "Vnesite znesek za nakup v {0}.",
             "please_verify" : "Za uporabo naše storitve za polog {0} vas prosimo, da potrdite svojo mobilno številko.",
-            "pingit_p1" : "Če še nimate odprtega računa PingIt, je registracija zelo preprosta, aplikacijo pa si laho prenesete na svoj pametni telefon.",
+            "pingit_p1" : "Če še nimate odprtega računa PingIt, je registracija zelo preprosta, aplikacijo pa si lahko prenesete na svoj pametni telefon.",
             "pingit_instructions_1" : "Za dokončanje tega naročila prosimo pošljite plačilo v višini {0} na {1} in uporabite sklic {2}. Pozorno preverite referenčno številko (sklic).",
             "pingit_instructions_2" : "Plačilo mora biti poslano iz {0}.",
             "sofort_instructions" : "Plačilo bo izvedeno s takojšnjim spletnim bančnim nakazilom.",
@@ -1588,7 +1621,7 @@
             "payment_method" : "Način plačila:",
             "sms_p1" : "Po verifikaciji bo dejanski nakup možen tudi z druge mobilne ali stacionarne telefonske številke."
         },
-        "transactions_summary" : {
+        "transactions_summary": {
             "you_received" : "Prejeli ste",
             "you_moved" : "Premaknili ste",
             "you_sent" : "Poslali ste",
@@ -1607,14 +1640,27 @@
             "to_confirm" : "za potrditev",
             "nodes" : "Vozlišča"
         },
-        "translations_page" : {
+        "export_history": {
+            "title" : "Izvoz zgodovine",
+            "alt" : "Izvoz zgodovine transakcij",
+            "p1" : "Tu lahko izvozite zgodovino transakcij.",
+            "from" : "V breme",
+            "addresses" : "Naslovi",
+            "to" : "V dobro"
+        },
+        "redirect_page": {
+            "title" : "Preusmerjamo vas.",
+            "slow_page" : "Če se stran dolgo avtomatsko ne osveži, ",
+            "click_here" : "kliknite tu"
+        },
+        "translations_page": {
             "title" : "Pomagajte prevesti Blockchain.info",
             "header" : "Prevodi",
             "sub_header" : "Blockchain.info je na voljo v 16 jezikih.",
             "how_to_help" : "Kako lahko pomagam",
             "p1" : "Blockchain.info je trenutno na voljo v 16 jezikih. Vseeno potrebujemo vašo pomoč, saj je bilo veliko prevodov narejenih strojno.",
             "p2" : "Če poznate {0} in {1}, prosim sledite spodnjim navodilom:",
-            "steps" : {
+            "steps": {
                 "_1" : "{0} git-repozitorij prevodov z {1}.",
                 "_2" : "Klonirajte svoj cep (fork) prevoda.",
                 "_3" : "Uporabite dober urejevalnik za JSON. Priporočamo 'Sublime Text 2', ki je na voljo brezplačno za Windows, Mac in Linux.",
@@ -1627,13 +1673,14 @@
                 "fork" : "Odcepite (fork)"
             }
         },
-        "ads" : {
-            "bitinstant" : {
+        "ads": {
+            "bitinstant": {
                 "title" : "Potrebujete bitcoine?",
                 "body" : "Kupite z gotovino"
             }
         },
-        "errors" : {
+        "errors": {
+            "invalid_format_type" : "Neveljavna oblika",
             "invalid_first_name" : "Neveljavno ime",
             "invalid_last_name" : "Neveljaven priimek",
             "invalid_date_of_birth" : "Neveljaven datum rojstva",
