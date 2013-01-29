@@ -1201,18 +1201,18 @@ decryption: dešifriranje
                 "confirmation_email_sent" : "Potrditveno e-sporočilo poslano",
                 "unsubscribed" : "Na vaš e-naslov ne boste več prejemali obvestil",
                 "password_hints_sent" : "Namigi za gesla posani.",
-                "saved_to_dropbox" : "Denarnica je bila uspešno shranjena v DropBox. To okno sedaj lahko zaprete.",
-                "saved_to_google_drive" : "Denarnica je bila uspešno shranjena v Google Drive. To okno sedaj lahko zaprete.",
-                "two_factor_authentication_request_approved" : "Zahteva za ponastavitev dvostopenjske overitve odobrena. Zahteva bomo v kratkem pregledali.",
+                "saved_to_dropbox" : "Denarnica je bila uspešno shranjena v Dropbox. To okno sedaj lahko zaprete.",
+                "saved_to_google_drive" : "Denarnica je bila uspešno shranjena v Google Drive. To okno lahko sedaj zaprete.",
+                "two_factor_authentication_request_approved" : "Zahteva za ponastavitev dvostopenjske overitve odobrena. Zahtevo bomo v kratkem pregledali.",
                 "sms_code_sent" : "Koda za preverjanje poslana po SMS.",
                 "email_code_resent" : "E-poštna koda je bila ponovno poslana. Preglejte nabiralnik za neželjeno pošto! Vsak ročni zahtevek za e-sporočilo štejemo kot neuspešno prijavo.",
                 "email_code_sent" : "E-sporočilo za dvostopenjsko prijavo poslano.",
-                "success" : "Konačno.",
+                "success" : "Končano.",
                 "create_wallet_success" : "Nova denarnica je bila uspešno shranjena.",
                 "wallet_synced" : "Denarnica je bila uspešno sinhronizirana s strežnikom.",
                 "updated_ip_lock" : "Nastavitev zaklepa na IP-naslov shranjena.",
                 "updated_ip_address" : "IP-naslov shranjen.",
-                "notification_settings_updated" : "Nastavitve obvešanja shranjene.",
+                "notification_settings_updated" : "Nastavitve obveščanja shranjene.",
                 "two_factor_authentication_updated" : "Nastavitev dvostopenjske overitve shranjena.",
                 "logging_level_updated" : "Stopnja beležanje shranjena.",
                 "google_secret_generated" : "Ustvarjeno skrivno geslo za Google.",
@@ -1230,7 +1230,7 @@ decryption: dešifriranje
                 "local_currency_updated" : "Lokalna valuta shranjena.",
                 "wallet_backup_sent" : "Varnostna kopija denarnice poslana.",
                 "language_updated" : "Jezik shranjen.",
-                "two_factor_reset_request_submitted" : "Zahtevk za ponastavitev dvostopenjske overitve je že bil poslan."
+                "two_factor_reset_request_submitted" : "Zahtevek za ponastavitev dvostopenjske overitve je že bil poslan."
             }
         },
         "api_index" : {
