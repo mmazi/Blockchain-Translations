@@ -1024,7 +1024,7 @@ decryption: dešifriranje
                 "save" : "Shrani",
                 "send" : "Pošlji",
                 "second_password_needed" : "Potrebno je še drugo geslo",
-                "second_password_p1" : "Da bi bila denarnica v celoti dešifrirana morate vpisate še drugo geslo. Nikoli ne vnešajte drugega gesla z računalnika, ki mu ne zaupate. oDDa nekoliko zmanjšateželjenjega beleženja  znakov s tipkovnice uporabite virtualno tipkovnico.",
+                "second_password_p1" : "Da bi bila denarnica v celoti dešifrirana, morate vpisati še drugo geslo. Nikoli ne vnašajte drugega gesla z računalnika, ki mu ne zaupate. Da nekoliko zmanjšate možnost neželjenega beleženja znakov s tipkovnice, lahko uporabite virtualno tipkovnico.",
                 "transaction_information" : "Informacije o transakciji",
                 "first_seen" : "Prvič se je pojavilo",
                 "last_seen" : "Zadnjč se je pojavilo",
