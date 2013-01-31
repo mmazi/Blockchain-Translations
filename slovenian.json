@@ -170,7 +170,7 @@
                 "address_tags": "Značke naslovov",
                 "address_tags2": "Označite svoje javne naslove."
             },
-            "sub_header": "Najnovejši bloki v bitcoinovi verigi blokov",
+            "sub_header": "Najnovejši bloki v verigi",
             "search_explain": "Vnesete lahko višino bloka, naslov, zgoščeno vrednost bloka, zgoščeno vrednost transakcije, hash160 ali IPv4-naslov.",
             "title": "Raziskovalec bitcoin blokov - Blockchain.info",
             "table_headers": {
@@ -192,7 +192,7 @@
                 "link_txt" : "Kaj je bitcoin?",
                 "link_href" : "http://www.youtube.com/watch?v=LrLzaeQpCRc"
             },
-            "latest_transactions": "Najnovejši prevodi",
+            "latest_transactions": "Zadnje transakcije",
             "header": "Prva stran",
             "search_placeholder": "Naslov / Firstbits / IP / SHA zg.vr."
         },
@@ -397,7 +397,7 @@
                 "payment_notifications_gtalk" : "Obvestila o plačilih prek storitve Google Talk"
             },
             "free_open_source" : "Brezplačna. Odprtokodna.",
-            "successfully_transacted" : "Transakcija uspešna.",
+            "successfully_transacted" : "opravljenih nakazil.",
             "security": {
                 "title" : "Varna",
                 "p1" : "Blockchain.info uporablja industrijski standard šifriranja",
@@ -585,12 +585,12 @@
                 "action" : "Dejanje",
                 "ip_address" : "IP-naslov",
                 "user_agent" : "Brskalnik/agent",
-                "logging_deletion" : "Ob spremembi nastavitev beleženja se stari dnevniki ne izbrišejo Dnevniki se hranijo 2 tedna.",
+                "logging_deletion" : "Ob spremembi nastavitev beleženja se stari dnevniki ne izbrišejo. Dnevniki se hranijo dva tedna.",
                 "logging_level" : "Stopnja beleženja",
                 "logging_disabled" : "Beleženje izklopljeno. Nobena dejanja se ne beležijo.",
                 "logging_level_description" : "Stopnja beleženja določa, katera dejanja v vaši denarnici se beležijo. Privzeto je beleženje izklopljeno, razen za dejanja administratorjev. Vklopljeno beleženje omogoča višjo varnost, saj ponudi več podatkov o morebitnem nepooblaščenem dostpu do vaše denarnice, po drugi strani pa s tem žtrvujete nekaj zasebnosti.",
-                "logging_disabled" : "Beleženje izklopljeno.",
-                "logging_hashed" : "Beleži dejanja z zgoščenimi IP-naslovi.",
+                "logging_disabled" : "Beleženje izklopljeno",
+                "logging_hashed" : "Beleži dejanja z zgoščenimi IP-naslovi",
                 "logging_full" : "Beleži dejanja z IP-naslovi in agenti (brskalniki)",
                 "recommended" : "Priporočeno",
                 "optional" : "Neobvezno",
@@ -648,7 +648,7 @@
                 "boxcar_description_p1" : "Prosimo, vnesite svoj",
                 "boxcar_description_p2" : "elektronski naslov:",
                 "http_notifications" : "Obveščanje prek HTTP",
-                "http_notifications_p1" : "Obvestila prek HTTP pošiljamo ob prejeti ali poslanih transakcijah. Prosimo, oglejte si informacije na strani za razvijalce.",
+                "http_notifications_p1" : "Obvestila prek HTTP pošiljamo ob prejetih ali poslanih transakcijah. Prosimo, oglejte si informacije na strani za razvijalce.",
                 "html5_notifications" : "Obvestila s tehnologijo HTML 5",
                 "html5_notifications_p1" : "Obvestila s tehnologijo HTML 5 zahtevajo, da jih dovolite v brskalniku. Trenutno podprto v brskalnikih Chrome in Safari.",
                 "notifications_when" : "Obveščaj me, ko Moja denarnica",
@@ -665,7 +665,7 @@
                 "six_confirmations" : "po 6 potrditvah",
                 "device_pairing" : "Seznanitev z napravami",
                 "device_pairing_description" : "Svojo napravo Android ali iPhone seznanite s svojim računom pri Blockchain.info tako, da optično prečitate spodnjo QR-kodo.",
-                "show_hide_pairing_code" : "Prikaži/skrij kodo za seznanjanje",
+                "show_hide_pairing_code" : "Prikaži/skrij kodo za seznanitev",
                 "forgot_password_warning" : "Opozorilo!",
                 "forgot_password_warning_p2" : "Če pozabite geslo, bo vaša denarnica izgubljena. Gesel ni mogoče obnoviti!",
                 "password_notice" : "Naši strežniki nikoli na noben način ne izvedo vašega gesla. To pomeni, da bo vaša denarnica varna tudi v primeru napada na naš strežnik. Nadalje zaradi tega mi ne moremo videti vašega stanja ali zgodovine transakcij.",
@@ -1209,13 +1209,13 @@
             "header" : "Programski vmesnik za razvijalce",
             "sub_header" : "Orodja za razvijalce za pridobivanje podatkov o verigi blokov",
             "abuse_notice" : "Storitve, ki jih nudi Blockchain.info, so brezplačne. Prosimo, ne zlorabljajte jih.",
-            "complete_merchant_solution" : "Celostna rešitev za trgovce.",
+            "complete_merchant_solution" : "Celostna rešitev za trgovce",
             "bitpay_description" : "Blockchain toplo priporoča Bitpay - vodilno svetovno podjetje v poslovnih rešitvah za bitcoin. Bitpay ponuja celostno rešitev za spletne nakupe, ki vključuje avtomatsko pretvorbo v lokalne valute in integracijo z mnogimi programskimi rešitvami za spletne trgovine.",
             "welcome" : "Razvijalci, dobrodošli!",
             "welcome_p1" : "Tu najdete vse, kar potrebujete za začetek razvoja aplikacij za bitcoin. Uporabljate lahko programski vmesnik spletišča Blockchain.info ali ",
             "third_party_apis" : "programske vmesnike drugih ponudnikov",
             "welcome_p2" : ".",
-            "payment_processing" : "Obdelava plačil.",
+            "payment_processing" : "Obdelava plačil",
             "no_account_required" : "Račun ni potreben",
             "view_documentation" : "Prikaži dokumentacijo",
             "account_required" : "Potreben je račun pri Moji denarnici",
@@ -1463,8 +1463,8 @@
         },
         "donation_button": {
             "title" : "Ustvari gumb za darovanje",
-            "p1" : "Sledečo kodo vstavite v zaglavje (head) spletne strani.",
-            "p2" : "Sledečo HTML-kodo vstavite na mesto, kjer želite imeti gumb."
+            "p1" : "Naslednjo kodo vstavite v zaglavje (head) spletne strani.",
+            "p2" : "Naslednjo HTML-kodo vstavite na mesto, kjer želite imeti gumb."
         },
         "pools": {
             "title" : "Porazdelitev moči zgoščevanja - Blockchain.info",
