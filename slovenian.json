@@ -1397,7 +1397,7 @@
             "title" : "Dvojna trošenja - Blockchain.info",
             "header" : "Dvojna trošenja",
             "sub_header" : "Dvojna trošenja, ki smo jih zaznali med zadnjimi 500,000 transakcijami (10-minutni predpomnilnik)",
-            "warning" : "Dvojna trošenja na tej strani so lahko nenamerna. Za dvojna trošenja, ustvarjena z slabimi nameni, to, da so prikazana na tej strani ne pomeni, da so bila uspešna ali da je kdorkoli izgubil denar.",
+            "warning" : "Dvojna trošenja na tej strani so lahko nenamerna. Za dvojna trošenja, ustvarjena z slabimi nameni, to, da so prikazana na tej strani, ne pomeni, da so bila uspešna ali da je kdorkoli izgubil denar.",
             "orphaned" : "Osirotela",
             "included_in_block" : "V bloku {0}"
         },
