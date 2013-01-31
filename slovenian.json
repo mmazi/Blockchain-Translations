@@ -698,6 +698,9 @@
                 "google_authenticator_warning" : "Če ne zaključite procesa seznanjanja z Google Authenticatorjem ali izklopite dvostopenjske overitve in zapustite to stran, lahko izgubite dostop do svoje denarnice.",
                 "secret_phrase" : "Skrivni stavek",
                 "secret_phrase_description" : "Skrivni stavek nam lahko pomaga pri preverjanju vaše istovetnosti v primeru, da izgubite identifikator svoje denarnice ali Yubikey. Skrivni stavek je lahko ena sama beseda ali stavek dolžine do 255 znakov.",
+                "always_keep_local_backup" : "Vedno hrani varnostno kopijo v brskalniku",
+                "always_keep" : "Vedno hrani",
+                "always_keep_local_backup_description" : "Če izberet to možnost, bo varnostna kopija vaše denarnice vedno shranjena v vašem brskalniku, tudi če imate omogočeno dvostopenjsko overitev. Potem bo imel potencialni napadalec z dostopom do vašega brskalnika možnost zaobiti dvostopenjsko avtentikacijo; vaša denarnica bo sicer še vedno zaščitena z dvostopenjsko avtentikacijo za dostope iz drugih brskalnikov ali računalnikov.",
                 "never_remember_two_factor" : "Nikoli si ne zapomni dvostopenjske overitve.",
                 "never_remember_two_factor_description" : "Privzeto bomo za kratek čas po dvostopenjski overitvi vašemu računalniku dovolili prijavo brez ponovne overitve. Izberite to možnost, če tega ne želite in torej želite, da se vsakič zahteva polna overitev.",
                 "never_remember" : "Vedno pozabi overitev",
@@ -795,6 +798,7 @@
                 "lost_identifier_title" : "Pozabljen ID ali vzdevek",
                 "lost_identifier_p1" : " Če ste pozabili ID vaše denarnice, najprej preverite potrditveno elektronsko sporočilo, ki ste ga prejeli ob registraciji. Ne najdete sporočila? Kliknite na gumb spodaj in poslali vam ga bomo ponovno.",
                 "forgotten_identifier_btn" : "Pozabljen ID",
+                "download_backup_btn" : "Prenesi varnostno kopijo",
                 "lost_two_factor_title" : "Pozabljeni podatki za dvostopenjsko overitev.",
                 "lost_two_factor_p1" : "Če ste pozabili podatke za dvostopenjsko overitev, lahko še vedno pridobite dostop do svoje denarnice. Potrebujemo le zadosten dokaz, da ste lastnik računa, kar lahko storite z izpolnitvijo spodnjega obrazca.",
                 "lost_two_factor_btn" : "Ponastavi dvostopenjsko overitev",
@@ -811,6 +815,8 @@
                 "sub_header" : "Pregled vaših nedavnih transakcij",
                 "compact" : "Skrčeno",
                 "detailed" : "Podrobno",
+                "view" : "Pogled",
+                "filter" : "Filter",
                 "all" : "Vse",
                 "sent" : "Poslano",
                 "received" : "Prejeto",
@@ -1079,7 +1085,9 @@
                 "private_key_needed_p1" : "Za to dejanje potrebujete zasebni ključ za bitcoin naslov {0}. Prosimo vnesite zasebni ključ. ",
                 "enter_manually" : "Vnesite ročno",
                 "scan_using_webcam" : "Prečitaj s spletno kamero",
-                "enter_private_key" : "Vnesite zasebni ključ"
+                "enter_private_key" : "Vnesite zasebni ključ",
+                "scan_qr_code" : "Prečitaj QR-kodo",
+                "restore_backup_instructions_title" : "Navodila za obnovo iz varnostne kopije"
             },
             "errors": {
                 "account_locked" : "Ta račun je zaklenjen",
