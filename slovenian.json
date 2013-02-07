@@ -292,7 +292,7 @@
             "estimated_unknown" : "Neznano",
             "reward_from_block" : "Nagrada bloka",
             "scripts" : "Skripte",
-            "hide_scripts" : "Skrij skripte in coinbase",
+            "hide_scripts" : "Skrij skripte in temelje",
             "show_scripts" : "Skripte",
             "relayed_by_ip" : "Posredoval IP",
             "visualize" : "Grafični prikaz",
