@@ -39,7 +39,7 @@
             "day_average_7": "7-dnevno povprečje",
             "my_wallet_n_users2": "Število gostiteljev denarnic, ki uporabljajo našo storitev Moja Denarnica.",
             "days_destroyed_filter_week2": "Le podatki transakcij z vsaj 1 teden starimi vhodi.",
-            "output_volume": "Celotena količina izhodov",
+            "output_volume": "Skupni obseg izhodov",
             "my_wallet_transaction_volume2": "24-urni skupni obseg transakcij v naši storitvi Moja Denarnica.",
             "operating_margin2": "Grafikon ocene dobička rudarjenja, tj. ocene prihodkov z odštetimi ocenjenimi stroški elektrike in prenosa podatkov.",
             "my_wallet_n_tx_label": "Število transakcij",
@@ -773,7 +773,7 @@
             "login": {
                 "lost_two_factor" : "Ste pozabili podatke za dvostopenjsko overitev?",
                 "two_factor_reset" : "Ponastavitev dvostopenjske overitve",
-                "welcome_back" : "Pozdravljeni nazaj",
+                "welcome_back" : "Dobrodošli nazaj",
                 "please_enter_login_details" : "Prosim, vnesite prijavne podatke spodaj:",
                 "identifier" : "ID:",
                 "identifier_placeholder" : "ID ali vzdevek",
