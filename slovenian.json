@@ -131,7 +131,7 @@
             "miners_revenue": "Prihodek rudarjenja",
             "all_time": "Celoten časovni obseg",
             "cost_percent_per_transaction_label": "% obsega transakcij",
-            "days_destroyed_cumulative2": "Izničeni bitcoin-dnevi so ena od ocen obsega bitcoin transakcij. Če nekdo potroši 100 BTC, ki jih je prejel pred enim tednom, to nanese 700 izničenih bitcoin-dnevov. Če ta oseba teh 100 BTC in jih večkrat pošlje sem in tja med svojimi naslovi ter nato potroši, bo skupni obseg transakcij lahko poljubno velik, izničenih bitcoin-dnevov pa bo še vedno 700.",
+            "days_destroyed_cumulative2": "Izničeni bitcoin-dnevi so ena od ocen obsega bitcoin transakcij. Če nekdo potroši 100 BTC, ki jih je prejel pred enim tednom, to nanese 700 izničenih bitcoin-dnevov. Če ta oseba teh 100 BTC večkrat pošlje sem in tja med svojimi naslovi ter nato potroši, bo skupni obseg transakcij lahko poljubno velik, izničenih bitcoin-dnevov pa bo še vedno 700.",
             "avg_confirmation_time_label": "Čas do potrditve (min)",
             "tx_trade_ratio" : "Razmerje obsega trgovanja in obsega transakcij",
             "tx_trade_ratio2" : "Grafikon razmerja med obsegom trgovanja na menjalnicah in obsegom vseh transakcij.",
