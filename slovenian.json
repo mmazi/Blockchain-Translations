@@ -560,7 +560,7 @@
             "tooltips": {
                 "balance": {
                     "title" : "Vaše stanje",
-                    "tip" : "Prikazano je stanje v vaši denarnici. Ta znesek boste lahko potrošili šele, ko bodo vse transakcije potrjene."
+                    "tip" : "Prikazano je stanje v vaši denarnici. Ta znesek lahko potrošite, ko so vse prejete transakcije potrjene."
                 },
                 "connection_status": {
                     "title" : "Stanje povezave",
