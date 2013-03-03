@@ -908,7 +908,7 @@
                 "advanced_warning_continue" : "Razumem.",
                 "import_export" : "Uvoz / izvoz",
                 "import_menu" : "Uvoz",
-                "import_backup" : "Obnovitev",
+                "import_backup" : "Uvoz varnostne kopije",
                 "import_backup_sub" : "Seznam varnostnih kopij vaše denarnice na našem strežniku brez povezave",
                 "export_encrypted" : "Izvozi šifrirano",
                 "export_unencrypted" : "Izvozi nešifrirano",
