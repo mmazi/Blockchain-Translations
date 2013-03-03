@@ -794,7 +794,7 @@
                 "resend_sms_link_p1" : "Prosim, preverite signal omrežja. Dostava SMS sporočil traja tudi do 10 minut. Če je minilo že več kot 10 minut, kliknite na gumb spodaj za ponovno pošiljanje SMS sporočila.",
                 "resend_sms_link_btn" : "Ponovno pošlji SMS",
                 "forgotten_something" : "Ste kaj pozabili?",
-                "forgotten_something_sub" : "Pomoč! Zaklenil sem izven svojega računa!",
+                "forgotten_something_sub" : "Na pomoč! Ne morem do svojega računa!",
                 "lost_identifier_title" : "Pozabljen ID ali vzdevek",
                 "lost_identifier_p1" : " Če ste pozabili ID vaše denarnice, najprej preverite potrditveno elektronsko sporočilo, ki ste ga prejeli ob registraciji. Ne najdete sporočila? Kliknite na gumb spodaj in poslali vam ga bomo ponovno.",
                 "forgotten_identifier_btn" : "Pozabljen ID",
