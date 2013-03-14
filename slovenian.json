@@ -1325,7 +1325,7 @@
         },
         "blocks": {
             "title1" : "Bloki rudarja {0}",
-            "title2" : "Boki, najdeni ",
+            "title2" : "Bloki, najdeni ",
             "blocks_found_by" : "Bloki, ki jih je nedavno našel {0}",
             "previous" : "Nazaj",
             "next" : "Naprej",
